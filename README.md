@@ -8,6 +8,7 @@
 - [AUDIT.md](AUDIT.md) — что мешало поиску и что исправлено.
 - [cards/STYLEGUIDE.md](cards/STYLEGUIDE.md) — как писать карточки книг.
 - [cards/PROGRESS.md](cards/PROGRESS.md) — сколько карточек готово.
+- [cards/DECISIONS.md](cards/DECISIONS.md) — короткий список решений для редакции: что убрать, что проверить юристам, где ошибки в авторах и аннотациях.
 - [cards/review.csv](cards/review.csv) — что проверить по каждой книге: тексты, написанные только по аннотации, предложенный возраст, ошибки каталога.
 - [fixes/needs-review.csv](fixes/needs-review.csv), [fixes/editions.csv](fixes/editions.csv) — спорные данные и книги с несколькими карточками.
 - [data/podborki-candidates.csv](data/podborki-candidates.csv) — подборки из архива НЭН для переноса в сервис.
