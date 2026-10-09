@@ -1,25 +1,25 @@
-# Книги НЭН: аудит и доработка для поиска
+# Книги НЭН: «Что почитать с детьми»
 
-Как сделать сервис [«Что почитать с детьми»](https://n-e-n.ru/knigi/) заметнее в Яндексе и Google.
+Новая версия сервиса [n-e-n.ru/knigi](https://n-e-n.ru/knigi/): контент виден поисковикам, у каждой книги своя рекомендация редакции, дизайн по стайлгайду НЭН.
 
-**Для редакции**
-- [AUDIT.md](AUDIT.md) — что мешает поиску и в каком порядке это исправлять.
-- [cards/STYLEGUIDE.md](cards/STYLEGUIDE.md) — как писать карточки книг в стиле НЭН.
-- [cards/pilot.md](cards/pilot.md) — пилот: 32 карточки по новому шаблону, на согласование.
-- [fixes/needs-review.csv](fixes/needs-review.csv) — что в данных каталога нужно решить вручную.
-- [fixes/editions.csv](fixes/editions.csv) — книги с несколькими карточками: выбрать главную.
+**Рабочая версия:** https://nancykhacha.github.io/knigi/ — закрыта от индексации и пересобирается сама после каждого изменения в репозитории.
+
+## Для редакции
+- [AUDIT.md](AUDIT.md) — что мешало поиску и что исправлено.
+- [cards/STYLEGUIDE.md](cards/STYLEGUIDE.md) — как писать карточки книг.
+- [cards/PROGRESS.md](cards/PROGRESS.md) — сколько карточек готово.
+- [cards/review.csv](cards/review.csv) — что проверить по каждой книге: тексты, написанные только по аннотации, предложенный возраст, ошибки каталога.
+- [fixes/needs-review.csv](fixes/needs-review.csv), [fixes/editions.csv](fixes/editions.csv) — спорные данные и книги с несколькими карточками.
 - [data/podborki-candidates.csv](data/podborki-candidates.csv) — подборки из архива НЭН для переноса в сервис.
 
-**Для разработчика**
-- [TZ.md](TZ.md) — техническое задание.
-- [fixes/catalog-fixes.json](fixes/catalog-fixes.json) — исправления данных для 1142 карточек.
-- [cards/pilot.json](cards/pilot.json) — новые тексты карточек в формате для импорта.
-
-**Скрипты**
+## Для разработчика
+- [TZ.md](TZ.md) — как поставить на n-e-n.ru (раздел 0) и что должно получиться.
+- `site/build.py` — генератор сайта. `site/assets/` — стили и скрипт. `site/content/` — подборки и тексты страниц. `site/data/books.json` — каталог.
+- `cards/pilot.json`, `cards/batches/*.json` — тексты карточек.
 
 ```bash
-curl -o catalog-index.json https://n-e-n.ru/knigi/data/catalog-index.json
-python3 scripts/audit_catalog.py catalog-index.json data/      # найти проблемы в каталоге
-python3 scripts/fix_catalog.py catalog-index.json fixes/       # собрать исправления данных
-python3 scripts/check_cards.py cards/pilot.json cards/pilot.md # проверить карточки и собрать превью
+python3 site/build.py                          # рабочая версия в docs/ (noindex)
+NEN_PREVIEW=0 python3 site/build.py --out dist # версия для n-e-n.ru/knigi/
+python3 scripts/check_cards.py cards/batches/batch-001.json   # проверить карточки
+python3 scripts/collect_notes.py               # обновить review.csv и PROGRESS.md
 ```

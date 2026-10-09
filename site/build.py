@@ -16,7 +16,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PREVIEW = os.environ.get('NEN_PREVIEW', '1') != '0'
 BASE = '/knigi'                         # путь сервиса на сайте; совпадает с путем на GitHub Pages
 ORIGIN = 'https://n-e-n.ru'             # для canonical, og:url и разметки
-COVERS = ORIGIN + BASE if PREVIEW else BASE
+COVERS = ORIGIN + BASE if PREVIEW else BASE   # для <img>
+COVERS_ABS = ORIGIN + BASE                      # для og:image и разметки — всегда полный адрес
 NO_YO = os.environ.get('NEN_YO', '0') != '1'   # в статьях НЭН пишут без «ё»
 PER_PAGE = 48
 OUT = os.path.join(ROOT, sys.argv[sys.argv.index('--out') + 1] if '--out' in sys.argv else 'docs')
@@ -471,11 +472,11 @@ def render_book(b, in_collections):
     for k, v in (('alternateName', b.get('originalTitle')), ('isbn', b.get('isbn13')), ('numberOfPages', b.get('pages')),
                  ('genre', ', '.join(b.get('genres', [])) or None), ('translator', {'@type': 'Person', 'name': b['translator']} if b.get('translator') else None),
                  ('publisher', {'@type': 'Organization', 'name': b['publisher']} if b.get('publisher') else None),
-                 ('image', COVERS + b['cover'] if b.get('cover') else None)):
+                 ('image', COVERS_ABS + b['cover'] if b.get('cover') else None)):
         if v:
             book_ld[k] = v
     write(f'/kniga/{b["slug"]}/', page(f'/kniga/{b["slug"]}/', title, desc, body, schema=[book_ld, crumbs_ld], og_type='book',
-                                      image=(COVERS + b['cover']) if b.get('cover') else None, active=None))
+                                      image=(COVERS_ABS + b['cover']) if b.get('cover') else None, active=None))
 
 
 def render_list(path, crumbs, h1, title, description, intro_html, books, *, faq=None, extra_top='', active=None, related=''):
@@ -631,7 +632,7 @@ def main():
                 'mainEntity': item_list(sel, col['title'])}
         write(path, page(path, f'{col["title"]} — подборка НЭН', short(col['description'], 160), body,
                          schema=[coll, crumbs_ld], active='/podborki/',
-                         image=(COVERS + sel[0]['cover']) if sel and sel[0].get('cover') else None))
+                         image=(COVERS_ABS + sel[0]['cover']) if sel and sel[0].get('cover') else None))
     crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('Подборки', None)])
     cards_html = ''.join(
         f'<article class="text-card"><span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3>'
