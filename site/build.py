@@ -509,6 +509,24 @@ def cover_img(b, cls='', eager=False, size=(240, 320)):
             f'width="{size[0]}" height="{size[1]}"{loading} decoding="async"></div>')
 
 
+def share_html(path, text):
+    """Кнопка «Поделиться»: без JavaScript — список ссылок, с JavaScript на телефоне — системное меню."""
+    from urllib.parse import quote
+    u, t = quote(ORIGIN + url(path), safe=''), quote(yo(text), safe='')
+    links = [('Телеграм', f'https://t.me/share/url?url={u}&text={t}'), ('ВКонтакте', f'https://vk.com/share.php?url={u}&title={t}'),
+             ('WhatsApp', f'https://wa.me/?text={t}%20{u}'), ('Одноклассники', f'https://connect.ok.ru/offer?url={u}&title={t}')]
+    items = ''.join(f'<a href="{e(h)}" target="_blank" rel="noopener" data-net="{n}">{e(n)}</a>' for n, h in links)
+    return (f'<details class="share" data-share-text="{e(text)}"><summary>Поделиться</summary>'
+            f'<div class="share-menu">{items}<button type="button" data-copy>Скопировать ссылку</button></div></details>')
+
+
+def mini_covers(books, n=4):
+    """Веер обложек для карточки подборки."""
+    imgs = ''.join(f'<img src="{e(COVERS + b["cover"])}" alt="" width="60" height="80" loading="lazy" decoding="async">'
+                   for b in [b for b in books if b.get('cover')][:n])
+    return f'<div class="mini-covers" aria-hidden="true">{imgs}</div>' if imgs else ''
+
+
 def book_tags(b, link_age=False):
     if link_age:
         out = [f'<a class="tag tag-blue" href="{url(band_path(band_of(b)))}" title="{e(band_of(b)[4])}">{e(b["ageLabel"])}</a>']
@@ -653,7 +671,7 @@ def render_book(b, in_collections):
     body = f'''{crumbs_html}
 <div class="wrap"><article class="book">
 <aside class="book-aside">{cover_img(b, "book-cover", eager=True, size=(280, 373))}<p class="cover-credit">Обложка предоставлена издательством.</p>
-<button class="fav" type="button" data-fav="{b["slug"]}" aria-pressed="false">Сохранить в избранное</button>{facts_html}</aside>
+<div class="actions"><button class="fav" type="button" data-fav="{b["slug"]}" aria-pressed="false">Сохранить в избранное</button>{share_html(f'/kniga/{b["slug"]}/', f'«{b["title"]}», {b["author"]} — книга, которую советует НЭН')}</div>{facts_html}</aside>
 <div class="book-main">
 <header class="book-head"><span class="eyebrow">{e("Возрастная рекомендация НЭН · " + b["ageLabel"])}</span>
 <h1 class="h1">{e(b["title"])}</h1><p class="author">{authors_html}</p>{book_tags(b, link_age=True)}</header>
@@ -857,13 +875,15 @@ def main():
         path = f'/podborki/{col["slug"]}/'
         crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('Подборки', '/podborki/'), (col['title'], None)])
         items = ''.join(
-            f'<article class="text-card"><span class="num">{i + 1:02d}</span><h3><a href="{b["url"]}">{e(b["title"])}</a></h3>'
-            f'<p class="meta">{e(b["author"] + " · " + b["ageLabel"])}</p><p>{e((b.get("card") or {}).get("whyRecommended") or b["snippet"])}</p></article>'
+            f'<article class="pick">{cover_img(b, "pick-cover", size=(150, 200))}<div class="pick-body"><span class="num">{i + 1:02d}</span>'
+            f'<h3><a href="{b["url"]}">{e(b["title"])}</a></h3>'
+            f'<p class="meta">{e(b["author"] + " · " + b["ageLabel"])}</p><p class="pick-text">{e((b.get("card") or {}).get("whyRecommended") or b["snippet"])}</p></div></article>'
             for i, b in enumerate(sel))
         source = f'<p class="meta">Подборка основана на статье НЭН: <a href="{e(col["sourceUrl"])}">{e(col["sourceUrl"].replace("https://", ""))}</a> · обновлено {e(col["updatedAt"])}</p>' if col.get('sourceUrl') else ''
         body = f'''{crumbs_html}<div class="wrap"><header class="list-head"><span class="eyebrow">{e(col["ageLabel"] + " · " + books_word(len(sel)))}</span>
-<h1 class="h1">{e(col["title"])}</h1><div class="intro"><p>{e(col["description"])}</p><p>{e(col["introduction"])}</p></div>{source}</header>
-<div class="grid grid-2" style="margin-top:28px">{items}</div></div><div class="page-end"></div>'''
+<h1 class="h1">{e(col["title"])}</h1><div class="intro"><p>{e(col["description"])}</p><p>{e(col["introduction"])}</p></div>{source}
+<div class="actions">{share_html(path, col["title"] + " — подборка НЭН")}</div></header>
+<div class="picks" style="margin-top:28px">{items}</div></div><div class="page-end"></div>'''
         coll = {'@type': 'CollectionPage', 'url': ORIGIN + url(path), 'name': col['title'], 'description': col['description'],
                 'mainEntity': item_list(sel, col['title'])}
         col_title = col.get('seoTitle') or (f'{col["title"]} — подборка НЭН' if len(col['title']) <= 52 else f'{col["title"]} | НЭН')
@@ -871,8 +891,8 @@ def main():
                          schema=[coll, crumbs_ld], active='/podborki/'))
     crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('Подборки', None)])
     cards_html = ''.join(
-        f'<article class="text-card"><span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3>'
-        f'<p>{e(col["description"])}</p><p class="meta">{e(books_word(len(col["books"])))}</p></article>' for col in cols)
+        f'<article class="text-card col-card">{mini_covers([by_slug[s] for s in col["books"] if s in by_slug])}<span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3>'
+        f'<p>{e(col["description"])}</p><p class="meta">{e(books_word(len([s for s in col["books"] if s in by_slug])))}</p></article>' for col in cols)
     body = f'''{crumbs_html}<div class="wrap"><header class="list-head"><h1 class="h1">Подборки НЭН</h1>
 <div class="intro"><p>Редакционные подборки детских книг для разных возрастов и семейных ситуаций.</p></div></header>
 <div class="grid grid-2" style="margin-top:28px">{cards_html}</div></div><div class="page-end"></div>'''
@@ -969,7 +989,7 @@ def main():
     top_themes = ''.join(f'<a class="topic" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEME_SHORT.get(t, t))}</a>' for t in
                          ['эмоции', 'страх', 'детский сад', 'школа', 'дружба', 'братья и сёстры', 'смерть', 'война', 'первая любовь', 'буллинг', 'космос', 'динозавры'] if t in THEME_PAGES)
     col_cards = ''.join(
-        f'<article class="text-card"><span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3><p>{e(col["description"])}</p></article>'
+        f'<article class="text-card col-card">{mini_covers([by_slug[s] for s in col["books"] if s in by_slug])}<span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3><p>{e(col["description"])}</p></article>'
         for col in cols[:6])
     written = sum(1 for b in books if b.get('card'))
     home = landings.get('/', {})

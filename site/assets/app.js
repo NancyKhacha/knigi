@@ -242,7 +242,52 @@
     });
   }
 
+  /* ── Поделиться ── */
+  function initShare() {
+    document.querySelectorAll('.share').forEach(function (box) {
+      var text = box.getAttribute('data-share-text') || document.title;
+      var link = location.origin + location.pathname;
+      // Ссылки ведут на текущий адрес страницы (на рабочей версии — на нее же)
+      var u = encodeURIComponent(link), t = encodeURIComponent(text);
+      var nets = {
+        'Телеграм': 'https://t.me/share/url?url=' + u + '&text=' + t,
+        'ВКонтакте': 'https://vk.com/share.php?url=' + u + '&title=' + t,
+        'WhatsApp': 'https://wa.me/?text=' + t + '%20' + u,
+        'Одноклассники': 'https://connect.ok.ru/offer?url=' + u + '&title=' + t
+      };
+      box.querySelectorAll('a[data-net]').forEach(function (a) {
+        var href = nets[a.getAttribute('data-net')];
+        if (href) a.href = href;
+      });
+      var summary = box.querySelector('summary');
+      summary.addEventListener('click', function (ev) {
+        if (navigator.share && matchMedia('(pointer: coarse)').matches) {
+          ev.preventDefault();
+          navigator.share({ title: text, url: link }).catch(function () {});
+        }
+      });
+      var copy = box.querySelector('[data-copy]');
+      copy.addEventListener('click', function () {
+        function done() { copy.textContent = 'Ссылка скопирована'; setTimeout(function () { copy.textContent = 'Скопировать ссылку'; box.open = false; }, 1500); }
+        if (navigator.clipboard) navigator.clipboard.writeText(link).then(done, function () { prompt('Ссылка:', link); });
+        else { prompt('Ссылка:', link); }
+      });
+    });
+    document.addEventListener('click', function (ev) {
+      document.querySelectorAll('.share[open]').forEach(function (box) { if (!box.contains(ev.target)) box.open = false; });
+    });
+  }
+
+  /* Обложки, которых нет на сервере: в веере убираем, в карточке оставляем пустую подложку */
+  document.addEventListener('error', function (ev) {
+    var img = ev.target;
+    if (!img || img.tagName !== 'IMG') return;
+    if (img.parentNode && img.parentNode.classList.contains('mini-covers')) img.parentNode.removeChild(img);
+    else img.style.visibility = 'hidden';
+  }, true);
+
   initCatalog();
   initQuiz();
   initFavs();
+  initShare();
 })();
