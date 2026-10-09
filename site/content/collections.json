@@ -1,0 +1,190 @@
+[
+ {
+  "slug": "desyat-glavnyh-detskih-knig",
+  "title": "10 главных детских книг последних 10 лет",
+  "description": "Десять заметных детских книг последнего десятилетия — от озорных стихов и сказок до серьёзных историй о взрослении и поиске своего места.",
+  "introduction": "Подборка пригодится семьям, которые хотят быстро познакомиться с современной детской литературой и выбрать книгу под настроение и возраст ребёнка.",
+  "books": [
+   "kartofelnaya-sobaka",
+   "medved-v-svoem-repertuare",
+   "nastoyaschaya-zhizn-zhakomina-geynsboro",
+   "davay-poedem-v-unalashku",
+   "navoznyy-zhuk-letaet-v-sumerkah",
+   "shtora-nyanyushki-lagton",
+   "miss-cheriti",
+   "skazki-mihalkov",
+   "den-chisla-pi",
+   "ne-vse-umeyut-padat"
+  ],
+  "ageLabel": "5–15 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/10-glavnih-detskih-knig/"
+ },
+ {
+  "slug": "knigi-pro-pervuyu-lyubov",
+  "title": "Подборка книг про первую любовь",
+  "description": "Четыре подростковые книги о первом сильном чувстве, неловкости, границах и переменах, которые начинаются вместе с влюблённостью.",
+  "introduction": "Эти истории помогут подростку узнать себя в героях, а взрослым — бережно начать разговор о чувствах без поучений и готовых ответов.",
+  "books": [
+   "reka-tekuschaya-vspyat",
+   "ya-ne-ya-zhanna",
+   "otel-bolshaya-l",
+   "gips"
+  ],
+  "ageLabel": "10–16 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/knigi-pro-pervuyu-lyubov/"
+ },
+ {
+  "slug": "desyat-knig-dlya-malyshey",
+  "title": "Что почитать: 10 книг для малышей и младших школьников",
+  "description": "Книжные новинки для малышей и младших школьников: истории о семье, дружбе, приключениях и повседневных открытиях.",
+  "introduction": "Подборка поможет выбрать чтение для дождливого дня, спокойного вечера или первых самостоятельных встреч ребёнка с большой книгой.",
+  "books": [
+   "chto-nuzhno-malenkoy-koshke",
+   "vernye-druzya",
+   "spat-kak-tigr",
+   "moya-sestrenka-olkozavra",
+   "kak-flip-zatopil-ves-mir",
+   "molli-i-shtormovoe-more",
+   "idi-poigray-s-tem-malchikom",
+   "god-polnyy-chudes",
+   "lev-petrushka-i-ego-druzya",
+   "pingvikingi"
+  ],
+  "ageLabel": "1–10 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/tenbestbooksforchildren/"
+ },
+ {
+  "slug": "knigi-dlya-podrostkov",
+  "title": "Книги для подростков: 14 романов, от которых невозможно оторваться",
+  "description": "Динамичные романы о магии, школе, семье, тайнах и сложном взрослении — для подростков, которым важно, чтобы книга захватила с первых страниц.",
+  "introduction": "Здесь есть фэнтези, реалистическая проза и напряжённые семейные истории; подборка подойдёт и увлечённым читателям, и тем, кто пока не нашёл свою книгу.",
+  "books": [
+   "zakoldovannaya-zhizn",
+   "dom-v-kotorom",
+   "muley",
+   "knizhnyy-vor",
+   "zhutko-gromko-i-zapredelno-blizko",
+   "milye-kosti",
+   "kogda-my-vstretimsya",
+   "trinadtsataya-skazka",
+   "bezdna-chellendzhera",
+   "devyatnadtsat-minut",
+   "ptitsa-v-kletke",
+   "ulichnyy-kot-po-imeni-bob",
+   "spletni-i-k-pop",
+   "heytery"
+  ],
+  "ageLabel": "12–17 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/knigi-dlya-podrostkov/"
+ },
+ {
+  "slug": "knigi-na-kanikuly",
+  "title": "Телефоны в сторону: 10 книг для подростков на каникулы",
+  "description": "Восемь книг с магией, тайнами, путешествиями и необычными героями — хороший повод отложить телефон и провести каникулы за чтением.",
+  "introduction": "Подборка рассчитана на детей постарше и подростков, которые любят быстрое действие, загадки и миры, куда хочется возвращаться.",
+  "books": [
+   "schepotka-magii",
+   "gorstka-volshebstva",
+   "klubok-zaklinaniy",
+   "neveroyatnoe-nashestvie-medvedey-na-sitsiliyu",
+   "malenkaya-vsemirnaya-istoriya",
+   "sekrety-koshek",
+   "brat-drakona",
+   "zatonuvshiy-les",
+   "6-minut-dlya-detey",
+   "drugaya-elis"
+  ],
+  "ageLabel": "9–16 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/8-knig/"
+ },
+ {
+  "slug": "lyubimye-knigi-alpina-deti",
+  "title": "Слизь, ссоры и ларёк с шавермой: любимые книги редакции «Альпина.Дети»",
+  "description": "Любимые книги редакции «Альпина.Дети» о научных открытиях, школьных ссорах, самостоятельности и неловких ситуациях, знакомых каждому ребёнку.",
+  "introduction": "Подборка объединяет разные форматы и возрасты, но все эти книги помогают с интересом смотреть на мир и узнавать себя в героях.",
+  "books": [
+   "neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95",
+   "druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki",
+   "ya-idu-iskat-v-sankt-peterburge",
+   "konni-i-druzya-novaya-shkola",
+   "istorii-pro-pyarta"
+  ],
+  "ageLabel": "3–14 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/5-knig-alpina/"
+ },
+ {
+  "slug": "goroshek-tsikada-i-volshebstvo",
+  "title": "Горошек, цикада и немного волшебства: подборка книг для малышей",
+  "description": "Пять свежих книжек для самых маленьких — о совместной игре, творчестве, встречах, домашнем уюте и сказках перед сном.",
+  "introduction": "Книги удобно читать вместе с малышом, обсуждая картинки, чувства героев и маленькие события, из которых складывается детский день.",
+  "books": [
+   "poigray-s-mimi",
+   "shkola-risovaniya-goroshka",
+   "i-kto-to-skazal-privet",
+   "skazki-mihalkov",
+   "luchshie-skazki-na-noch"
+  ],
+  "ageLabel": "2–6 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/goroshek/"
+ },
+ {
+  "slug": "novinki-dlya-doshkolnikov",
+  "title": "Принятие, дружба и немного философии: книжные новинки для дошкольников",
+  "description": "Семь историй для дошкольников о дружбе, принятии, фантазии и умении видеть необычное в самых простых вещах.",
+  "introduction": "Подборка подойдёт для чтения вслух детям от трёх до пяти лет и спокойных разговоров после каждой истории.",
+  "books": [
+   "frederik",
+   "letniy-den-s-druzyami",
+   "moya-bolshaya",
+   "dobraya-akula",
+   "sup-sinora-leprona",
+   "silviya-i-ptichka",
+   "ochki-dlya-selesty"
+  ],
+  "ageLabel": "3–6 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/novinki-dlya-shkolnikov/"
+ },
+ {
+  "slug": "volshebnye-zimnie-knigi",
+  "title": "Волшебные зимние книги для самых маленьких",
+  "description": "Зимние сказки и книжки-картинки о снеге, чудесах, заветных желаниях и ожидании праздника для семейного чтения в холодные вечера.",
+  "introduction": "Эта подборка пригодится тем, кто ищет короткие атмосферные истории для дошкольников и хочет добавить в декабрьские вечера немного книжного волшебства.",
+  "books": [
+   "vasilkovaya-zima",
+   "gde-to-v-snegu",
+   "zavetnoe-zhelanie-krotika",
+   "elka-yulka",
+   "v-poiskah-deda-moroza",
+   "samoe-pervoe-novogodnee-derevo",
+   "gnom-i-lis",
+   "vyuzhik-i-upavshaya-zvezda"
+  ],
+  "ageLabel": "2–7 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/podborka-volshebnyh-zimnih-knig-dlya-malyshey/"
+ },
+ {
+  "slug": "novye-fantasticheskie-istorii",
+  "title": "«Сохраняй свободу в голове и магию на кончиках пальцев»: новые фантастические истории для младших школьников",
+  "description": "Пять фантастических книг с говорящими предметами, волшебными ремёслами, тайнами и приключениями для младших школьников.",
+  "introduction": "Подборка подойдёт детям, которые любят необычные миры, короткие сказочные истории и героев, способных находить выход из самых странных ситуаций.",
+  "books": [
+   "slon-v-polnom-smysle-etogo-slova-skazki",
+   "kvartetnye-skazki",
+   "peschernyy-chelovek",
+   "shlyapniki",
+   "magazin-dikovinnyh-sladostey-schaste-za-monetku"
+  ],
+  "ageLabel": "6–12 лет",
+  "updatedAt": "2026-07-25",
+  "sourceUrl": "https://n-e-n.ru/sohraniai-svobody-v-golove/"
+ }
+]
