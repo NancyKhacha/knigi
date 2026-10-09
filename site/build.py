@@ -172,6 +172,15 @@ def load():
             b['title'], b['author'], b['ageLabel'] = c.get('title', b['title']), c.get('author', b['author']), c.get('ageLabel', b['ageLabel'])
             if 'suitableForBedtime' in c:
                 b['suitableForBedtime'] = c['suitableForBedtime']
+            # Возраст, предложенный автором карточки, точнее каталожного (часто стоит «7–12 лет» по умолчанию).
+            sug = (c.get('ageSuggestion') or {}).get('label', '')
+            m = re.match(r'\s*(\d+)\s*[–-]\s*(\d+)', sug) or re.match(r'\s*(\d+)\s*\+', sug)
+            if m:
+                lo = int(m.group(1))
+                hi = int(m.group(2)) if m.lastindex == 2 else 17
+                b['ageCatalog'] = b['ageLabel']
+                b['ageMin'], b['ageMax'] = lo, hi
+                b['ageLabel'] = f'{lo}–{hi} {age_word(hi)}' if lo != hi else f'{hi} {age_word(hi)}'
         b['snippet'] = first_sentences(c['about']) if c else short(b.get('shortDescription', ''), 160)
         b['rank'] = (0 if c and c.get('source', '').startswith('knowledge') else 1 if c else 2)
         b['url'] = url(f'/kniga/{b["slug"]}/')
