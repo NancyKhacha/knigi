@@ -33,7 +33,9 @@ def main():
     total = sum(sources.values())
     with open('cards/PROGRESS.md', 'w', encoding='utf-8') as f:
         f.write('# Карточки: прогресс\n\n')
-        f.write(f'Готово {total} из 2500 карточек ({len(files) - 1} партий по 100 + пилот).\n\n')
+        removed = sum(1 for _ in csv.DictReader(open('fixes/removed.csv', encoding='utf-8-sig'))) if os.path.exists('fixes/removed.csv') else 0
+        f.write(f'Готово {total} карточек — весь каталог ({len(files) - 1} партий + пилот)'
+                + (f'; еще {removed} книг удалены по решению редакции (fixes/removed.csv)' if removed else '') + '.\n\n')
         f.write('| Откуда текст | Карточек |\n|---|---|\n')
         for k, v in sources.most_common():
             f.write(f'| {SOURCE.get(k, k)} | {v} |\n')
