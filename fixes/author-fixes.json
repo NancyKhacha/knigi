@@ -1,0 +1,2396 @@
+{
+ "20-podarkov-na-novyy-god": {
+  "author": "Валя Филиппенко",
+  "illustrator": "Никита Терешин",
+  "confidence": "high",
+  "reason": "Никита Терешин — иллюстратор (так в аннотации к «Трилобиты не виноваты»), автор — Валя Филиппенко."
+ },
+ "a-chto-tam-v-shkole": {
+  "author": "Юлия Асланова",
+  "illustrator": "Юлия Прохоцкая",
+  "confidence": "check",
+  "reason": "В аннотации продолжения автором названа только Юлия Асланова; Юлия Прохоцкая, вероятно, иллюстратор."
+ },
+ "adel-blan-sek-neobyknovennye-priklyucheniya-t-2-kn-4-6": {
+  "author": "Жак Тарди",
+  "confidence": "high",
+  "reason": "Полное имя автора комикса — Жак Тарди."
+ },
+ "adelina-testafina-i-tayna-propavshey-vitse-babushki": {
+  "author": "Кристина Марси",
+  "illustrator": "Франческа Карабелли",
+  "confidence": "check",
+  "reason": "Франческа Карабелли, вероятно, иллюстратор, автор текста — Кристина Марси."
+ },
+ "anya-i-manya": {
+  "author": "И. Грекова",
+  "confidence": "high",
+  "reason": "Оставлен один вариант — псевдоним, под которым выходят книги писательницы."
+ },
+ "banda-lam": {
+  "author": "Хайке Ева Шмидт",
+  "illustrator": "Николай Ренгер",
+  "confidence": "check",
+  "reason": "Николай Ренгер, вероятно, иллюстратор, автор текста — Хайке Ева Шмидт."
+ },
+ "belchonok-boris": {
+  "author": "Юлия Симбирская",
+  "illustrator": "Марина Байкова",
+  "confidence": "check",
+  "reason": "Юлия Симбирская — писательница, Марина Байкова, вероятно, иллюстратор."
+ },
+ "belogrudka": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "По аннотации это сборник рассказов шести разных авторов."
+ },
+ "belyy-golub-chernyy-slon-2-e-izd": {
+  "author": "Ева Немеш",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Ева Немеш."
+ },
+ "bezrabotnyy-ded-moroz-volshebnyy-krugovorot": {
+  "author": "Микеле Д’Иньяцио",
+  "confidence": "high",
+  "reason": "Ошибка регистра в фамилии (D’Ignazio)."
+ },
+ "biblioteka-kota-mortimera": {
+  "author": "Ребекка Стед; Венди Масс",
+  "confidence": "high",
+  "reason": "«The Lost Library» написана Ребеккой Стед вместе с Венди Масс."
+ },
+ "biblioteka-priklyucheniy-myagkaya-oblozhka-robinzon-kruzo": {
+  "author": "Даниель Дефо",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "biblioteka-priklyucheniy-robinzon-kruzo": {
+  "author": "Даниель Дефо",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "billi-malysh": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "bogatyrskie-russkie-skazki": {
+  "author": "Русские народные сказки",
+  "illustrator": "Игорь Егунов",
+  "confidence": "high",
+  "reason": "Это русские сказки о богатырях, Игорь Егунов — художник этого издания «Эксмо»."
+ },
+ "bogi-kak-lyudi-kniga-1-krugi-na-vode": {
+  "author": "Яна Ткачёва",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Яна Ткачёва."
+ },
+ "bolshaya-kniga-skazok": {
+  "author": "Виталий Бианки",
+  "confidence": "high",
+  "reason": "Опечатка в фамилии: правильно «Бианки», так и в аннотации."
+ },
+ "bolshaya-skazochnaya-seriya-babushkiny-skazki-8-skazok-dlya-chteniya": {
+  "author": "Карин-Мари Амьо",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-volshebnyh-skazok": {
+  "author": "Сказки народов мира",
+  "reteller": "Елена Ульева",
+  "confidence": "high",
+  "reason": "По аннотации это 25 сказок разных стран в авторском пересказе Ульевой, прежде книга выходила как «Сказки народов мира»."
+ },
+ "bolshaya-skazochnaya-seriya-dedushkiny-skazki-9-skazok-dlya-chteniya": {
+  "author": "Карин-Мари Амьо",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "bolshaya-skazochnaya-seriya-dedushkiny-skazki-na-novyy-god": {
+  "author": "Карин-Мари Амьо",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "bolshaya-skazochnaya-seriya-lyubimye-skazki-pro-zhivotnyh": {
+  "author": "Сказки народов мира",
+  "reteller": "Елена Ульева",
+  "confidence": "high",
+  "reason": "По аннотации это 30 сказок со всего света в авторском пересказе Елены Ульевой."
+ },
+ "bolshaya-skazochnaya-seriya-skazki-dlya-vnuchat-7-skazok-dlya-chteniya": {
+  "author": "Карин-Мари Амьо",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "bolshaya-skazochnaya-seriya-vokrug-sveta-v-novyy-god": {
+  "author": "Сказки народов мира",
+  "reteller": "Елена Ульева",
+  "confidence": "check",
+  "reason": "По аннотации это 19 новогодних преданий и легенд разных стран, адаптированных Еленой Ульевой."
+ },
+ "bolshuschee-serdtse": {
+  "author": "Эмма Чичестер Кларк",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Эмма Чичестер Кларк."
+ },
+ "botanistika-naturalis-botanusa-dulsimera": {
+  "author": "Ибан Барренетксеа",
+  "confidence": "check",
+  "reason": "Баскское имя Iban; в русском издании, вероятно, «Ибан» — сверить с обложкой."
+ },
+ "bratya-daltony": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "bud-yarche": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "Это сборник пьес разных молодых драматургов, «Молодые драматурги» — не имя автора."
+ },
+ "burya-i-chudnoy-otryad": {
+  "author": "Ислам Ханипаев",
+  "confidence": "high",
+  "reason": "Аннотация: «Новое фэнтези Ислама Ханипаева, автора трилогии „Луна 84“»."
+ },
+ "chuk-i-gek-povesti-i-rasskazy-dlya-detey": {
+  "author": "Аркадий Гайдар",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "clever-chtenie-malenkaya-sonya-pervyy-den-v-lesnoy-shkole": {
+  "author": "Сабина Больманн",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "clever-chtenie-nakormi-rychaschego-medvedya-bolshaya-kniga": {
+  "author": "Мадлен Оттеншлегер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "clever-chtenie-priklyucheniya-v-kanun-rozhdestva": {
+  "author": "Мириам Манн",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "clever-chtenie-shurochka-i-murochka-bolshaya-ekspeditsiya": {
+  "author": "Марина Дороченкова; Анна Кравчук",
+  "confidence": "check",
+  "reason": "В аннотации «авторы — учёные-биологи»; входящие в сборник истории в каталоге написаны Дороченковой и Кравчук."
+ },
+ "clever-chtenie-supershkola-dlya-zverey": {
+  "author": "Герлис Цильгенс",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "clever-komiks-ognevka-i-put-na-ostrov": {
+  "author": "Беа Грегорес",
+  "confidence": "high",
+  "reason": "Фамилия стоит перед именем: Беа Грегорес — испанская авторка комикса."
+ },
+ "ded-koshmar-i-sbezhavshie-zhelaniya": {
+  "author": "Полина Щербак",
+  "illustrator": "Катя Бас",
+  "confidence": "check",
+  "reason": "Полина Щербак — писательница, Катя Бас, вероятно, иллюстратор."
+ },
+ "delfiniy-ostrov": {
+  "author": "Святослав Сахарнов",
+  "confidence": "high",
+  "reason": "«Дельфиний остров» — книга Святослава Сахарнова, другого писателя С. Сахарнова нет."
+ },
+ "desyat-dney-do-kontsa-sveta": {
+  "author": "Манон Фаржеттон",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "detektivy-dlya-podrostkov-sekrety-sinklera-zavodnoy-vorobey": {
+  "author": "Кэтрин Вудфайн",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "detskiy-detektiv-kto-ukral-dnevniki-darvina": {
+  "author": "Орен Харман",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "detskiy-detektiv-letayuschee-byuro-nahodok": {
+  "author": "Ангелика Нистрат; Андреас Хюгинг",
+  "confidence": "high",
+  "reason": "Фамилии стоят перед именами; оба — соавторы."
+ },
+ "devochka-masha-kukla-natasha-i-vse-vse-vse": {
+  "author": "Сборник",
+  "compiler": "Феликс Шапиро",
+  "confidence": "check",
+  "reason": "Сборник стихов и рисунков разных авторов из «Весёлых картинок»; роль Феликса Шапиро сверить с книгой."
+ },
+ "devochka-s-lisim-hvostom-tom-1": {
+  "author": "Сон Вон Пхён",
+  "illustrator": "Ман Муль Сан",
+  "confidence": "high",
+  "reason": "Ман Муль Сан по аннотации — художница; автор текста, лауреатка названных премий, — Сон Вон Пхён (так в русском издании)."
+ },
+ "devochka-s-lisim-hvostom-tom-2": {
+  "author": "Сон Вон Пхён",
+  "illustrator": "Ман Муль Сан",
+  "confidence": "high",
+  "reason": "Ман Муль Сан по аннотации — художница; автор текста, лауреатка названных премий, — Сон Вон Пхён (так в русском издании)."
+ },
+ "devochka-s-lisim-hvostom-tom-3": {
+  "author": "Сон Вон Пхён",
+  "illustrator": "Ман Муль Сан",
+  "confidence": "high",
+  "reason": "Ман Муль Сан по аннотации — художница; автор текста, лауреатка названных премий, — Сон Вон Пхён (так в русском издании)."
+ },
+ "devochka-s-lisim-hvostom-tom-4": {
+  "author": "Сон Вон Пхён",
+  "illustrator": "Ман Муль Сан",
+  "confidence": "high",
+  "reason": "Ман Муль Сан по аннотации — художница; автор текста, лауреатка названных премий, — Сон Вон Пхён (так в русском издании)."
+ },
+ "devochka-s-lisim-hvostom-tom-5": {
+  "author": "Сон Вон Пхён",
+  "illustrator": "Ман Муль Сан",
+  "confidence": "high",
+  "reason": "Ман Муль Сан по аннотации — художница; автор текста, лауреатка названных премий, — Сон Вон Пхён (так в русском издании)."
+ },
+ "devochka-s-lisim-hvostom-tom-6": {
+  "author": "Сон Вон Пхён",
+  "illustrator": "Ман Муль Сан",
+  "confidence": "high",
+  "reason": "Ман Муль Сан по аннотации — художница; автор текста, лауреатка названных премий, — Сон Вон Пхён (так в русском издании)."
+ },
+ "devochki-proslavivshie-rossiyu": {
+  "author": "Н. В. Артёмова; О. В. Артёмова",
+  "confidence": "high",
+  "reason": "Приведено к виду «И. О. Фамилия»; полные имена в данных не указаны."
+ },
+ "diksi-o": {
+  "author": "Ширли Хьюз; Клара Вальями",
+  "confidence": "high",
+  "reason": "По аннотации серию о Дикси О’Дэй написали в соавторстве Ширли Хьюз и Клара Вальями."
+ },
+ "diksi-o-dey-na-vseh-skorostyah": {
+  "author": "Ширли Хьюз; Клара Вальями",
+  "confidence": "high",
+  "reason": "В аннотации сказано, что книга написана в соавторстве Ширли Хьюз и Кларой Вальями."
+ },
+ "dilizhans": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "dnevnik-oboroten-i-drugie-istorii-iz-chernogo-portfelya": {
+  "author": "Екатерина Земляничкина; Анастасия Безлюдная",
+  "illustrator": "Виктория Стеблева",
+  "confidence": "check",
+  "reason": "Виктория Стеблева, вероятно, иллюстратор: она же указана у «Страшилок под чердаком»."
+ },
+ "do-vstrechi-lis-i-zayka": {
+  "author": "Сильвия ванден Хейде",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "dobro-pozhalovat-v-lesnuyu-shkolu-luchshie-druzya-nyuhom-klyanus": {
+  "author": "Анн-Катрин Гегер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "dolgaya-zima": {
+  "author": "Лора Инглз Уайлдер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Лора Инглз Уайлдер."
+ },
+ "dom-vdali-ot-mira": {
+  "author": "Арндис Тораринсдоттир; Хульда Сигрун Бьярнадоттир",
+  "translator": "Энния Емельянова",
+  "confidence": "check",
+  "reason": "Это исландская «Blokkin á heimsenda» двух авторов, Энния Емельянова — переводчица; написание имён сверить с изданием."
+ },
+ "doroga-po-prerii": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "dorogoy-sinor-p": {
+  "author": "Аличе Келлер",
+  "illustrator": "Вероника Труттеро",
+  "confidence": "check",
+  "reason": "Вероника Труттеро, вероятно, иллюстратор, автор текста — Аличе Келлер."
+ },
+ "dremery-kn-1-izgnanniki-zennona": {
+  "author": "Алина Брюс",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "duh-iz-volshebnoy-fleyty-tom-2": {
+  "author": "Рэйко Хиросима",
+  "confidence": "check",
+  "reason": "Японское имя в обратном порядке; в русских изданиях обычно «Рэйко Хиросима» — сверить с обложкой."
+ },
+ "dyadya-zhabs-dikobraz-dik-nedotrog": {
+  "author": "Торнтон Бёрджесс",
+  "confidence": "high",
+  "reason": "Имя и фамилия были перепутаны: автор — Торнтон Бёрджесс."
+ },
+ "dyuymovochka": {
+  "author": "Ханс Кристиан Андерсен",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; написание как в остальном каталоге."
+ },
+ "dzheyn-lisa-i-ya": {
+  "author": "Фанни Бритт",
+  "illustrator": "Изабель Арсено",
+  "confidence": "high",
+  "reason": "Фанни Бритт — автор текста, Изабель Арсено — художница графического романа (по аннотации)."
+ },
+ "dzhuliya-i-akula": {
+  "author": "Киран Миллвуд Харгрейв",
+  "illustrator": "Том де Фрестон",
+  "confidence": "high",
+  "reason": "«Julia and the Shark» написала Киран Миллвуд Харгрейв, Том де Фрестон — иллюстратор."
+ },
+ "elizaveta-printsessa-versalskaya-sekret-muzykalnoy-shkatulki": {
+  "author": "Энни Джей",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "emil-i-margo-beskonechnoe-chaepitie-kniga-dlya-pervogo-chteniya": {
+  "author": "Лесли Мейзер",
+  "illustrator": "Оливье Делуайе",
+  "confidence": "check",
+  "reason": "Прозаические книги для первого чтения об Эмиле и Марго во французском оригинале написала Лесли Мейзер, рисовал Делуайе; Дидье и Мэллер — авторы комиксов."
+ },
+ "emil-i-margo-kamennyy-monstr-kniga-dlya-pervogo-chteniya": {
+  "author": "Лесли Мейзер",
+  "illustrator": "Оливье Делуайе",
+  "confidence": "check",
+  "reason": "Оливье Делуайе — художник серии; прозаические книги для первого чтения во французском оригинале написала Лесли Мейзер."
+ },
+ "emmi-i-poslednie-elfy-tom-1-ubezhische": {
+  "author": "Вероник Барро",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "emmi-i-poslednie-elfy-tom-2-vozvraschenie-korolevstva": {
+  "author": "Вероник Барро",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "ezhik-v-tumane-norshteyn": {
+  "author": "Сергей Козлов",
+  "illustrator": "Юрий Норштейн",
+  "confidence": "high",
+  "reason": "Норштейн — режиссер мультфильма и художник книги, сказку написал Сергей Козлов."
+ },
+ "ezhulka-ili-kak-my-podruzhilis": {
+  "author": "Лорен Кастильо",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "fialki-tsvetut-zimoy": {
+  "author": "Дельфина Пессан",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "garri-potter-i-filosofskiy-kamen": {
+  "author": "Джоан Роулинг",
+  "confidence": "high",
+  "reason": "Инициалы «Дж. К.» заменены полным именем в принятом написании."
+ },
+ "gobbolino-vedmin-kot": {
+  "author": "Урсула Морэй Уильямс",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "god-polnyy-chudes": {
+  "author": "Шерил Б. Кляйн",
+  "confidence": "high",
+  "reason": "Не хватало пробела после инициала."
+ },
+ "greys-korolevstvo-vverh-kopytami": {
+  "author": "Марк Дюбюиссон",
+  "confidence": "high",
+  "reason": "Комиксы о принцессе Грейс (Бодрик, Жасмин, единорог) пишет Марк Дюбюиссон, как и другие книги серии в каталоге; Дидье и Мэллер — авторы «Эмиля и Марго»."
+ },
+ "gruzovichki-kniga-dlya-chteniya-s-tsvetnymi-kartinkami": {
+  "author": "А. А. Пронкевич",
+  "confidence": "high",
+  "reason": "Приведено к виду «И. О. Фамилия»; полное имя в данных не указано."
+ },
+ "gus-gosha": {
+  "author": "Юлия Весова",
+  "illustrator": "Мария Позднякова",
+  "confidence": "check",
+  "reason": "Юлия Весова — писательница, Мария Позднякова, вероятно, иллюстратор."
+ },
+ "hantyyskie-zagadki": {
+  "author": "Хантыйские народные загадки",
+  "compiler": "Е. А. Нёмысова",
+  "confidence": "check",
+  "reason": "Загадки, вероятно, народные, Е. А. Нёмысова — составитель или переводчик; сверить."
+ },
+ "hochu-po-pravde-sovremennaya-podrostkovaya-drama": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "Сборник пьес нескольких драматургов (по аннотации)."
+ },
+ "hor-ohotnikov": {
+  "author": "Георгий Скребицкий",
+  "confidence": "high",
+  "reason": "Инициал заменен полным именем, оно есть в аннотации."
+ },
+ "hrabryy-dikiy-porosenok": {
+  "author": "Сильвия ванден Хейде",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "hraniteli-mira": {
+  "author": "Мелисса Харрисон",
+  "illustrator": "Лорен О’Хара",
+  "confidence": "high",
+  "reason": "По аннотации дилогию написала Мелисса Харрисон, Лорен О’Хара — художница."
+ },
+ "hraniteli-mira-doroga-domoy": {
+  "author": "Мелисса Харрисон",
+  "illustrator": "Лорен О’Хара",
+  "confidence": "high",
+  "reason": "По аннотации дилогию написала Мелисса Харрисон, Лорен О’Хара — художница."
+ },
+ "hrestomatiya-detskoy-klassiki": {
+  "author": "Сборник",
+  "compiler": "В. Рябченко",
+  "confidence": "high",
+  "reason": "Хрестоматия разных авторов, В. Рябченко — составитель."
+ },
+ "igraem-uchimsya-razvivaemsya-kiki-otday-sosku": {
+  "author": "Эстер ван ден Берг",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "igraem-uchimsya-razvivaemsya-kiki-pora-na-gorshok": {
+  "author": "Эстер ван ден Берг",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "ispytanie-gerakla": {
+  "author": "Пьер Жемм",
+  "illustrator": "Матильда Рюо",
+  "confidence": "check",
+  "reason": "Матильда Рюо, вероятно, иллюстратор серии, автор текста — Пьер Жемм."
+ },
+ "istorii-dyadyushki-duba-kniga-1-vstrecha": {
+  "author": "Жозеп Льюис Бадаль",
+  "confidence": "high",
+  "reason": "Аннотация: «Трилогию Жозепа Льюиса Бадаля мы выпустили в трёх отдельных книгах»."
+ },
+ "istorii-dyadyushki-duba-kniga-2-serdtse": {
+  "author": "Жозеп Льюис Бадаль",
+  "confidence": "high",
+  "reason": "Аннотация: «Трилогию Жозепа Льюиса Бадаля мы выпустили в трёх отдельных книгах»."
+ },
+ "istoriya-o-kroshke-ele-i-kosmonavte-layke": {
+  "author": "Хелен Рундгрен",
+  "illustrator": "Кеннет Андерссон",
+  "confidence": "check",
+  "reason": "Кеннет Андерссон, вероятно, иллюстратор, автор текста — Хелен Рундгрен."
+ },
+ "istoriya-odnogo-porosenka": {
+  "author": "Юрий Винничук",
+  "confidence": "high",
+  "reason": "По-русски украинского писателя принято называть «Юрий Винничук», а не «Выннычук»."
+ },
+ "istoriya-pobedy-alpiyskaya-ballada-sotnikov": {
+  "author": "Василь Быков",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "istoriya-pobedy-ulitsa-mladshego-syna": {
+  "author": "Лев Кассиль; Макс Поляновский",
+  "confidence": "high",
+  "reason": "Фамилии стоят перед именами; оба — соавторы повести."
+ },
+ "istoriya-pobedy-voennaya-tayna-golubaya-chashka-timur-i-ego-komanda": {
+  "author": "Аркадий Гайдар",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "istoriya-severnogo-kruga": {
+  "author": "Юлия Кузнецова",
+  "confidence": "high",
+  "reason": "По аннотации книгу написала Юлия Кузнецова, иллюстрации — Анастасии Балатенышевой."
+ },
+ "k-nebesam": {
+  "author": "Карен Кёлер",
+  "illustrator": "Беа Дэвис",
+  "confidence": "check",
+  "reason": "Беа Дэвис, вероятно, иллюстратор, автор текста — Карен Кёлер."
+ },
+ "kak-kuzka-domovyat-pomiril": {
+  "author": "Галина Александрова",
+  "confidence": "check",
+  "reason": "«Г.» — вероятно, Галина Александрова, дочь Татьяны Александровой, писавшая продолжения о Кузьке; сверить с книгой."
+ },
+ "kak-vorchlivyy-barsuk-polyubil-novyy-god": {
+  "author": "Пол Брайт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "kanikuly-u-dinozavrov-dinozavry-u-babushki-v-sadu": {
+  "author": "Йорг Иле",
+  "confidence": "high",
+  "reason": "Фамилия стоит перед именем; Йорг Иле — соавтор серии о динозаврах у бабушки."
+ },
+ "kapriya-tayna-klyucha": {
+  "author": "Мартина Д’Антиокия",
+  "confidence": "high",
+  "reason": "Вместо апострофа в фамилии стоял обратный штрих."
+ },
+ "karlhen-igraet-v-futbol": {
+  "author": "Ротраут Сюзанне Бернер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотациях серии — Ротраут Сюзанне Бернер."
+ },
+ "karlhen-rastet": {
+  "author": "Ротраут Сюзанне Бернер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотациях серии — Ротраут Сюзанне Бернер."
+ },
+ "kashtanka-i-drugie-rasskazy-vneklassnoe-chtenie": {
+  "author": "Антон Чехов",
+  "illustrator": "Екатерина Скворцова",
+  "confidence": "high",
+  "reason": "Екатерина Скворцова (kaskva) — автор иллюстрации на обложке, рассказы написал Чехов."
+ },
+ "kelpurniya-graficheskiy-roman": {
+  "author": "Жаклин Келли",
+  "illustrator": "Дафне Коллиньон",
+  "confidence": "high",
+  "reason": "Дафне Коллиньон — художница графической версии романа Жаклин Келли (по аннотации)."
+ },
+ "kniga-dlya-chteniya-detyam-do-treh-let": {
+  "author": "Сборник",
+  "illustrator": "Юрий Кравец",
+  "confidence": "check",
+  "reason": "Хрестоматия стихов, потешек и сказок разных авторов; Юрий Кравец, вероятно, художник — сверить."
+ },
+ "knizhki-kartinki-begemotik-zlitsya": {
+  "author": "Джемма Кэри",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-buka-i-schenok-perepoloh-v-sobachey-shkole": {
+  "author": "Тамми Сальзано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-chernichka-i-festival-fonarikov": {
+  "author": "Джудитта Кампелло",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-chudesa-pod-novyy-god": {
+  "author": "Моди Пауэлл-Так",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-davay-na-spor": {
+  "author": "Каталина Браузе",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-dom-gde-zhivut-knigi": {
+  "author": "Поппи Бишоп",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-emma-i-kot-istoriya-odnoy-druzhby": {
+  "author": "Марджори Кросби-Фейролл",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-eto-moe": {
+  "author": "Трейси Кордерой",
+  "confidence": "high",
+  "reason": "Фамилия с опечаткой и перед именем; так автор записана в других ее книгах каталога."
+ },
+ "knizhki-kartinki-etti-petti-i-uyutnyy-besporyadok": {
+  "author": "Лисса Леменкюлер",
+  "confidence": "high",
+  "reason": "Порядок «Фамилия Имя» исправлен; в аннотации — «писательница Лисса Леменкюлер»."
+ },
+ "knizhki-kartinki-kak-medved-i-svinka-podruzhilis": {
+  "author": "Улла Мерсмейер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-kak-medved-i-svinka-uchilis-delitsya": {
+  "author": "Улла Мерсмейер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-kak-medvezhonok-i-ego-druzya-nauchilis-miritsya": {
+  "author": "Стелла Дж. Джонс",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-kak-mishka-vstrechal-novyy-god": {
+  "author": "Маргит Ауэр",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-kak-tyapa-i-lyapa-vstrechali-novyy-god": {
+  "author": "Цее Нойдерт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-kogda-zakonchitsya-dozhd": {
+  "author": "Оуэн Харт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-kto-takoy-opossum": {
+  "author": "Сабина Больманн",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-luchshaya-skazka-na-noch-dlya-zaychonka": {
+  "author": "Трейси Кордерой",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-luchshiy-podarok-na-svete": {
+  "author": "Стелла Дж. Джонс",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-lyublyu-tebya-do-luny-i-obratno": {
+  "author": "Амелия Хепворт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-moy-dedushka-luchshiy-v-mire": {
+  "author": "Элисон Риччи",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-moy-lyubimyy-medvezhonok": {
+  "author": "Марни МакГи",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-moy-papa-luchshiy-v-mire": {
+  "author": "Элисон Риччи",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-moya-babushka-luchshaya-v-mire": {
+  "author": "Элисон Риччи",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-moya-lyubov-k-tebe-beskonechna": {
+  "author": "Амелия Хепворт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-moya-mama-luchshaya-v-mire": {
+  "author": "Элисон Риччи",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-buka-i-schenok": {
+  "author": "Тамми Сальзано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-davay-na-spor": {
+  "author": "Каталина Браузе",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-dom-gde-zhivut-knigi": {
+  "author": "Поппи Бишоп",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kak-medved-i-svinka-podruzhilis": {
+  "author": "Улла Мерсмейер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kak-medved-i-svinka-uchilis-delitsya": {
+  "author": "Улла Мерсмейер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kak-medvezhonok-i-ego-druzya": {
+  "author": "Стелла Дж. Джонс",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kak-vorchlivyy-barsuk-polyubil-novyy": {
+  "author": "Пол Брайт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-luchshaya-skazka-na-noch-dlya": {
+  "author": "Трейси Кордерой",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-ne-hochu-ne-budu-spat": {
+  "author": "Мадлен Оттеншлегер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-s-novym-godom-malysh-tri-istorii": {
+  "author": "Джейн Чапмен; Пол Брайт",
+  "confidence": "high",
+  "reason": "В аннотации: «три волшебные истории Джейн Чапмен и Пола Брайта»."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-s-papoy-burya-ne-strashna": {
+  "author": "Пол Брайт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-schelkunchik": {
+  "author": "Эрнст Теодор Амадей Гофман",
+  "reteller": "Нелли Суслова",
+  "confidence": "check",
+  "reason": "Адаптированный текст по мотивам балета на сюжет Гофмана; Нелли Суслова — автор пересказа."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-slishkom-mnogo-kotov": {
+  "author": "Маура Финн",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-tolko-ne-sup": {
+  "author": "Тамми Сальзано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-ty-dlya-menya-ves-mir": {
+  "author": "Тамми Сальзано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-vedmochka-violetta-shalosti-i": {
+  "author": "Барбара Розе",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-zaychonok-hochet-domoy": {
+  "author": "Элизабет Бэгели",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-zima-prishla-malysh-tri-istorii": {
+  "author": "Джейн Чапмен; Пол Брайт; Элизабет Бэгели",
+  "confidence": "check",
+  "reason": "Три истории трех авторов (Чапмен, Брайт, Бэгели), Чапмен — художница всех трех; возможно, лучше «Сборник»."
+ },
+ "knizhki-kartinki-ne-hochu-ne-budu-spat": {
+  "author": "Мадлен Оттеншлегер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-noch-pered-rozhdestvom": {
+  "author": "Клемент Кларк Мур",
+  "reteller": "Стив Ричардсон",
+  "confidence": "check",
+  "reason": "Книга по стихотворению Клемента Кларка Мура; Стив Ричардсон — автор этой версии, роль сверить с выходными данными."
+ },
+ "knizhki-kartinki-novogodnyaya-putanitsa": {
+  "author": "Хочиль А. Шютц",
+  "confidence": "high",
+  "reason": "Фамилия стоит перед именем: Хочиль — имя, Шютц — фамилия; написание стоит сверить с обложкой."
+ },
+ "knizhki-kartinki-novyy-dom-na-novyy-god": {
+  "author": "Ульрика Фишер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-obezyanka-grustit": {
+  "author": "Джемма Кэри",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-pochitay-so-mnoy-malysh": {
+  "author": "Перри Эмерсон",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-pora-na-gorshok": {
+  "author": "Трейси Кордерой",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-s-novym-godom-malysh-tri-istorii": {
+  "author": "Джейн Чапмен; Пол Брайт",
+  "confidence": "high",
+  "reason": "Истории сборника написали Джейн Чапмен и Пол Брайт («Как ворчливый барсук…»), как сказано в аннотации издания в мягкой обложке."
+ },
+ "knizhki-kartinki-samaya-krasivaya-elka-na-svete": {
+  "author": "Сильвен Зорзен",
+  "confidence": "high",
+  "reason": "Фамилия стоит перед именем: Сильвен Зорзен — французский детский автор."
+ },
+ "knizhki-kartinki-samaya-smelaya-kapibara": {
+  "author": "Утиха Мармон",
+  "confidence": "check",
+  "reason": "Вероятно, обратный порядок, как в других карточках Clever (Uticha Marmon); сверить с обложкой."
+ },
+ "knizhki-kartinki-schelkunchik": {
+  "author": "Эрнст Теодор Амадей Гофман",
+  "reteller": "Нелли Суслова",
+  "confidence": "check",
+  "reason": "Адаптированный текст по мотивам балета на сюжет Гофмана; Нелли Суслова — автор пересказа."
+ },
+ "knizhki-kartinki-sladkih-snov-moy-malysh": {
+  "author": "Джой Джордан-Лейк",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-slishkom-mnogo-kotov": {
+  "author": "Маура Финн",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-slishkom-mnogo-sobak": {
+  "author": "Маура Финн",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-sonnyy-avtobus": {
+  "author": "Карл Ньюсон",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-surikat-uchit-horoshie-manery": {
+  "author": "Джемма Кэри",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-ty-dlya-menya-ves-mir": {
+  "author": "Тамми Сальзано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-vedmochka-violetta-shalosti-i-zakoldovannyy-sup": {
+  "author": "Барбара Розе",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-vorchlivyy-medved-i-novyy-god": {
+  "author": "Катарина Маудер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-vot-ty-kakoy-novyy-god": {
+  "author": "Керстин Хау",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-ya-lyublyu-tebya-bolshe-chem-novyy-god": {
+  "author": "Элли Хэтти",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-ya-uzhe-bolshaya": {
+  "author": "Хезер Пирс Стигалл",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-ya-vsegda-budu-ryadom-s-toboy": {
+  "author": "Келли Конрой",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "knizhki-kartinki-yarche-zvezd-moya-lyubov": {
+  "author": "Оуэн Харт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "knizhki-kartinki-zima-prishla-malysh-tri-istorii": {
+  "author": "Джейн Чапмен; Пол Брайт; Элизабет Бэгели",
+  "confidence": "check",
+  "reason": "Три истории трех авторов (Чапмен, Брайт, Бэгели), Чапмен — художница всех трех; возможно, лучше «Сборник»."
+ },
+ "knizhki-kartonki-zima-v-lesu": {
+  "author": "Хенрике Липпа",
+  "illustrator": "Катарина Штаар",
+  "confidence": "high",
+  "reason": "Фамилии стояли перед именами; по данным Oetinger текст написала Хенрике Липпа, рисовала Катарина Штаар."
+ },
+ "kolobok": {
+  "author": "Русская народная сказка",
+  "illustrator": "Екатерина Полторак",
+  "reteller": "Константин Ушинский",
+  "confidence": "high",
+  "reason": "Народная сказка в обработке Константина Ушинского; Екатерина Полторак — художница издания."
+ },
+ "kolobok-skazka": {
+  "author": "Русская народная сказка",
+  "confidence": "high",
+  "reason": "В каталоге стоит «Народная сказка» — уточнено, что сказка русская."
+ },
+ "kolya-nichego-ne-boitsya": {
+  "author": "Валя Филиппенко",
+  "illustrator": "Евдокия До",
+  "confidence": "check",
+  "reason": "Валя Филиппенко — писательница, Евдокия До, вероятно, иллюстратор."
+ },
+ "komiks-sestry-kolduni-magiya-prevrascheniya": {
+  "author": "Том Пико",
+  "confidence": "high",
+  "reason": "Фамилия стоит перед именем: Том (Thom) Пико — французский автор комикса."
+ },
+ "konni-i-luchshaya-sobaka-ischeyka": {
+  "author": "Юлия Бёме",
+  "illustrator": "Хердис Альбрехт",
+  "confidence": "check",
+  "reason": "Хердис Альбрехт, вероятно, иллюстратор серии о Конни, автор текста — Юлия Бёме."
+ },
+ "konni-i-poezdka-na-more": {
+  "author": "Юлия Бёме",
+  "illustrator": "Хердис Альбрехт",
+  "confidence": "check",
+  "reason": "Хердис Альбрехт, вероятно, иллюстратор серии о Конни, автор текста — Юлия Бёме."
+ },
+ "konni-i-spasenie-dikih-loshadey": {
+  "author": "Юлия Бёме",
+  "illustrator": "Хердис Альбрехт",
+  "confidence": "check",
+  "reason": "Хердис Альбрехт, вероятно, иллюстратор серии о Конни, автор текста — Юлия Бёме."
+ },
+ "korabl-noya": {
+  "author": "Салли Альтшулер",
+  "illustrator": "Свен Нурдквист",
+  "confidence": "high",
+  "reason": "Свен Нурдквист — иллюстратор, автор текста — Салли Альтшулер."
+ },
+ "kot-v-sapogah": {
+  "author": "Шарль Перро",
+  "reteller": "Н. И. Котятова",
+  "confidence": "check",
+  "reason": "Сказку написал Шарль Перро; Котятова, вероятно, автор пересказа, роль Т. В. Бариновой не установлена — сверить с книгой."
+ },
+ "kotenok-shmyak-i-zagadochnoe-zernyshko": {
+  "author": "Роб Скоттон",
+  "confidence": "high",
+  "reason": "Пол Брайт к серии о Шмяке отношения не имеет; в издании с наклейками и в аннотациях серии автор — Роб Скоттон."
+ },
+ "kotofey-ivanovich": {
+  "author": "Русские народные сказки",
+  "reteller": "Виктор Чайчук; Алиса Чайчук",
+  "confidence": "check",
+  "reason": "По аннотации это пять русских народных сказок в адаптации; роли Виктора и Алисы Чайчук и Сергея Кузьмина сверить."
+ },
+ "krokodilovy-slezy": {
+  "author": "Хуан Антонио де Лаиглесия",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены, частица «де» стоит перед фамилией."
+ },
+ "krolik-i-vesnushka": {
+  "author": "Ко Окада",
+  "confidence": "high",
+  "reason": "В имени латинская «o» заменена на кириллическую «о»."
+ },
+ "krolik-piter-hvostpomponom-medved-tom-naprolom": {
+  "author": "Торнтон Бёрджесс",
+  "confidence": "high",
+  "reason": "Имя и фамилия были перепутаны: автор — Торнтон Бёрджесс."
+ },
+ "kum-korolyu": {
+  "author": "Станислав Востоков",
+  "illustrator": "Вера Цепилова",
+  "confidence": "high",
+  "reason": "Вера Цепилова — иллюстратор, автор текста — Станислав Востоков (по аннотации)."
+ },
+ "kurochka-ryaba-skazka-panoramka": {
+  "author": "Русская народная сказка",
+  "reteller": "Константин Ушинский",
+  "confidence": "high",
+  "reason": "Это народная сказка, Ушинский — ее обработчик."
+ },
+ "ledentsovaya-banda-ischet-priklyucheniy": {
+  "author": "Шарлотта Инден",
+  "illustrator": "Сюзанна Гёлих",
+  "confidence": "high",
+  "reason": "По аннотации серии автор — Шарлотта Инден, иллюстрации — Сюзанны Гёлих."
+ },
+ "ledentsovaya-banda-lovit-vora": {
+  "author": "Шарлотта Инден",
+  "illustrator": "Сюзанна Гёлих",
+  "confidence": "high",
+  "reason": "По аннотации серии автор — Шарлотта Инден, иллюстрации — Сюзанны Гёлих."
+ },
+ "ledentsovaya-banda-ukroschaet-drakona": {
+  "author": "Шарлотта Инден",
+  "illustrator": "Сюзанна Гёлих",
+  "confidence": "high",
+  "reason": "По аннотации серии автор — Шарлотта Инден, иллюстрации — Сюзанны Гёлих."
+ },
+ "ledi-detektiv-mod-uest-zagadochnoe-delo-lorda-kreygberi": {
+  "author": "Макс Финч",
+  "confidence": "high",
+  "reason": "Макс Финч — псевдоним итальянских авторов серии (совпадает с именем рассказчика); исправлен обратный порядок."
+ },
+ "legendy-byli-i-skazki-kryma-dlya-detey": {
+  "author": "Сборник",
+  "compiler": "Е. В. Белоусов",
+  "confidence": "high",
+  "reason": "Сборник легенд и сказок Крыма, Е. В. Белоусов — составитель (по аннотации)."
+ },
+ "legendy-srednevekovya": {
+  "author": "Средневековые легенды",
+  "reteller": "Н. Гарская",
+  "confidence": "check",
+  "reason": "По аннотации это пересказ средневековых легенд, Н. Гарская — пересказчик; сверить формат."
+ },
+ "lesnaya-brigada-shvatka-s-ognem": {
+  "author": "Ванесса Вальдер",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "lesnoy-kolobok": {
+  "author": "Виталий Бианки",
+  "confidence": "high",
+  "reason": "Опечатка в фамилии: правильно «Бианки»."
+ },
+ "lesnoy-perepoloh": {
+  "author": "Русские народные сказки",
+  "reteller": "Е. Н. Агинская",
+  "confidence": "check",
+  "reason": "Это адаптированные русские народные сказки, Е. Н. Агинская, вероятно, автор адаптации — сверить."
+ },
+ "letnee-priklyuchenie-v-lukomore": {
+  "author": "Галина Попова",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "lis-i-zayka": {
+  "author": "Сильвия ванден Хейде",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "lis-i-zayka-na-ostrove": {
+  "author": "Сильвия ванден Хейде",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "lotti-i-otto-istoriya-dlya-malchishek-i-devchonok": {
+  "author": "Колльен Ульмен-Фернандес",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "lovtsy-monstrov-prizrak-mrachnogo-doma": {
+  "author": "Алессандро Риччи",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "luchshie-skazki-na-noch": {
+  "author": "Сборник",
+  "compiler": "Л. Сидорова",
+  "confidence": "check",
+  "reason": "Похоже на сборник сказок разных авторов, Л. Сидорова — вероятно, составитель; сверить с книгой."
+ },
+ "lui-sredi-prizrakov": {
+  "author": "Фанни Бритт",
+  "illustrator": "Изабель Арсено",
+  "confidence": "high",
+  "reason": "Фанни Бритт — автор текста, Изабель Арсено — художница графического романа."
+ },
+ "luntik-vozvraschenie-domoy": {
+  "author": "А. А. Пронкевич",
+  "confidence": "high",
+  "reason": "Приведено к виду «И. О. Фамилия»; полное имя в данных не указано."
+ },
+ "lyubimye-skazki-bolshaya-kniga-skazok": {
+  "author": "Сборник",
+  "reteller": "Дженис Эммерсон-Хикс",
+  "confidence": "check",
+  "reason": "Сказки Гримм, Перро и Андерсена в пересказе; Дженис Эммерсон(-Хикс) — пересказчица детских книг, а не автор сказок."
+ },
+ "lyubimye-skazki-glavnye-skazki-malysha": {
+  "author": "Народные сказки",
+  "reteller": "Константин Ушинский",
+  "confidence": "check",
+  "reason": "Сборник народных сказок разных стран: Ушинский обработал только «Репку» и «Курочку Рябу», «Три поросенка» — английская сказка в переводе Д. Жирновой."
+ },
+ "lyubimye-skazki-kurochka-ryaba-skazka-igra": {
+  "author": "Русская народная сказка",
+  "reteller": "Константин Ушинский",
+  "confidence": "high",
+  "reason": "Это народная сказка, Ушинский — ее обработчик."
+ },
+ "lyubimye-skazki-repka-skazka-igra": {
+  "author": "Русская народная сказка",
+  "reteller": "Константин Ушинский",
+  "confidence": "high",
+  "reason": "Это народная сказка; в серии «Любимые сказки» «Репка» дана в обработке Ушинского (аннотация к «Главным сказкам малыша»)."
+ },
+ "mafalda-vse-slozhno-ne-po-detski": {
+  "author": "Кино",
+  "confidence": "high",
+  "reason": "Убран знак ударения из псевдонима."
+ },
+ "mafiya-s-podokonnika-2": {
+  "author": "Ирина Лейк",
+  "illustrator": "Ольга Сурина",
+  "confidence": "check",
+  "reason": "Ирина Лейк — писательница, Ольга Сурина, вероятно, иллюстратор."
+ },
+ "maksi-pes-fik-priklyucheniya-prodolzhayutsya": {
+  "author": "Рудольф Чехура",
+  "illustrator": "Иржи Шаламоун",
+  "confidence": "high",
+  "reason": "Иржи Шаламоун — иллюстратор книг о макси-псе Фике, текст Рудольфа Чехуры."
+ },
+ "malchiki-proslavivshie-rossiyu": {
+  "author": "Н. В. Артёмова; О. В. Артёмова",
+  "confidence": "high",
+  "reason": "Приведено к виду «И. О. Фамилия»; полные имена в данных не указаны."
+ },
+ "malenkiy-domik-v-bolshih-lesah": {
+  "author": "Лора Инглз Уайлдер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Лора Инглз Уайлдер."
+ },
+ "malenkiy-domik-v-prerii": {
+  "author": "Лора Инглз Уайлдер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Лора Инглз Уайлдер."
+ },
+ "malenkiy-duh-schastya": {
+  "author": "Чжан Юэ",
+  "confidence": "high",
+  "reason": "Убрано дублирующее латинское написание в скобках."
+ },
+ "malenkiy-fermer": {
+  "author": "Лора Инглз Уайлдер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Лора Инглз Уайлдер."
+ },
+ "malyutka-kolpachok-i-narodets-iz-pod-holma": {
+  "author": "Сборник",
+  "reteller": "Григорий Кружков",
+  "compiler": "Григорий Кружков",
+  "confidence": "high",
+  "reason": "Сборник народных британских сказок и двух сказок Эдит Несбит; Кружков — составитель и пересказчик."
+ },
+ "malyutka-laban-priklyucheniya-v-zamke": {
+  "author": "Ингер Сандберг; Лассе Сандберг",
+  "confidence": "high",
+  "reason": "Имя «Ингер» записано без фамилии: книги о Лабане — Ингер и Лассе Сандберг."
+ },
+ "mama-mu-i-snegokat": {
+  "author": "Юя Висландер; Томас Висландер",
+  "illustrator": "Свен Нурдквист",
+  "confidence": "high",
+  "reason": "Текст написали Юя и Томас Висландер, Свен Нурдквист — иллюстратор."
+ },
+ "mama-mu-poranilas": {
+  "author": "Юя Висландер",
+  "illustrator": "Свен Нурдквист",
+  "confidence": "high",
+  "reason": "Свен Нурдквист — иллюстратор, а не соавтор текста."
+ },
+ "mamasha-dalton": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "matilde": {
+  "author": "Карола Мартинес Арройо",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "medved-hochet-rasskazat-istoriyu": {
+  "author": "Филип Стед",
+  "confidence": "high",
+  "reason": "Единое написание с другими книгами автора."
+ },
+ "mify-drevnego-kazahstana": {
+  "author": "Мифы народов Казахстана",
+  "reteller": "Орынбай Жанайдаров",
+  "confidence": "check",
+  "reason": "По аннотации это пересказ древних мифов, Орынбай Жанайдаров — автор пересказа; сверить формат."
+ },
+ "missiya-halat-istoriya-lennarda": {
+  "author": "Даниэль Блекманн",
+  "illustrator": "Томас Гуссунг",
+  "confidence": "check",
+  "reason": "По аннотации книга «от иллюстратора „Маленькой злой книги“» Томаса Гуссунга; в серии он художник, автор текста — Блекманн."
+ },
+ "missiya-troyanskiy-kon": {
+  "author": "Пьер Жемм",
+  "illustrator": "Матильда Рюо",
+  "confidence": "check",
+  "reason": "Матильда Рюо, вероятно, иллюстратор серии, автор текста — Пьер Жемм."
+ },
+ "miyuki-postoy": {
+  "author": "Роксан Мари Гальез",
+  "illustrator": "Сенг Соун Ратанаван",
+  "confidence": "check",
+  "reason": "Книги о Миюки написала Роксан Мари Гальез, нарисовала Сенг Соун Ратанаван; русское написание сверить с изданием."
+ },
+ "molli-i-shtormovoe-more": {
+  "author": "Малахия Дойл",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "moy-drug-otto": {
+  "author": "Зильке Ламбек",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "moya-bolshaya": {
+  "author": "Сибиль Делакруа",
+  "confidence": "check",
+  "reason": "Вероятно, Sibylle Delacroix; написание «Сибий» сверить с обложкой."
+ },
+ "my-vstrechaem-novyi-god": {
+  "author": "Сборник",
+  "confidence": "check",
+  "reason": "Сборник новогодних стихов и историй разных авторов; роль Ильи Савченко (составитель или художник) не установлена — сверить."
+ },
+ "myshinaya-kniga": {
+  "author": "Стефан Каста",
+  "illustrator": "Стаффан Ульстрём",
+  "confidence": "high",
+  "reason": "Стефан Каста — автор текста, Стаффан Ульстрём — шведский художник-анималист, иллюстратор."
+ },
+ "na-beregu-tenistogo-ruchya": {
+  "author": "Лора Инглз Уайлдер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Лора Инглз Уайлдер."
+ },
+ "na-sluzhbe-u-ee-velichestva-smerti": {
+  "author": "Жюльен Эрвьё",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "nedopesok": {
+  "author": "Юрий Коваль",
+  "confidence": "high",
+  "reason": "Автор повести — Юрий Коваль, остальные в поле — издатель и комментаторы издания."
+ },
+ "nemetskie-narodnye-skazki": {
+  "author": "Немецкие народные сказки",
+  "confidence": "check",
+  "reason": "Это сборник немецких народных сказок; роли Е. Ивановой и А. Ратновского (перевод, пересказ или иллюстрации) сверить."
+ },
+ "nerealnye-kanikuly-3": {
+  "author": "Даниэль Блекманн",
+  "illustrator": "Томас Гуссунг",
+  "confidence": "high",
+  "reason": "Аннотация: художник книги — Томас Гуссунг."
+ },
+ "neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95": {
+  "author": "Ася Ванякина",
+  "confidence": "check",
+  "reason": "По аннотации Настя Троян — редактор книги, а не соавтор; сверить с обложкой."
+ },
+ "nikogda": {
+  "author": "Карола Мартинес Арройо",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "novogodnyaya-azbuka": {
+  "author": "Ольга Узорова; Елена Нефёдова",
+  "confidence": "high",
+  "reason": "В аннотации авторами пособия названы Ольга Узорова и Елена Нефедова."
+ },
+ "nu-pogodi": {
+  "author": "Феликс Камов",
+  "confidence": "high",
+  "reason": "Ошибка в имени: сценарист «Ну, погоди!» — Феликс Камов."
+ },
+ "o-chestnom-vorone-kovarnoy-sove-i-glupom-lise": {
+  "author": "Эскимосские народные сказки",
+  "confidence": "high",
+  "reason": "По аннотации в книге две эскимосские народные сказки."
+ },
+ "oblachnye-poni-tayna-zacharovannogo-zamka": {
+  "author": "Барбара Розе",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "odissey-i-ego-komanda": {
+  "author": "Пьер Жемм",
+  "illustrator": "Матильда Рюо",
+  "confidence": "check",
+  "reason": "Матильда Рюо, вероятно, иллюстратор серии, автор текста — Пьер Жемм."
+ },
+ "ohotniki-na-monstrov-tayna-starinnogo-shkafa": {
+  "author": "Люсия Фукс",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "omut": {
+  "author": "Снежана Каримова",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Снежана Каримова."
+ },
+ "ovechka-emma-i-ee-druzya": {
+  "author": "Ольга Баранова",
+  "illustrator": "Екатерина Путилова",
+  "confidence": "high",
+  "reason": "В аннотации рассказы Ольги Барановой; Екатерина Путилова названа художницей в сборнике «Сказки»."
+ },
+ "parko": {
+  "author": "Алекс Ногес",
+  "illustrator": "Гуриди",
+  "confidence": "high",
+  "reason": "По аннотации Гуриди — художник, сказку написал Алекс Ногес."
+ },
+ "peregrin-kvinn-portal-mezhdu-mirami": {
+  "author": "Эш Бонд",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "peregrin-kvinn-zolotoe-yabloko-razdora": {
+  "author": "Эш Бонд",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "perepoloh-na-ferme-kak-poymat-vora": {
+  "author": "Роза Марин",
+  "confidence": "check",
+  "reason": "Вероятно, обратный порядок, как в других карточках Clever; сверить с обложкой."
+ },
+ "plemya-zippoli": {
+  "author": "Давид Нелло",
+  "illustrator": "Пере Джинард",
+  "confidence": "check",
+  "reason": "Пере Джинард — иллюстратор; автор оригинала «La tribu dels Zippoli» — Давид Нелло, русское написание сверить."
+ },
+ "po-sledam-minotavra": {
+  "author": "Пьер Жемм",
+  "illustrator": "Матильда Рюо",
+  "confidence": "check",
+  "reason": "Матильда Рюо, вероятно, иллюстратор серии, автор текста — Пьер Жемм."
+ },
+ "po-tu-storonu-siney-granitsy": {
+  "author": "Дорит Линке",
+  "confidence": "high",
+  "reason": "Опечатка в имени: Dorit Linke, в аннотации — «Дорит Линке»."
+ },
+ "pobeg-bratev-daltonov": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "pochti-polnoch": {
+  "author": "Антони Ино Комбрексель",
+  "confidence": "high",
+  "reason": "Это один человек (Anthony Yno Combrexelle), имя и фамилия переставлены."
+ },
+ "podarok-na-novyy-god": {
+  "author": "Дж. Терон Элкинс",
+  "confidence": "high",
+  "reason": "Фамилия стояла первой, полное имя автора названо в аннотации."
+ },
+ "pohischenie-printsa-oleomargarina": {
+  "author": "Марк Твен; Филип Стед",
+  "illustrator": "Эрин Стед",
+  "confidence": "high",
+  "reason": "Сказку Марка Твена дописал Филип Стед, он соавтор текста; рисунки Эрин Стед."
+ },
+ "pohischenie-prodavtsa-priklyucheniy": {
+  "author": "Георгий Садовников",
+  "confidence": "high",
+  "reason": "Инициалы заменены полным именем: это продолжение «Продавца приключений» Георгия Садовникова."
+ },
+ "poldi-i-pavlusha-nenarokom-vokrug-sveta": {
+  "author": "Кристиан Джеремис; Фабиан Джеремис",
+  "confidence": "high",
+  "reason": "Два соавтора-брата, фамилию нужно указать у каждого."
+ },
+ "poleznye-skazki-skazki-pro-poleznye-privychki": {
+  "author": "Катя Минаева",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "poyuschiy-provod": {
+  "author": "Моррис; Рене Госинни",
+  "confidence": "check",
+  "reason": "Комикс создан художником Моррисом и сценаристом Рене Госинни — указать обоих, сверить формат с редакцией."
+ },
+ "priklyucheniya-doistoricheskogo-malchika-il-v-kanivtsa": {
+  "author": "Эрнест д’Эрвильи",
+  "confidence": "high",
+  "reason": "Инициал и обратный порядок: автор «Приключений доисторического мальчика» — Эрнест д’Эрвильи."
+ },
+ "priklyucheniya-dyadi-levy-v-rumynskih-stepyah": {
+  "author": "Янец Леви",
+  "illustrator": "Янив Шимони",
+  "confidence": "high",
+  "reason": "Янив Шимони — иллюстратор книг Янеца Леви о дяде Лёве, а не соавтор."
+ },
+ "priklyucheniya-konni-v-nochnom-lesu": {
+  "author": "Юлия Бёме",
+  "illustrator": "Хердис Альбрехт",
+  "confidence": "check",
+  "reason": "Хердис Альбрехт, вероятно, иллюстратор серии о Конни, автор текста — Юлия Бёме."
+ },
+ "priklyucheniya-odisseya": {
+  "author": "Гомер",
+  "reteller": "Елена Тудоровская",
+  "confidence": "high",
+  "reason": "Это пересказ «Одиссеи» Гомера, Елена Тудоровская — автор пересказа."
+ },
+ "priklyucheniya-perri-rodana": {
+  "author": "Олаф Брилль",
+  "illustrator": "Михаэль Фогт",
+  "confidence": "check",
+  "reason": "Михаэль Фогт, вероятно, иллюстратор, автор текста — Олаф Брилль."
+ },
+ "priklyucheniya-tyapy-i-lyapy-kogda-tyapa-vstretil-lyapu": {
+  "author": "Цее Нойдерт",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "printsessa-buntarka-i-baron-lgunishka-3-il-k-engelking": {
+  "author": "Аннетте Рёдер",
+  "confidence": "high",
+  "reason": "В аннотации издательства имя автора — «Аннетте Рёдер»."
+ },
+ "printsessa-buntarka-i-spasennoe-rozhdestvo-4-il-k-engelking": {
+  "author": "Аннетте Рёдер",
+  "confidence": "high",
+  "reason": "В аннотации издательства имя автора — «Аннетте Рёдер»."
+ },
+ "printsessa-dunya-i": {
+  "author": "Александр Киселёв",
+  "illustrator": "Лера Сидорова",
+  "confidence": "check",
+  "reason": "Лера Сидорова, вероятно, иллюстратор, автор текста — Александр Киселёв."
+ },
+ "priplyvshiy-dom": {
+  "author": "Снежана Каримова",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Снежана Каримова."
+ },
+ "prishla-zima-prokaznitsa": {
+  "author": "Сборник",
+  "compiler": "Р. Данкова",
+  "confidence": "check",
+  "reason": "Новогодний сборник рассказов и стихов разных авторов; Р. Данкова, вероятно, составитель — сверить."
+ },
+ "pro-kozlenka-kotoryy-umel-schitat-do-10": {
+  "author": "Альф Прёйсен",
+  "illustrator": "Владимир Сутеев",
+  "confidence": "check",
+  "reason": "Сказку о козлёнке написал Альф Прёйсен, Сутеев ее иллюстрировал; автора второй истории, об утёнке, сверить с книгой."
+ },
+ "pro-malenkogo-porosenka-plyuha": {
+  "author": "Инга Баллод; Ирина Румянцева",
+  "confidence": "check",
+  "reason": "Обе — соавторы пересказа сказок Элисон Аттли, художник — Евгений Медведев; имя Баллод в источниках расходится (Инга/Ирина)."
+ },
+ "pryatki-na-ferme": {
+  "author": "Гислен Бьонди; Бенедикт Карбоней; Дельфин Болен",
+  "confidence": "high",
+  "reason": "Фамилии стоят перед именами; в книге три сказки трех французских авторов."
+ },
+ "pust-budet-groza": {
+  "author": "Мари Шартр",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Мари Шартр."
+ },
+ "puteshestvie-k-tsentru-zemli-po-proizvedeniyu-zhyulya-verna": {
+  "author": "Жюль Верн",
+  "reteller": "Маттео Бертон",
+  "confidence": "check",
+  "reason": "Это графический пересказ романа Жюля Верна художником Маттео Бертоном; решить, кого указывать автором комикса."
+ },
+ "rapuntsel-samye-krasivye-skazki-il-a-simanchuka": {
+  "author": "Братья Гримм",
+  "confidence": "high",
+  "reason": "Сказки написаны обоими братьями; в каталоге принято «Братья Гримм»."
+ },
+ "rasskazy-byanki": {
+  "author": "Виталий Бианки",
+  "confidence": "high",
+  "reason": "Опечатка в фамилии: правильно «Бианки»."
+ },
+ "rechnoe-ditya-tayna-plavuchego-doma": {
+  "author": "Сабина Больманн",
+  "confidence": "check",
+  "reason": "Обратный порядок; написание приведено к двум другим книгам Clever («Сабина Больманн») — сверить с обложкой, не «Сабине Больман» ли."
+ },
+ "rozhdestvo-i-novyy-god": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "По аннотации это сборник историй Андреаса Х. Шмахтла (Тильда, Снежик, Иеронимус Жаб)."
+ },
+ "rubiniya-chudesnoe-serdtse-smelaya-devochka-iz-roda-lesnyh-elfov": {
+  "author": "Карен Кристин Ангермейер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "rukavichki": {
+  "author": "Английская народная песенка",
+  "illustrator": "Пол Гэлдон",
+  "confidence": "check",
+  "reason": "По аннотации это старая английская песенка, Пол Гэлдон — художник книги."
+ },
+ "russkie-bogateri": {
+  "author": "Русские былины",
+  "reteller": "Ирина Карнаухова",
+  "confidence": "high",
+  "reason": "Былины народные, Ирина Карнаухова — автор пересказа."
+ },
+ "russkie-deti": {
+  "author": "Сборник",
+  "compiler": "Павел Крусанов; Александр Етоев",
+  "confidence": "high",
+  "reason": "Антология рассказов разных авторов, Крусанов и Етоев — составители."
+ },
+ "russkie-narodnye-skazki": {
+  "author": "Русские народные сказки",
+  "confidence": "check",
+  "reason": "Это русские народные сказки; роль Елены Зарби-Гальчук (пересказ, составитель или художник) не установлена — сверить."
+ },
+ "russkie-narodnye-skazki-dlya-malyshey": {
+  "author": "Русские народные сказки",
+  "illustrator": "Иля Савченков",
+  "confidence": "check",
+  "reason": "Это русские народные сказки в пересказах разных писателей; «Иля Савченков», вероятно, художник — сверить роль и написание имени."
+ },
+ "russkie-skazki-i-poteshki": {
+  "author": "Русские народные сказки и потешки",
+  "illustrator": "Ирина Петелина",
+  "confidence": "high",
+  "reason": "Тексты народные, Ирина Петелина — художник-иллюстратор."
+ },
+ "ryzhiy-kot-i-novyy-god": {
+  "author": "Фульвия Дель’Инноченти",
+  "confidence": "high",
+  "reason": "Ошибка регистра во второй части фамилии (Degl’Innocenti)."
+ },
+ "s-novym-godom-karlhen": {
+  "author": "Ротраут Сюзанне Бернер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотациях серии — Ротраут Сюзанне Бернер."
+ },
+ "s-papoy-burya-ne-strashna": {
+  "author": "Пол Брайт",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sadko-i-drugie-russkie-byliny": {
+  "author": "Русские былины",
+  "reteller": "Ирина Карнаухова",
+  "confidence": "high",
+  "reason": "Былины народные, Ирина Карнаухова — автор пересказа."
+ },
+ "samaya-lyubimaya-mama": {
+  "author": "Капусин Левалль",
+  "illustrator": "Мод Легран",
+  "confidence": "check",
+  "reason": "Мод Легран, вероятно, иллюстратор; русский текст по аннотации — Ксении Валаханович."
+ },
+ "schastlivye-konki": {
+  "author": "Наталья Савушкина",
+  "illustrator": "Алиса Юфа",
+  "confidence": "high",
+  "reason": "В аннотации автор серии — Н. Савушкина; Алиса Юфа — иллюстратор, так в других аннотациях каталога."
+ },
+ "selestina-balerina-dvorets-fey": {
+  "author": "Гвенаэль Барюссо",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "selestina-balerina-propavshaya-tufelka": {
+  "author": "Гвенаэль Барюссо",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "semeyka-grimsbeyn-ohotniki-na-vedm": {
+  "author": "Джоан Рирдон",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "semeynye-priklyucheniya-v-mire-magii-drakony-leto-i-rok-n-roll": {
+  "author": "Джоан Рирдон",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "serdtse-monstra-ohota-za-tenyu": {
+  "author": "Зимак Бюхель",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sharf-v-yarkuyu-polosku": {
+  "author": "Юлия Симбирская",
+  "confidence": "high",
+  "reason": "Аннотация и магазины называют автором Юлию Симбирскую; Ксения Забабашкина, вероятно, художница."
+ },
+ "shkola-shredingera": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "Сборник рассказов разных авторов, в поле стояла заглушка."
+ },
+ "shkola-stihiy-magiya-altaya": {
+  "author": "Анна Леви",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "shkola-talantov-urok-pervyy-zverskiy-shum": {
+  "author": "Зильке Шельхаммер",
+  "confidence": "check",
+  "reason": "Серию «School of Talents» об Альве пишет Зильке Шельхаммер (Silke Schellhammer), а не Ауэр или Нильсон; русское написание сверить."
+ },
+ "shkola-talantov-urok-tretiy-chudovischa-na-vyhod": {
+  "author": "Зильке Шельхаммер",
+  "confidence": "check",
+  "reason": "Серию «School of Talents» об Альве пишет Зильке Шельхаммер (Silke Schellhammer), а не Ауэр или Нильсон; русское написание сверить."
+ },
+ "shkola-talantov-urok-vtoroy-konets-sveta": {
+  "author": "Зильке Шельхаммер",
+  "confidence": "check",
+  "reason": "Серию «School of Talents» об Альве пишет Зильке Шельхаммер (Silke Schellhammer), а не Ауэр или Нильсон; русское написание сверить."
+ },
+ "shkolnaya-klassika-malenkie-zhenschiny": {
+  "author": "Луиза Мэй Олкотт",
+  "confidence": "high",
+  "reason": "В поле латинская M и обратный порядок; принятое написание — Луиза Мэй Олкотт."
+ },
+ "shokoladus-esche-nemnogo-priklyucheniy": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "Серия «Шоколадус» — Майя фон Фогель, как в других книгах серии."
+ },
+ "shokoladus-magicheskiy-oreshek": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "Серия «Шоколадус» — Майя фон Фогель, как в других книгах серии."
+ },
+ "shokoladus-perets-piff-paff": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "Серия «Шоколадус» — Майя фон Фогель, как в других книгах серии."
+ },
+ "shokoladus-sekret-volshebnogo-kakao": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "Автор серии — Майя фон Фогель (Schokuspokus), частица «фон» пропущена; так она записана в других книгах каталога."
+ },
+ "shokoladus-sekret-yaguara": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "Серия «Шоколадус» — Майя фон Фогель, как в других книгах серии."
+ },
+ "shokoladus-volshebnaya-korona-mayya": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "Серия «Шоколадус» — Майя фон Фогель, как в других книгах серии."
+ },
+ "shtorm-v-serdtse-serdtse-shtorma": {
+  "author": "Аннетте Херцог",
+  "illustrator": "Катрине Кланте; Расмус Бранхой",
+  "confidence": "high",
+  "reason": "Текст написала Аннетте Херцог, Кланте и Бранхой — художники комикса (по аннотации)."
+ },
+ "sinie-listya": {
+  "author": "Валентина Осеева",
+  "confidence": "high",
+  "reason": "Инициал заменен полным именем."
+ },
+ "sinor-kolbaska": {
+  "author": "Флавио Сорига",
+  "illustrator": "Риккардо Ацени",
+  "confidence": "check",
+  "reason": "Флавио Сорига — писатель, Риккардо Ацени, вероятно, иллюстратор."
+ },
+ "skazka-na-noch-tolko-ne-sup": {
+  "author": "Тамми Сальзано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "skazki": {
+  "author": "Русские народные сказки",
+  "reteller": "Ольга Капица; Константин Ушинский; Алексей Толстой",
+  "confidence": "high",
+  "reason": "По аннотации это сборник русских народных сказок; Капица, Ушинский и Толстой — авторы обработок."
+ },
+ "skazki-afanasev": {
+  "author": "Русские народные сказки",
+  "reteller": "Александр Афанасьев; Алексей Толстой",
+  "confidence": "high",
+  "reason": "По аннотации это сборник русских народных сказок; Афанасьев — собиратель, Толстой — автор обработок."
+ },
+ "skazki-belorusskih-pisateley": {
+  "author": "Сборник",
+  "compiler": "И. С. Чепловодская",
+  "confidence": "high",
+  "reason": "Сборник сказок разных белорусских писателей, И. С. Чепловодская — составитель."
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-kot-v-sapogah": {
+  "author": "Шарль Перро",
+  "confidence": "high",
+  "reason": "Инициал и обратный порядок: «Перро Ш.» — это Шарль Перро."
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-krasnaya-shapochka": {
+  "author": "Шарль Перро",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-tri-medvedya": {
+  "author": "Английская народная сказка",
+  "confidence": "check",
+  "reason": "«Коллектив авторов» — не автор; аннотация называет книгу народной сказкой в пересказе для малышей — сверить, не пересказ ли Льва Толстого."
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-zolushka": {
+  "author": "Шарль Перро",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "skazki-dlya-vnuchat-babushkiny-skazki-na-novyy-god": {
+  "author": "Карин-Мари Амьо",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "skazki-dlya-vnuchat-lesnye-dedushkiny-skazki": {
+  "author": "Карин-Мари Амьо",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "skazki-dyadyushki-rimusa-il-i-petelinoy": {
+  "author": "Джоэль Чандлер Харрис",
+  "confidence": "high",
+  "reason": "Принятое полное написание, как в другой карточке этой книги в каталоге."
+ },
+ "skazki-komiksy": {
+  "author": "Ротраут Сюзанне Бернер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотациях серии — Ротраут Сюзанне Бернер."
+ },
+ "skazki-matushki-gusyni": {
+  "author": "Шарль Перро",
+  "illustrator": "Ирина Явчуновская",
+  "confidence": "check",
+  "reason": "«Сказки Матушки Гусыни» — сборник Перро, Ирина Явчуновская, вероятно, художник; сверить с книгой."
+ },
+ "skazki-multfilmy-dlya-devchonok-i-malchishek": {
+  "author": "Сборник",
+  "illustrator": "А. Савченко",
+  "confidence": "check",
+  "reason": "Сборник сказок разных авторов; А. Савченко, вероятно, художник — сверить роль."
+ },
+ "skazki-na-noch-dlya-selesty": {
+  "author": "Николас Хайдельбах",
+  "illustrator": "Оле Кённеке",
+  "confidence": "check",
+  "reason": "Оба — авторы-художники; кто писал текст, а кто рисовал, сверить с выходными данными."
+ },
+ "skazki-pesni-zagadki": {
+  "author": "Самуил Маршак",
+  "illustrator": "Владимир Лебедев",
+  "confidence": "high",
+  "reason": "Владимир Лебедев — художник, а не соавтор Маршака."
+ },
+ "skazki-so-vsego-sveta": {
+  "author": "Сборник",
+  "compiler": "М. Мельниченко",
+  "confidence": "high",
+  "reason": "Сборник сказок разных народов, М. Мельниченко — составитель (по аннотации)."
+ },
+ "skazki-starogo-lesa-funduk-i-dobraya-osen": {
+  "author": "Джудитта Кампелло",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "skazki-starogo-lesa-myagkaya-oblozhka-funduk-i-dobraya-osen": {
+  "author": "Джудитта Кампелло",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "skazki-starogo-lesa-myagkaya-oblozhka-progulka-po-lesu": {
+  "author": "Джудитта Кампелло",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "skazki-starogo-lesa-progulka-po-lesu": {
+  "author": "Джудитта Кампелло",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "skazochnye-priklyucheniya-kota-alfreda": {
+  "author": "Юлиана Протасова",
+  "illustrator": "Ольга Сакович",
+  "confidence": "check",
+  "reason": "Ольга Сакович, вероятно, иллюстратор, автор текста — Юлиана Протасова."
+ },
+ "skok-poskok": {
+  "author": "Русский фольклор",
+  "illustrator": "Юрий Васнецов",
+  "confidence": "high",
+  "reason": "Это русские потешки и песенки, Юрий Васнецов — художник книги (по аннотации)."
+ },
+ "skuns-frenki-fu-bober-bobert": {
+  "author": "Торнтон Бёрджесс",
+  "confidence": "high",
+  "reason": "Имя и фамилия были перепутаны: автор — Торнтон Бёрджесс."
+ },
+ "slezlivyy-klub": {
+  "author": "Кристиан Виик Йерде",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены, в аннотации — «Кристиан Виик Йерде»."
+ },
+ "slon": {
+  "author": "Питер Карнавас",
+  "confidence": "high",
+  "reason": "Аннотация: книгу придумал и нарисовал австралийский писатель Питер Карнавас."
+ },
+ "sonnye-skazki-gregori": {
+  "author": "Элис Грегори; Кристи Киркпатрик",
+  "confidence": "high",
+  "reason": "Аннотация называет двух авторов: Элис Грегори и детскую писательницу Кристи Киркпатрик."
+ },
+ "sonnye-skazki-pro-zhivotnyh-dlya-chteniya-pered-snom": {
+  "author": "Кирстен Фогель",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sonnye-skazki-pro-zhivotnyh-zverskie-skazki-o-druzhbe-10-istoriy-dlya": {
+  "author": "Кирстен Фогель",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sonnye-skazki-slavitskiy": {
+  "author": "Сборник",
+  "compiler": "Илья Славицкий",
+  "confidence": "check",
+  "reason": "По аннотации это сказки разных авторов; Илья Славицкий, вероятно, составитель — сверить."
+ },
+ "sonya-iz-7-buee": {
+  "author": "Алексей Олейников",
+  "illustrator": "Тимофей Яржомбек",
+  "confidence": "high",
+  "reason": "Тимофей Яржомбек — художник книги, текст Алексея Олейникова."
+ },
+ "sovetskaya-seriya-voennaya-tayna-golubaya-chashka-timur-i-ego-komanda": {
+  "author": "Аркадий Гайдар",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "spat-kak-tigr": {
+  "author": "Мэри Лог",
+  "illustrator": "Памела Загаренски",
+  "translator": "Маша Лукашкина",
+  "confidence": "high",
+  "reason": "«Sleep Like a Tiger» написала Мэри Лог, нарисовала Памела Загаренски; Маша Лукашкина — переводчица."
+ },
+ "spisok-nemyslimyh-strahov": {
+  "author": "Джессика Каспер Крамер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "spokoynoy-nochi-karlhen": {
+  "author": "Ротраут Сюзанне Бернер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотациях серии — Ротраут Сюзанне Бернер."
+ },
+ "spokoynoy-nochi-miyuki": {
+  "author": "Роксан Мари Гальез",
+  "illustrator": "Сенг Соун Ратанаван",
+  "confidence": "check",
+  "reason": "Книги о Миюки написала Роксан Мари Гальез, нарисовала Сенг Соун Ратанаван; русское написание сверить с изданием."
+ },
+ "storozh-savanny": {
+  "author": "Народные сказки",
+  "reteller": "Луда",
+  "confidence": "check",
+  "reason": "По аннотации это кенийская сказка и сказка по мотивам индейского фольклора, Луда — пересказчик; формулировку сверить."
+ },
+ "strashilki-pod-cherdakom": {
+  "author": "Лариса Назарова; Лев Григорян (Алексей Шпагин)",
+  "illustrator": "Виктория Стеблева",
+  "confidence": "check",
+  "reason": "Виктория Стеблева, вероятно, иллюстратор: она же указана у «Дневника-оборотня»."
+ },
+ "strashnye-istorii": {
+  "author": "Сборник",
+  "translator": "Софья Яновицкая",
+  "confidence": "check",
+  "reason": "Сборник адаптированных классических страшных историй разных авторов (Стокер, Шелли, Стивенсон и др.); Яновицкая, вероятно, переводчица — сверить."
+ },
+ "sunduchok-semeynyh-skazok-masterskaya-dedushki-uchim-tsveta-i-schitaem": {
+  "author": "Ларисса Джулиано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sunduchok-semeynyh-skazok-u-babushki-na-kuhne-uchim-protivopolozhnosti": {
+  "author": "Ларисса Джулиано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sunduchok-semeynyh-skazok-u-babushki-v-sadu-uchim-tsveta-i-schitaem-do-5": {
+  "author": "Ларисса Джулиано",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sunduchok-semeynyh-skazok-ya-hochu-k-mame": {
+  "author": "Трейси Кордерой",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "sunduchok-semeynyh-skazok-ya-hochu-k-pape": {
+  "author": "Трейси Кордерой",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "supergeroi-komiks-supergeroi-priklyucheniya-nachinayutsya": {
+  "author": "Софи Лодвиц; Эв Пислер",
+  "illustrator": "Люси Дурбиано",
+  "confidence": "high",
+  "reason": "Серия Les Super Super: текст Софи Лодвиц и Эв Пислер, рисунки Люси Дурбиано (французские выходные данные)."
+ },
+ "tarif-sny-i-skazki": {
+  "author": "Алексей Олейников",
+  "illustrator": "Никита Терешин",
+  "confidence": "high",
+  "reason": "Никита Терешин — иллюстратор (так в аннотации к «Трилобиты не виноваты»), автор — Алексей Олейников."
+ },
+ "tayna-lidii": {
+  "author": "Финн Сеттерхольм",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "tayna-nochnogo-lesa": {
+  "author": "Виталий Бианки",
+  "confidence": "high",
+  "reason": "Опечатка в фамилии: правильно «Бианки»."
+ },
+ "tayna-zloveschego-sgovora": {
+  "author": "Антон Иванов; Анна Устинова",
+  "confidence": "high",
+  "reason": "Книга серии «Тайное братство Кленового листа», ее Антон Иванов писал вместе с Анной Устиновой."
+ },
+ "tayny-muzeya-voskovyh-figur-delo-o-propavshey-koroleve": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "tayny-muzeya-voskovyh-figur-sekretnaya-missiya-drakuly": {
+  "author": "Майя фон Фогель",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "teoriya-aysberga": {
+  "author": "Кристофер Буикс",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены."
+ },
+ "teremok": {
+  "author": "Русская народная сказка",
+  "illustrator": "Мария Вахрушева",
+  "reteller": "Ольга Капица",
+  "confidence": "high",
+  "reason": "Народная сказка в обработке Ольги Капицы; Мария Вахрушева — художница издания."
+ },
+ "tessa-tikkardi-i-sekret-vremeni": {
+  "author": "Давиде Меццанотте",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "tetya-dyadi-fedora-ili-pobeg-iz-prostokvashino": {
+  "author": "Эдуард Успенский",
+  "confidence": "high",
+  "reason": "Инициал заменен полным именем."
+ },
+ "tihaya-skazka": {
+  "author": "Самуил Маршак",
+  "illustrator": "Владимир Лебедев",
+  "confidence": "high",
+  "reason": "Владимир Лебедев — художник, а не соавтор Маршака."
+ },
+ "tilda-yablochnoe-semechko-bolshoy-perepoloh": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "Серию «Тильда Яблочное Семечко» пишет Андреас Х. Шмахтл; в поле стоял другой человек."
+ },
+ "tilda-yablochnoe-semechko-kuda-propal-rupert": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "Серию «Тильда Яблочное Семечко» пишет Андреас Х. Шмахтл; в поле стоял другой человек."
+ },
+ "tilda-yablochnoe-semechko-pogonya-za-udachey": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "Серию «Тильда Яблочное Семечко» пишет Андреас Х. Шмахтл; в поле стоял другой человек."
+ },
+ "tilda-yablochnoe-semechko-veter-priklyucheniy": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "Серию «Тильда Яблочное Семечко» пишет Андреас Х. Шмахтл; в поле стоял другой человек."
+ },
+ "tochka-zreniya-vseveduschego-chitatelya-tom-3": {
+  "author": "singNsong; UMI",
+  "illustrator": "Sleepy-C",
+  "confidence": "check",
+  "reason": "В русском издании манхвы указаны singNsong (новелла), UMI (адаптация) и Sleepy-C (рисунок); «Квон Гёыль» в выходных данных не найден."
+ },
+ "tochka-zreniya-vseveduschego-chitatelya-tom-4": {
+  "author": "singNsong; UMI",
+  "illustrator": "Sleepy-C",
+  "confidence": "check",
+  "reason": "В русском издании манхвы указаны singNsong (новелла), UMI (адаптация) и Sleepy-C (рисунок); «Квон Гёыль» в выходных данных не найден."
+ },
+ "tomas-drimm-kniga-2-voyna-s-derevyami-nachnetsya-trinadtsatogo": {
+  "author": "Дидье ван Ковеларт",
+  "confidence": "high",
+  "reason": "Порядок «Имя Фамилия», частица «ван» стоит перед фамилией."
+ },
+ "tomas-drimm-kniga-3-vremya-ostanovitsya-v-12-05": {
+  "author": "Дидье ван Ковеларт",
+  "confidence": "high",
+  "reason": "Порядок «Имя Фамилия», частица «ван» стоит перед фамилией."
+ },
+ "traktor-leonard-i-bolshoe-priklyuchenie": {
+  "author": "Суза Кольб",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "traktor-leonard-traktor-leonard-i-sekretnaya-missiya": {
+  "author": "Суза Кольб",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "traktor-leonard-traktor-leonard-i-zagadochnyy-gost": {
+  "author": "Суза Кольб",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "tri-medvedya-kotyatova": {
+  "author": "Лев Толстой",
+  "reteller": "Н. И. Котятова",
+  "confidence": "check",
+  "reason": "«Три медведя» известны в пересказе Льва Толстого; Котятова, вероятно, автор адаптации, роль Т. В. Бариновой не установлена — сверить."
+ },
+ "tri-porosenka": {
+  "author": "Английская народная сказка",
+  "reteller": "Джозеф Джейкобс",
+  "confidence": "high",
+  "reason": "Джейкобс — собиратель английской сказки, его версия переносится в поле пересказа."
+ },
+ "tri-porosenka-bulatov": {
+  "author": "Сергей Михалков",
+  "illustrator": "Эрик Булатов",
+  "confidence": "check",
+  "reason": "Эрик Булатов — художник; автор русской версии, вероятно, Сергей Михалков — сверить с книгой."
+ },
+ "tri-porosenka-smirnova": {
+  "author": "Английская народная сказка",
+  "confidence": "check",
+  "reason": "Это английская народная сказка; роль Е. Смирновой (пересказ или иллюстрации) не установлена — сверить."
+ },
+ "tri-skazki-pro-lisu": {
+  "author": "Русские народные сказки",
+  "reteller": "Алексей Толстой",
+  "confidence": "high",
+  "reason": "Три русские народные сказки о лисе, Алексей Толстой — автор обработки."
+ },
+ "tsyplenok-zheltok": {
+  "author": "Юлия Весова",
+  "illustrator": "Мария Позднякова",
+  "confidence": "check",
+  "reason": "Юлия Весова — писательница, Мария Позднякова, вероятно, иллюстратор."
+ },
+ "ty-gde-leopold": {
+  "author": "Мишель Ив Шмидтт",
+  "illustrator": "Винсент Ко",
+  "confidence": "check",
+  "reason": "Винсент Ко, вероятно, иллюстратор; написание «Шмидтт» сверить с изданием."
+ },
+ "ty-moy-talisman": {
+  "author": "Ирина Лейк",
+  "illustrator": "Анастасия Ярошенко",
+  "confidence": "check",
+  "reason": "Ирина Лейк — писательница, Анастасия Ярошенко, вероятно, иллюстратор."
+ },
+ "tyapa-i-lyapa-edut-v-otpusk": {
+  "author": "Цее Нойдерт",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "tyapa-i-lyapa-ne-boyatsya-chudisch": {
+  "author": "Цее Нойдерт",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "tyapa-i-lyapa-ssoritsya-zaprescheno": {
+  "author": "Цее Нойдерт",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "u-serebryanogo-ozera": {
+  "author": "Лора Инглз Уайлдер",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Лора Инглз Уайлдер."
+ },
+ "uzhasno-smeshnye-istorii-skeleta-olivera-skelet-oliver-i-pohischenie": {
+  "author": "Джудитта Кампелло",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "v-gostyah-u-dinozavrov-razgadka-ischeznoveniya-dinozavrov-rassledovanie": {
+  "author": "Анастасия Галкина",
+  "illustrator": "Екатерина Ладатко",
+  "confidence": "high",
+  "reason": "Екатерина Ладатко — художница серии «В гостях у динозавров», что следует из аннотации к книге о юрском периоде."
+ },
+ "v-ochen-solnechnoy-sisteme-god-s-poetami": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "Антология стихов девятнадцати поэтов."
+ },
+ "v-shkole-snova-peremeny": {
+  "author": "Юлия Асланова",
+  "illustrator": "Юлия Прохоцкая",
+  "confidence": "check",
+  "reason": "В аннотации автором названа только Юлия Асланова; Юлия Прохоцкая, вероятно, иллюстратор."
+ },
+ "v-tsirke": {
+  "author": "Доро Гёбель; Петер Кнорр",
+  "confidence": "check",
+  "reason": "Книги серии «История в картинках» Доро Гёбель делает с Петером Кнорром — сверить с изданием."
+ },
+ "vernye-druzya": {
+  "author": "Мириам Кордес",
+  "confidence": "check",
+  "reason": "Вероятно, немецкая писательница и художница Miriam Cordes; написание «Мариам» сверить с обложкой."
+ },
+ "vezhlivoe-slovo": {
+  "author": "Эмма Мошковская",
+  "confidence": "high",
+  "reason": "Инициал заменен полным именем, оно есть в аннотации."
+ },
+ "voennaya-tayna-golubaya-chashka-timur-i-ego-komanda-chuk-i-gek-m-o": {
+  "author": "Аркадий Гайдар",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "volk-i-kozlyata": {
+  "author": "Русская народная сказка",
+  "reteller": "Н. И. Котятова",
+  "confidence": "check",
+  "reason": "Это русская народная сказка; Котятова, вероятно, автор пересказа, роль Т. В. Бариновой не установлена — сверить."
+ },
+ "volk-i-kozlyata-afanasev": {
+  "author": "Русская народная сказка",
+  "reteller": "Александр Афанасьев",
+  "confidence": "high",
+  "reason": "Александр Афанасьев — собиратель фольклора, а не автор сказки."
+ },
+ "volshebnaya-igolochka": {
+  "author": "Валентина Осеева",
+  "confidence": "high",
+  "reason": "Инициал заменен полным именем."
+ },
+ "volshebnaya-kniga-dinozavrov-puteshestvie-v-yurskiy-period": {
+  "author": "Анастасия Галкина",
+  "illustrator": "Екатерина Ладатко",
+  "confidence": "high",
+  "reason": "Екатерина Ладатко — художница: в аннотации «яркие иллюстрации Екатерины Ладатко»."
+ },
+ "volshebnaya-kniga-russkih-narodnyh-skazok-s-zhivymi-kartinkami": {
+  "author": "Русские народные сказки",
+  "confidence": "check",
+  "reason": "Это русские народные сказки; роль Николая Поклада (составитель или художник) не установлена — сверить."
+ },
+ "volshebnoe-koltso": {
+  "author": "Русская народная сказка",
+  "reteller": "Андрей Платонов",
+  "confidence": "check",
+  "reason": "По аннотации это народная сказка в пересказе Андрея Платонова — обработчик идет в пересказ; решить, оставлять ли Платонова автором."
+ },
+ "volshebnoe-slovo": {
+  "author": "Валентина Осеева",
+  "confidence": "high",
+  "reason": "Инициал заменен полным именем, оно есть в аннотации."
+ },
+ "volshebnye-konki": {
+  "author": "Евгения Русинова",
+  "illustrator": "Лера Хаус",
+  "confidence": "check",
+  "reason": "Евгения Русинова — писательница, Лера Хаус, вероятно, иллюстратор."
+ },
+ "volshebnye-miry-povelitel-koshmarov": {
+  "author": "Антония Мурго",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "volshebnye-spasateli-i-shkola-volshebstva": {
+  "author": "Сабрина Кэтдор",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "volshebnye-spasateli-volshebnye-spasateli-i-buhta-cherepa": {
+  "author": "Сабрина Кэтдор",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "volshebnyy-edinorog-tayna-zacharovannogo-zerkala": {
+  "author": "Сандра Гримм",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "volshebnyy-edinorog-volshebnyy-edinorog-zagadka-ognennoy-gory": {
+  "author": "Сандра Гримм",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "vorona-i-kot": {
+  "author": "Юлия Симбирская",
+  "illustrator": "Ксения Гурченкова",
+  "confidence": "check",
+  "reason": "Юлия Симбирская — писательница, Ксения Гурченкова, вероятно, иллюстратор."
+ },
+ "voyna-katrin-graficheskiy-roman": {
+  "author": "Юлия Бийе",
+  "illustrator": "Клер Фовель",
+  "confidence": "high",
+  "reason": "Клер Фовель — художница графического романа по книге Юлии Бийе (по аннотации)."
+ },
+ "vse-skazki-i-stihi-dlya-detskogo-sada": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "Хрестоматия многих авторов, а в поле стоят два автора из ее состава."
+ },
+ "vspominay-ded-moroz": {
+  "author": "Полина Щербак",
+  "illustrator": "Дарья Луговская",
+  "confidence": "check",
+  "reason": "Полина Щербак — писательница, Дарья Луговская, вероятно, иллюстратор."
+ },
+ "vtoroe-aprelya": {
+  "author": "Илья Зверев",
+  "illustrator": "Вадим Сидур",
+  "confidence": "high",
+  "reason": "По аннотации Вадим Сидур — автор иллюстраций, рассказы написал Илья Зверев."
+ },
+ "winx-magiya-vokrug-volshebnaya-kniga-igr": {
+  "author": "Е. Е. Николаева",
+  "confidence": "high",
+  "reason": "Приведено к виду «И. О. Фамилия», как в других карточках каталога; полное имя неизвестно."
+ },
+ "ya-bolshe-tak-ne-budu": {
+  "author": "Эмма Чичестер Кларк",
+  "confidence": "high",
+  "reason": "Имя и фамилия переставлены; в аннотации — Эмма Чичестер Кларк."
+ },
+ "ya-lyublyu-tebya-babushka": {
+  "author": "Джиллиан Харкер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "ya-lyublyu-tebya-dedushka": {
+  "author": "Джиллиан Харкер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "ya-lyublyu-tebya-mamochka": {
+  "author": "Джиллиан Харкер",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "ya-zdes-zhivu": {
+  "author": "Сборник",
+  "confidence": "high",
+  "reason": "Сборник разных авторов: в нем, например, повести Евгении Басовой и Марии Ботевой."
+ },
+ "za-gorodom": {
+  "author": "Доро Гёбель; Петер Кнорр",
+  "confidence": "high",
+  "reason": "По аннотации книгу без текста сделали художники Доро Гёбель и Петер Кнорр."
+ },
+ "zagadka-pochtovogo-golubya": {
+  "author": "Антон Иванов; Анна Устинова",
+  "confidence": "high",
+  "reason": "Книги о компании с Большой Спасской Антон Иванов писал вместе с Анной Устиновой."
+ },
+ "zaychonok-hochet-domoy": {
+  "author": "Элизабет Бэгели",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "zayushkina-izbushka": {
+  "author": "Русская народная сказка",
+  "illustrator": "Татьяна Серова",
+  "reteller": "Ольга Капица",
+  "confidence": "high",
+  "reason": "Народная сказка в обработке Ольги Капицы; Татьяна Серова — художница издания."
+ },
+ "zayushkina-izbushka-kotyatova": {
+  "author": "Русская народная сказка",
+  "reteller": "Н. И. Котятова",
+  "confidence": "check",
+  "reason": "Это русская народная сказка; Котятова, вероятно, автор пересказа, роль Т. В. Бариновой не установлена — сверить."
+ },
+ "zdravstvuyte-mister-hlad": {
+  "author": "Карлес Порта",
+  "confidence": "high",
+  "reason": "Опечатка: каталанское имя Carles, как во второй книге серии — «Карлес Порта»."
+ },
+ "zhivoy-kamen": {
+  "author": "Полина Щербак",
+  "illustrator": "Павла Петрушова",
+  "confidence": "check",
+  "reason": "Полина Щербак — писательница, Павла Петрушова, вероятно, иллюстратор."
+ },
+ "zhizn-i-udivitelnye-priklyucheniya-znamenitogo-sinora-pulchinelly-iz": {
+  "author": "Октав Фейе",
+  "reteller": "Григорий Кружков",
+  "confidence": "high",
+  "reason": "По аннотации книгу о Пульчинелле написал Октав Фейе, Кружков — пересказчик."
+ },
+ "zhozefina-mechtaet-o-druge": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "Аннотация: «Автор и иллюстратор — Андреас Х. Шмахтл»."
+ },
+ "zhozefina-mechtaet-o-more": {
+  "author": "Андреас Х. Шмахтл",
+  "confidence": "high",
+  "reason": "Аннотация: «Автор и иллюстратор — Андреас Х. Шмахтл»."
+ },
+ "zhuravlinye-perya": {
+  "author": "Японские народные сказки",
+  "reteller": "Вера Маркова",
+  "confidence": "high",
+  "reason": "Сказки японские народные, Вера Маркова — автор пересказа (по аннотации)."
+ },
+ "zimnie-istorii-pro-miru-i-goshu": {
+  "author": "Наталья Ремиш",
+  "illustrator": "Мария Колкер",
+  "confidence": "high",
+  "reason": "По аннотации и выходным данным книга Натальи Ремиш, Мария Колкер — иллюстратор."
+ },
+ "zolotaya-bibliotechka-malysha-zaychik-ischet-dom": {
+  "author": "Маргарет Уайз Браун",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "zolotaya-klassika-dlya-detey-schelkunchik-i-myshinyy-korol": {
+  "author": "Эрнст Теодор Амадей Гофман",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ },
+ "zolotaya-klassika-dlya-detey-skazki-sharlya-perro": {
+  "author": "Шарль Перро",
+  "confidence": "high",
+  "reason": "В данных порядок «Фамилия Имя», исправлен на «Имя Фамилия»."
+ },
+ "zoodetektiv-malenkaya-tayna-bolshogo-slona": {
+  "author": "Кирстен Фогель",
+  "confidence": "high",
+  "reason": "В данных фамилия стоит перед именем."
+ }
+}
