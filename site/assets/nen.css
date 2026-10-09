@@ -292,3 +292,8 @@ details.annotation .meta{margin-top:10px}
 .reads{list-style:none;margin:0;padding:0;display:grid;gap:12px}
 .reads li{display:flex;flex-direction:column;gap:2px}
 .reads a{font:500 16px/1.45 var(--font-text)}
+
+/* ── Сложные темы в блоке «Что важно знать родителям» ── */
+.sensitive{display:flex;flex-direction:column;gap:8px;margin-top:4px}
+.sensitive .meta{color:var(--nen-yellow-ink)}
+.tag-warn{background:var(--nen-white);color:var(--nen-charcoal);box-shadow:var(--ring-warm);text-transform:none;font:500 12px/1.4 var(--font-text);height:26px}

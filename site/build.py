@@ -271,6 +271,10 @@ def load():
     path = os.path.join(ROOT, 'fixes/author-fixes.json')
     if os.path.exists(path):
         authors_fix = {k: v for k, v in json.load(open(path, encoding='utf-8')).items() if v.get('confidence') == 'high'}
+    sensitive = {}
+    path = os.path.join(ROOT, 'site/content/sensitive.json')
+    if os.path.exists(path):
+        sensitive = json.load(open(path, encoding='utf-8'))
     nen_ann = {}
     path = os.path.join(ROOT, 'site/content/annotations-nen.json')
     if os.path.exists(path):
@@ -309,6 +313,9 @@ def load():
                     b[k] = fix[k]
         if b['slug'] in nen_ann:
             b['annotation'], b['annotationSource'], b['annotationByNen'] = nen_ann[b['slug']]['annotation'], 'Текст редакции НЭН', True
+        sens = sensitive.get(b['slug']) or {}
+        b['sensitive'] = sens.get('topics', [])
+        b['themes'] = list(b.get('themes', [])) + [t for t in sens.get('addThemes', []) if t not in b.get('themes', [])]
         b['adult'] = b['ageMin'] >= 18          # 18+: подростковая вилка НЭН (до 20 лет), но свой блок «перед чтением»
         b['rank'] = (0 if c and c.get('source', '').startswith('knowledge') else 1 if c else 2)
         b['url'] = url(f'/kniga/{b["slug"]}/')
@@ -548,6 +555,13 @@ def write(path, content):
         WRITTEN.append(path)
 
 
+def sensitive_html(b):
+    if not b.get('sensitive'):
+        return ''
+    tags = ''.join(f'<span class="tag tag-warn">{e(t)}</span>' for t in b['sensitive'])
+    return f'<div class="sensitive"><p class="meta">Сложные темы в книге</p><div class="tags">{tags}</div></div>'
+
+
 def edition_kind(b):
     if re.search(r'myagkaya-oblozhka|paperback', b['slug']) or 'мягкая обложка' in b.get('catalogTitle', ''):
         return 'мягкая обложка'
@@ -590,7 +604,7 @@ def render_book(b, in_collections):
     if c:
         blocks.append(f'<section class="block"><h2 class="h3">О чём книга</h2><div class="prose"><p>{e(c["about"])}</p></div></section>')
         blocks.append(f'<section class="block"><h2 class="h3">Почему советуем</h2><div class="prose"><p>{e(c["whyRecommended"])}</p></div></section>')
-        blocks.append(f'<section class="plate plate-care"><h2 class="h3">{"Что важно знать перед чтением" if b["adult"] else "Что важно знать родителям"}</h2><p class="body">{e(c["parentsNote"])}</p></section>')
+        blocks.append(f'<section class="plate plate-care"><h2 class="h3">{"Что важно знать перед чтением" if b["adult"] else "Что важно знать родителям"}</h2><p class="body">{e(c["parentsNote"])}</p>{sensitive_html(b)}</section>')
         qs = ''.join(f'<li>{e(q)}</li>' for q in c['discussionQuestions'])
         blocks.append(f'<section class="plate plate-community"><h2 class="h3">О чём поговорить после чтения</h2><ol class="questions">{qs}</ol></section>')
     else:
