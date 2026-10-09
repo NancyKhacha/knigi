@@ -1,0 +1,4197 @@
+{
+ "kolobok-skazka": {
+  "ageLabel": "2–4 года",
+  "whyRecommended": "Если ребёнок любит народные сказки и сюжеты о животных и юморе, книга подойдёт ему в возрасте 2–4 лет. Она подходит для совместного чтения со взрослым."
+ },
+ "krasnaya-shapochka": {
+  "whyRecommended": "Подойдёт читателям 5–8 лет, которые любят литературные сказки. В книге затрагиваются темы природы, приключений и семьи."
+ },
+ "bremenskie-muzykanty": {
+  "whyRecommended": "Если ребёнок любит литературные сказки и сюжеты о животных, дружбе и юморе, книга подойдёт ему в возрасте 4–8 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "tri-porosenka": {
+  "whyRecommended": "Подойдёт читателям 3–6 лет, которые любят народные сказки. В книге затрагиваются темы животных, приключений и юмора."
+ },
+ "priklyucheniya-pinokkio": {
+  "whyRecommended": "Если ребёнок любит литературные сказки и приключенческие книги и сюжеты о приключениях, волшебстве и школе, книга подойдёт ему в возрасте 7–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "aladdin-i-volshebnaya-lampa": {
+  "whyRecommended": "Подойдёт читателям 7–11 лет, которые любят народные сказки и приключенческие книги. В книге затрагиваются темы приключений и волшебства."
+ },
+ "volshebnaya-kist-ma-lyana": {
+  "whyRecommended": "Если ребёнок любит литературные сказки и сюжеты о творчестве, волшебстве и истории, книга подойдёт ему в возрасте 6–10 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "gruffalo": {
+  "pages": null,
+  "lengthCategory": null,
+  "whyRecommended": "Подойдёт читателям 3–6 лет, которые любят книжки-картинки и сказки. В книге затрагиваются темы животных, приключений и юмора."
+ },
+ "imeninnyy-pirog": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "akuliska-vrag-rediski-i-drugie-istorii-o-lise-i-porosenke": {
+  "whyRecommended": "Если ребёнок любит сборники рассказов и приключенческие книги и сюжеты о животных, дружбе и приключениях, книга подойдёт ему в возрасте 5–8 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "vafelnoe-serdtse": {
+  "whyRecommended": "Подойдёт читателям 8–12 лет, которые любят повести. В книге затрагиваются темы дружбы, семьи и приключений."
+ },
+ "paks": {
+  "whyRecommended": "Если ребёнок любит романы и сюжеты о животных, дружбе и семье, книга подойдёт ему в возрасте 10–14 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "dzheyn-lisa-i-ya-britt": {
+  "whyRecommended": "Подойдёт читателям 10–14 лет, которые любят графические романы. В книге затрагиваются темы школы, дружбы и семьи."
+ },
+ "babushka-slomala-internet": {
+  "whyRecommended": "Если ребёнок любит повести и комедии и сюжеты о семье, технике и юморе, книга подойдёт ему в возрасте 6–9 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "bolshaya-malenkaya-devochka-kak-priruchit-gorod": {
+  "whyRecommended": "Подойдёт читателям 5–8 лет, которые любят повести и книжки-картинки. В книге затрагиваются темы семьи, школы и юмора."
+ },
+ "manyunya": {
+  "whyRecommended": "Если ребёнок любит автобиографические повести и комедии и сюжеты о семье, дружбе и юморе, книга подойдёт ему в возрасте 10–14 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "davay-poedem-v-unalashku": {
+  "whyRecommended": "Подойдёт читателям 9–13 лет, которые любят повести. В книге затрагиваются темы семьи, дружбы и школы."
+ },
+ "nastoyaschaya-zhizn-zhakomina-geynsboro": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "spokoynoy-nochi-luna": {
+  "whyRecommended": "Если ребёнок любит книжки-картинки и стихотворные истории и сюжеты о семье и природе, книга подойдёт ему в возрасте 2–5 лет. Она подходит для совместного чтения со взрослым."
+ },
+ "sovyata": {
+  "whyRecommended": "Подойдёт читателям 2–5 лет, которые любят книжки-картинки и семейные истории. В книге затрагиваются темы животных, семьи и природы."
+ },
+ "dochurka-gruffalo": {
+  "pages": null,
+  "lengthCategory": null,
+  "whyRecommended": "Если ребёнок любит книжки-картинки и сказки и сюжеты о животных, приключениях и юморе, книга подойдёт ему в возрасте 3–6 лет. Она подходит для совместного чтения со взрослым."
+ },
+ "dzhordzh-i-tayny-vselennoy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "detektiv-per-rasputyvaet-delo-v-poiskah-pohischennogo-labirinta": {
+  "pages": null,
+  "lengthCategory": null,
+  "whyRecommended": "Если ребёнок любит книги-игры и детективы и сюжеты о детективе, приключениях и творчестве, книга подойдёт ему в возрасте 6–10 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "detektiv-samson": {
+  "whyRecommended": "Подойдёт читателям 4–7 лет, которые любят книжки-картинки и детективы. В книге затрагиваются темы детектива, животных и юмора."
+ },
+ "univermag-dinozavrov": {
+  "whyRecommended": "Если ребёнок любит книжки-картинки и сказочные истории и сюжеты о динозаврах, юморе и приключениях, книга подойдёт ему в возрасте 3–6 лет. Она подходит для совместного чтения со взрослым."
+ },
+ "v-dobryy-put-malysh": {
+  "ageLabel": "0–3 года"
+ },
+ "gav": {
+  "ageLabel": "0–3 года"
+ },
+ "moy-dedushka-byl-vishney": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "saharnyy-rebenok": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "mishka-buryy-mishka-kto-tam-vperedi": {
+  "ageLabel": "1–4 года"
+ },
+ "ferdinand": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "znaesh-kak-ya-tebya-lyublyu": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ulitka-i-kit": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tyulka": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "beskonechnaya-istoriya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "451-gradus-po-farengeytu": {
+  "whyRecommended": "Если ребёнок любит научную фантастику и сюжеты об искусстве, безопасности и самооценке, книга подойдёт ему в возрасте 14–17 лет. Она подходит для самостоятельного чтения."
+ },
+ "saymon-i-programma-homo-sapiens": {
+  "whyRecommended": "Для читателей 14–17 лет это реалистическая проза об отношениях, школе и самооценке. Книгу можно выбрать для самостоятельного чтения."
+ },
+ "vse-skazki-k-chukovskogo": {
+  "author": "Корней Чуковский"
+ },
+ "detki-v-kletke": {
+  "ageLabel": "0–3 года"
+ },
+ "pro-zverey": {
+  "author": "Константин Ушинский"
+ },
+ "kak-ezhik-s-medvezhonkom-protirali-zvezdy": {
+  "author": "Сергей Козлов"
+ },
+ "skazki-mihalkov": {
+  "author": "Сергей Михалков"
+ },
+ "vladimir-krasnoe-solnyshko": {
+  "whyRecommended": "Для читателей 7–12 лет это реалистическая проза об истории и войне. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "troe-iz-prostokvashino": {
+  "author": "Эдуард Успенский"
+ },
+ "kashtanka": {
+  "author": "Антон Чехов"
+ },
+ "drug-detstva": {
+  "author": "Виктор Драгунский"
+ },
+ "na-nashem-dvore": {
+  "author": "Евгений Чарушин"
+ },
+ "skazki-volshebnoi-polyanki": {
+  "title": "Сказки волшебной полянки"
+ },
+ "zhizn-ivana-semenova-vtoroklassnika-i-vtorogodnika": {
+  "author": "Лев Давыдычев"
+ },
+ "novyy-god-v-volshebnom-lesu": {
+  "ageLabel": "0–3 года",
+  "author": "Екатерина Лопатина-Неволина"
+ },
+ "vse-skazochnye-istorii-pro-cheburashku": {
+  "author": "Эдуард Успенский"
+ },
+ "veselye-istorii": {
+  "author": "Геннадий Цыферов"
+ },
+ "skazki-malyutki": {
+  "author": "Геннадий Цыферов"
+ },
+ "kak-stat-bolshim-i-drugie-istorii": {
+  "author": "Геннадий Цыферов"
+ },
+ "skazki-ushinskiy": {
+  "author": "Константин Ушинский"
+ },
+ "papa-mama-i-ya": {
+  "author": "Виктор Драгунский"
+ },
+ "skazka-v-russkoy-zhivopisi": {
+  "whyRecommended": "Для читателей 7–12 лет это сказка об искусстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "delfiniy-ostrov": {
+  "pages": null
+ },
+ "domik-u-perehoda": {
+  "author": "Андрей Усачёв"
+ },
+ "rasskazy-o-zhivotnyh": {
+  "author": "Михаил Пришвин"
+ },
+ "zayushkina-izbushka-kotyatova": {
+  "ageLabel": "0–3 года"
+ },
+ "million-priklyucheniy": {
+  "author": "Кир Булычёв"
+ },
+ "beleet-parus-odinokiy-kataev": {
+  "author": "Валентин Катаев",
+  "whyRecommended": "Для читателей 7–12 лет это приключения об истории и приключениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "dobrye-skazki": {
+  "author": "Геннадий Цыферов"
+ },
+ "skazki-chukovskiy": {
+  "author": "Корней Чуковский"
+ },
+ "volshebnik-izumrudnogo-goroda-urfin-dzhyus-i-ego-derevyannye-soldaty": {
+  "author": "Александр Волков"
+ },
+ "v-strane-vechnyh-kanikul": {
+  "author": "Анатолий Алексин"
+ },
+ "priklyucheniya-bibigona": {
+  "author": "Корней Чуковский"
+ },
+ "priklyucheniya-petrushki": {
+  "author": "Маргарита Фадеева"
+ },
+ "skazka-o-zolotom-petushke": {
+  "author": "Александр Пушкин"
+ },
+ "skazka-o-tsare-saltane-o-syne-ego-slavnom-i-moguchem-bogatere-knyaze": {
+  "author": "Александр Пушкин"
+ },
+ "domovenok-foka-i-ego-druzya": {
+  "author": "Андрей Растворцев"
+ },
+ "skazki-pesni-zagadki": {
+  "author": "Самуил Маршак; Владимир Лебедев"
+ },
+ "stihi-i-skazki": {
+  "author": "Борис Заходер"
+ },
+ "ryzhaya-skazka": {
+  "author": "Сергей Козлов"
+ },
+ "vozvraschenie-bludnogo-popugaya-i-drugie-istorii": {
+  "author": "Александр Курляндский"
+ },
+ "volshebnoe-koltso": {
+  "author": "Андрей Платонов"
+ },
+ "petr-chaykovskiy-ili-volshebnoe-pero": {
+  "pages": null
+ },
+ "veselii-schet": {
+  "ageLabel": "0–3 года"
+ },
+ "skazki-pushkin": {
+  "author": "Александр Пушкин"
+ },
+ "volk-i-kozlyata-afanasev": {
+  "author": "Александр Афанасьев"
+ },
+ "skazki-pro-krokodila-genu-cheburashku-i-ih-druzey": {
+  "author": "Эдуард Успенский"
+ },
+ "skazki-starinnogo-goroda": {
+  "author": "Геннадий Цыферов"
+ },
+ "tihaya-skazka": {
+  "author": "Самуил Маршак; Владимир Лебедев"
+ },
+ "veselyy-dvoechnik": {
+  "pages": null
+ },
+ "tri-porosenka-trusohvostik-odnoglazyy-drozd-prazdnik-neposlushanya": {
+  "title": "Три поросёнка; Трусохвостик; Одноглазый дрозд; Праздник непослушания; Лесная Академия",
+  "author": "Сергей Михалков"
+ },
+ "skazka-o-rybake-i-rybke": {
+  "author": "Александр Пушкин"
+ },
+ "skazka-o-tsare-saltane": {
+  "author": "Александр Пушкин"
+ },
+ "vse-skazki-i-stihi-dlya-detskogo-sada": {
+  "author": "З. Александрова; Александр Пушкин"
+ },
+ "taina-veschih-snov": {
+  "title": "Тайна вещих снов",
+  "author": "Алексей Биргер"
+ },
+ "koroleva-piratov-na-planete-skazok": {
+  "author": "Кир Булычёв"
+ },
+ "tayna-zabroshennogo-zamka": {
+  "author": "Александр Волков"
+ },
+ "zapovednik-skazok": {
+  "author": "Кир Булычёв"
+ },
+ "gde-papa": {
+  "author": "Юлия Кузнецова"
+ },
+ "povestvovanie-o-chuvashah": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об истории, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "tri-porosenka-mihalkov": {
+  "author": "Сергей Михалков"
+ },
+ "petya-i-potap-chizhikov": {
+  "author": "Виктор Чижиков"
+ },
+ "porosenok-petr-edet-v-gosti": {
+  "author": "Людмила Петрушевская"
+ },
+ "stihi-detyam-obo-vsem-na-svete": {
+  "author": "Татьяна Бокова"
+ },
+ "rasskazy-o-belochke-i-tamarochke": {
+  "author": "Леонид Пантелеев"
+ },
+ "tri-porosenka-bulatov": {
+  "author": "Эрик Булатов"
+ },
+ "pouchitelnye-rasskazy-pro-malchika-yashu": {
+  "author": "Эдуард Успенский"
+ },
+ "kolobok-protiv-debilenko": {
+  "author": "Эдуард Успенский",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях и детективе, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "professor-kislyh-schey": {
+  "author": "Виктор Драгунский",
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "vy-ne-byli-na-taiti": {
+  "author": "Александр Курляндский",
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "solnyshko-na-pamyat": {
+  "author": "Михаил Пляцковский",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "38-popugaev": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "ognennyy-bog-marranov": {
+  "author": "Александр Волков"
+ },
+ "kak-kuzka-domovyat-pomiril": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "horosho-byt-optimistom": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "neznayka-na-lune": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "masha-i-oyka": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "ya-na-oblake-letal": {
+  "author": "Михаил Пляцковский",
+  "whyRecommended": "Для читателей 6–11 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "vezhlivoe-slovo": {
+  "whyRecommended": "Если ребёнок любит стихи и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "vasyutkino-ozero": {
+  "author": "Виктор Астафьев",
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "printsessa-belonozhka-ili-kto-lyubit-nosit-na-rukah": {
+  "author": "Людмила Петрушевская",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "byuro-nahodok": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "voyna-s-liliputami": {
+  "author": "Кир Булычёв",
+  "whyRecommended": "Для читателей 6–11 лет это фэнтези об отношениях и войне. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "vse-deniskiny-rasskazy-v-odnoy-knige": {
+  "author": "Виктор Драгунский"
+ },
+ "basni": {
+  "author": "Сергей Михалков"
+ },
+ "stihi-i-poemy": {
+  "author": "Михаил Лермонтов",
+  "whyRecommended": "Для читателей 7–12 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "tetradki-pod-dozhdem": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "pravdivaya-istoriya-kolobka": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "chizhik-pyzhik": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "liliput-syn-velikana": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "chudesa-v-dedmorozovke": {
+  "whyRecommended": "Для читателей 7–12 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "istorii-pro-veru-i-anfisu": {
+  "author": "Эдуард Успенский"
+ },
+ "kak-menya-spasali": {
+  "pages": null
+ },
+ "karandash-i-samodelkin-na-ostrove-neobychaynyh-priklyuheniy": {
+  "author": "Валентин Постников",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "starye-i-novye-istorii-o-prostokvashino": {
+  "author": "Эдуард Успенский"
+ },
+ "vse-istorii-pro-popugaya-keshu": {
+  "author": "Александр Курляндский"
+ },
+ "zagadka-pochtovogo-golubya": {
+  "whyRecommended": "Если ребёнок любит детективы и сюжеты об отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "moshennik-na-pole-chudes": {
+  "whyRecommended": "Для читателей 7–12 лет это детектив об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "ya-na-solnyshke-lezhu": {
+  "whyRecommended": "Для читателей 6–11 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "ochen-strashnaya-istoriya": {
+  "pages": null
+ },
+ "pro-veru-i-anfisu": {
+  "author": "Эдуард Успенский"
+ },
+ "my-vstrechaem-novyi-god": {
+  "title": "Мы встречаем Новый год!",
+  "author": "Илья Савченко",
+  "whyRecommended": "Для читателей 6–11 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "sorochinskaya-yarmarka": {
+  "author": "Николай Гоголь",
+  "whyRecommended": "Для читателей 7–12 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "tri-povesti-o-vase-kurolesove": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях и детективе. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "azbuka-dlya-buki": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "otpusk-krokodila-geny": {
+  "author": "Эдуард Успенский",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "istoriya-pro-porosenka": {
+  "author": "Геннадий Цыферов",
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "kak-masha-possorilas-s-podushkoy": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "rasskazy-dlya-detey": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "obschee-sobranie-geroev-povestey-rasskazov-stihotvoreniy-i-pes": {
+  "author": "Эдуард Успенский"
+ },
+ "poemy": {
+  "author": "Александр Пушкин",
+  "whyRecommended": "Если ребёнок любит стихи и сюжеты об отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "basni-krylov": {
+  "author": "Иван Крылов"
+ },
+ "obezyanki-mladshego-vozrasta": {
+  "whyRecommended": "Для читателей 6–11 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "cheburashka-krokodil-gena-shapoklyak-i-vse-vse-vse": {
+  "author": "Эдуард Успенский",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 6–11 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "bolshaya-kniga-stihov-i-rasskazov": {
+  "whyRecommended": "Для читателей 6–11 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "smirennyy-voin": {
+  "whyRecommended": "Для читателей 7–12 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "tsezar-velikolepnyy": {
+  "whyRecommended": "Если ребёнок любит фэнтези и сюжеты об отношениях, книга подойдёт ему в возрасте 7–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "loshadki": {
+  "ageLabel": "2–3 года"
+ },
+ "shkola-shredingera": {
+  "author": "Авторы сборника рассказов «Школа Шрёдингера»"
+ },
+ "sostoyanie-neveselosti": {
+  "ageLabel": "2–3 года"
+ },
+ "pro-bitvy-i-srazheniya": {
+  "whyRecommended": "Для читателей 4–6 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "prosto-prazdnik": {
+  "whyRecommended": "Если ребёнок любит стихи и сюжеты об отношениях, книга подойдёт ему в возрасте 4–6 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "zhuzha-i-korovka-zaplyvayut-daleko": {
+  "ageLabel": "2–3 года"
+ },
+ "zhuzha-i-korovka-spasayut-malyutku": {
+  "ageLabel": "2–3 года"
+ },
+ "zimnie-priklyucheniya-zhuzhi-i-korovki": {
+  "ageLabel": "2–3 года"
+ },
+ "chud": {
+  "author": "Бертран Сантини"
+ },
+ "zhuzhino-sokrovische": {
+  "ageLabel": "2–3 года"
+ },
+ "komissar-gordon-pervoe-delo": {
+  "ageLabel": "2–3 года"
+ },
+ "troya-i-net-voyne-kontsa": {
+  "whyRecommended": "Для читателей 7–9 лет это сказка об истории, мифологии и искусстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "slonenok-v-kitae": {
+  "ageLabel": "2–3 года"
+ },
+ "sportorama": {
+  "ageLabel": "2–3 года"
+ },
+ "krasnaya-shapochka-na-manhettene": {
+  "author": "Кармен Мартин Гайте"
+ },
+ "kak-gitler-ukral-rozovogo-krolika-2-e-izdanie": {
+  "title": "Как Гитлер украл розового кролика",
+  "editionNote": ", 2-е издание"
+ },
+ "eh-istoriya-o-malenkom-geparde-kotoryy-ne-umel-begat": {
+  "ageLabel": "2–4 года"
+ },
+ "bolshaya-malenkaya-devochka-kniga-2-istorii-7-12-2-e-izd": {
+  "title": "Большая маленькая девочка. Книга 2 (истории 7-12)",
+  "editionNote": "2-е изд."
+ },
+ "kak-poymat-tishinu-i-drugie-istorii-pro-ulku-2-e-izd": {
+  "title": "Как поймать тишину и другие истории про Ульку",
+  "editionNote": "2-е изд.",
+  "author": "Евгения Чернышова"
+ },
+ "bolshaya-malenkaya-devochka-kniga-1-istorii-1-6-2-e-izd": {
+  "title": "Большая маленькая девочка. Книга 1 (истории 1-6)",
+  "editionNote": "2-е изд."
+ },
+ "okolo-muzyki-i-drugie-rasskazy-2-e-izd": {
+  "title": "Около музыки и другие рассказы",
+  "editionNote": "2-е изд."
+ },
+ "bereg-mertvyh-nezabudok": {
+  "author": "Екатерина Звонцова"
+ },
+ "dremery-kn-1-izgnanniki-zennona": {
+  "whyRecommended": "Если ребёнок любит фэнтези и научную фантастику и сюжеты об отношениях и приключениях, книга подойдёт ему в возрасте 9–13 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "norman-2-e-izd": {
+  "title": "Норман",
+  "editionNote": "2-е изд."
+ },
+ "ragana-vedmina-doroga": {
+  "author": "Анита Феверс"
+ },
+ "amneziya-dnevnik-poteryavshego-pamyat": {
+  "author": "Натали Сомерс"
+ },
+ "podarok-dlya-deda-moroza-ili-pohischenie-novogodney-elki-s-avtografom": {
+  "author": "Александра Хворост"
+ },
+ "nablyudateli": {
+  "author": "Евгения Басова"
+ },
+ "volshebnaya-pochta-kn-1-pochta-otkryvaetsya-v-polnoch": {
+  "author": "Дарья Герасимова"
+ },
+ "bud-yarche": {
+  "author": "Молодые драматурги"
+ },
+ "schastlivtsy": {
+  "author": "Евгения Басова"
+ },
+ "pervyy-zakon-shurupchika": {
+  "author": "Алиса Стрельцова"
+ },
+ "steklyannye-lyagushki-tri-istorii-o-vybore": {
+  "author": "Мария Ботева; Наталья Вишнякова; Татьяна Сергеева"
+ },
+ "moi-druzya-prizraki-2-e-izd": {
+  "title": "Мои друзья — призраки",
+  "editionNote": "2-е изд.",
+  "author": "Анна Мансо"
+ },
+ "ya-nikomu-ne-skazhu": {
+  "author": "Светлана Пономарёва; Нина Кинёва"
+ },
+ "belyy-golub-chernyy-slon-2-e-izd": {
+  "title": "Белый голубь, чёрный слон",
+  "editionNote": "2-е изд."
+ },
+ "za-gorizontom-dve-povesti": {
+  "author": "Татьяна Ильдимирова"
+ },
+ "verhom-na-kote-2-e-izd": {
+  "title": "Верхом на коте",
+  "editionNote": "2-е изд.",
+  "author": "Александра Хворост"
+ },
+ "gorod-solntsa-kniga-4-serdtse-mgly-2-e-izd": {
+  "title": "Город Солнца. Книга 4. Сердце мглы",
+  "editionNote": "2-е изд."
+ },
+ "gorod-solntsa-kniga-3-golos-krovi-2-e-izd": {
+  "title": "Город Солнца. Книга 3. Голос крови",
+  "editionNote": "2-е изд."
+ },
+ "sem-dney-do-sakury": {
+  "author": "Светлана Лаврова"
+ },
+ "vershiteli-kniga-3-ten-chernoboga": {
+  "whyRecommended": "Если ребёнок любит сказки и фэнтези и сюжеты об истории, мифологии и взрослении, книга подойдёт ему в возрасте 9–13 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "inogda-nuzhno-prosto-udrat": {
+  "author": "Мартин Музер"
+ },
+ "begletsy": {
+  "author": "Фиона Шоу"
+ },
+ "rassledovaniya-v-shkole-2-e-izd": {
+  "title": "Расследования в школе",
+  "editionNote": "2-е изд"
+ },
+ "svetlik-tuchkin-i-puzyr-zhelaniy-3-e-izd": {
+  "title": "Светлик Тучкин и Пузырь желаний",
+  "editionNote": "3-е изд."
+ },
+ "svetlik-tuchkin-i-ukradennye-kanikuly-3-e-izd": {
+  "title": "Светлик Тучкин и украденные каникулы",
+  "editionNote": "3-е изд."
+ },
+ "zametki-goshi-kunitsyna-uchenika-4-a-klassa-2-e-izd": {
+  "title": "Заметки Гоши Куницына, ученика 4 «А» класса",
+  "editionNote": "2-е изд."
+ },
+ "raznotsvetnyy-sneg-3-e-izd": {
+  "title": "Разноцветный снег",
+  "editionNote": "3-е изд."
+ },
+ "ulichnye-lyudi": {
+  "author": "Ирина Кравцова",
+  "whyRecommended": "Для читателей 13–17 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного чтения."
+ },
+ "kod-elektry": {
+  "whyRecommended": "Для читателей 10–17 лет это детектив и приключения об отношениях, приключениях и первой любви. Книгу можно выбрать для самостоятельного чтения."
+ },
+ "propavshaya-bukva-9-e-izd": {
+  "title": "Пропавшая буква",
+  "editionNote": "9-е изд.",
+  "author": "М. Раскатов"
+ },
+ "udivitelnaya-devochka-3-e-izd": {
+  "title": "Удивительная девочка",
+  "editionNote": "3-е изд."
+ },
+ "k-doske-poydet-vasilkin-7-e-izd": {
+  "title": "К доске пойдет… Василькин!",
+  "editionNote": "7-е изд."
+ },
+ "vspominay-ded-moroz": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве, книга подойдёт ему в возрасте 5–9 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "moya-schastlivaya-zhizn-8-e-izd": {
+  "title": "Моя счастливая жизнь",
+  "editionNote": "8-е изд."
+ },
+ "detektiv-fletcher-kn-1-delo-durno-pahnet-2-e-izd": {
+  "title": "Детектив Флетчер. Кн.1. Дело дурно пахнет!",
+  "editionNote": "2-е изд."
+ },
+ "sinorina-koritsa-3-e-izd": {
+  "title": "Синьорина Корица",
+  "editionNote": "3-е изд."
+ },
+ "tim-taler-ili-prodannyy-smeh-illyustratsii-niki-golts-2-e-izd": {
+  "title": "Тим Талер, или Проданный смех",
+  "editionNote": "иллюстрации Ники Гольц; 2-е изд."
+ },
+ "lavka-koshmarov-i-uzhasnyy-yeti-2-e-izd": {
+  "title": "Лавка кошмаров и ужасный Йети",
+  "editionNote": "2-е изд."
+ },
+ "novaya-konditerskaya-sinoriny-koritsy-3-e-izd": {
+  "title": "Новая кондитерская Синьорины Корицы",
+  "editionNote": "3-е изд."
+ },
+ "syurpriz-dlya-sinoriny-koritsy-2-e-izd": {
+  "title": "Сюрприз для Синьорины Корицы",
+  "editionNote": "2-е изд."
+ },
+ "detskiy-sad-vosmaya-gruppa-2-e-izd": {
+  "title": "Детский сад, восьмая группа",
+  "editionNote": "2-е изд."
+ },
+ "proekt-novaya-zemlya": {
+  "author": "Давид Муате"
+ },
+ "dom-p-5-e-izd": {
+  "title": "Дом П",
+  "editionNote": "5-е изд."
+ },
+ "drugie-volery-volonterskie-zapiski-2-e-izd": {
+  "title": "Другие вольеры: Волонтерские записки",
+  "editionNote": "2-е изд."
+ },
+ "fonarik-lilka-2-e-izd": {
+  "title": "Фонарик Лилька",
+  "editionNote": "2-е изд."
+ },
+ "za-gorodom": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве и волшебстве, книга подойдёт ему в возрасте 2–6 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "pro-mashinu": {
+  "ageLabel": "2–3 года"
+ },
+ "spokoynoy-nochi-karlhen": {
+  "ageLabel": "2–3 года"
+ },
+ "tintin-i-pikarosy": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве, волшебстве и творчестве, книга подойдёт ему в возрасте 7–14 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "rukavichki": {
+  "ageLabel": "2–3 года"
+ },
+ "povar-myshka": {
+  "ageLabel": "2–3 года"
+ },
+ "petushok-zolotoy-grebeshok": {
+  "ageLabel": "2–3 года"
+ },
+ "vot-takie-pirogi": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве и волшебстве, книга подойдёт ему в возрасте 4–10 лет. Она подходит для совместного чтения со взрослым."
+ },
+ "mafalda-vse-slozhno-ne-po-detski": {
+  "whyRecommended": "Для читателей 7–14 лет это реалистическая проза об искусстве и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "sverchok-kotoryy-dumal-tolko-o-sebe": {
+  "ageLabel": "2–3 года"
+ },
+ "pauchinka-kotoraya-nikogo-ne-boyalas": {
+  "author": "С. Марендаз"
+ },
+ "hrabrye-trusishki": {
+  "ageLabel": "2–3 года"
+ },
+ "kabanenok-kuzya": {
+  "whyRecommended": "Если ребёнок любит сказки и сюжеты об искусстве и волшебстве, книга подойдёт ему в возрасте 2–6 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "pro-kozlenka-kotoryy-umel-schitat-do-desyati": {
+  "ageLabel": "2–3 года"
+ },
+ "lis-i-myshonok": {
+  "ageLabel": "2–3 года"
+ },
+ "hot-chto-to-horoshenkoe": {
+  "whyRecommended": "Для читателей 4–10 лет это реалистическая проза об искусстве и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "kogo-by-sest": {
+  "whyRecommended": "Для читателей 2–6 лет это юмор об искусстве, театре и взрослении. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "veselyy-novyy-god": {
+  "ageLabel": "2–3 года"
+ },
+ "drevnyaya-gretsiya": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об истории и волшебстве, книга подойдёт ему в возрасте 7–14 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "domik-babushki-lizetty": {
+  "ageLabel": "2–3 года"
+ },
+ "o-chestnom-vorone-kovarnoy-sove-i-glupom-lise": {
+  "author": "Эскимосские сказки"
+ },
+ "o-glupom-myshonke": {
+  "ageLabel": "2–3 года",
+  "whyRecommended": "Если ребёнок любит сказки и сюжеты об искусстве и волшебстве, книга подойдёт ему в возрасте 2–3 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "snegovik-morpurgo": {
+  "whyRecommended": "Для читателей 7–9 лет это сказка и фэнтези об искусстве и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "bolshoy-medvedik-malenkaya-myshka": {
+  "ageLabel": "2–4 года"
+ },
+ "novyy-god-medvedika": {
+  "ageLabel": "2–4 года"
+ },
+ "kogda-medvedik-prosypaetsya": {
+  "ageLabel": "2–4 года"
+ },
+ "medvedik-schitaet": {
+  "ageLabel": "2–4 года"
+ },
+ "medvedik-uznaet-tsveta": {
+  "ageLabel": "2–4 года"
+ },
+ "doazbuka": {
+  "ageLabel": "2–4 года"
+ },
+ "bumazhnyy-zmey": {
+  "ageLabel": "2–4 года"
+ },
+ "dobroy-nochi": {
+  "ageLabel": "2–4 года"
+ },
+ "zheltyy-kayak": {
+  "ageLabel": "2–4 года"
+ },
+ "puteshestvie-korablika": {
+  "ageLabel": "2–4 года"
+ },
+ "raduga-hameleon": {
+  "ageLabel": "2–4 года",
+  "whyRecommended": "Если ребёнок любит сказки и юмористические книги и сюжеты об искусстве и юморе, книга подойдёт ему в возрасте 2–4 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "s-dnem-rozhdeniya": {
+  "ageLabel": "2–4 года"
+ },
+ "udivitelnye-kubiki": {
+  "ageLabel": "2–4 года",
+  "whyRecommended": "Если ребёнок любит приключенческие книги и сюжеты об искусстве и приключениях, книга подойдёт ему в возрасте 2–4 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "raznotsvetnye-slony": {
+  "ageLabel": "2–4 года"
+ },
+ "ziggi-i-lunnoe-predstavlenie": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве, книга подойдёт ему в возрасте 3–7 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "kniga-maylz": {
+  "whyRecommended": "Для читателей 3–7 лет это фэнтези об искусстве и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "snofrid-iz-lugovoy-doliny": {
+  "whyRecommended": "Если ребёнок любит приключенческие книги и сюжеты об искусстве и приключениях, книга подойдёт ему в возрасте 3–7 лет. Она подходит для совместного чтения со взрослым."
+ },
+ "snegovik": {
+  "whyRecommended": "Для читателей 3–7 лет это фэнтези об искусстве и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "krokodil-i-zhirafinya-nastoyaschaya-vlyublennaya-parochka": {
+  "author": "Даниэла Кулот"
+ },
+ "merilin-i-ee-chudische": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве, книга подойдёт ему в возрасте 3–7 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "priklyucheniya-yuliusa-oduvanchika-spasti-novyy-god": {
+  "whyRecommended": "Если ребёнок любит приключенческие книги и юмористические книги и сюжеты об искусстве, юморе и приключениях, книга подойдёт ему в возрасте 3–7 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "fantasticheskie-letayuschie-knigi-mistera-morrisa": {
+  "whyRecommended": "Если ребёнок любит научную фантастику и сюжеты об искусстве, книга подойдёт ему в возрасте 3–7 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "za-volnoy-volna": {
+  "whyRecommended": "Для читателей 3–7 лет это поэзия об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "tigromuh-i-tigrokot": {
+  "ageLabel": "2–4 года"
+ },
+ "tut-zveri-i-ptitsy-na-kazhdoy-stranitse": {
+  "ageLabel": "2–4 года"
+ },
+ "babochki": {
+  "whyRecommended": "Если ребёнок любит стихи и сюжеты об отношениях, книга подойдёт ему в возрасте 2–5 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "kolya-v-tretyakovskoy-galeree": {
+  "whyRecommended": "Для читателей 4–10 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "matematika-na-kolesikah-ponyatiya-i-sravneniya": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 2–5 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "matematika-na-kolesikah-figury": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 2–5 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "matematika-na-kolesikah-tsifry": {
+  "whyRecommended": "Для читателей 2–5 лет это реалистическая проза об отношениях. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "shmyak-uchitsya-plavat": {
+  "author": "Роб Скоттон"
+ },
+ "chik-i-briki-chudesnyy-sharik": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-super-puper-samokat": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-novyy-drug": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-strashnoe-chudovische": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-snegovik": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-luzhitsa": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-lyubimyy-lyagushastik": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "kotenok-shmyak-pechet-tort": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-rok-zvezda": {
+  "author": "Роб Скоттон"
+ },
+ "sinyaya-kniga-skazok": {
+  "author": "Михаил Носов"
+ },
+ "s-novym-godom-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "shmyak-i-pingviny": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-dozhdik-dozhdik-perestan": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-v-parke-attraktsionov": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-malenkiy-skaut": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-syrnik-druzya-navek": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-kak-poradovat-papu": {
+  "author": "Роб Скоттон"
+ },
+ "spokoynoy-nochi-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "taynyy-agent-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-utenok-kotoryy-ne-kryakal": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-morskie-istorii": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-davay-igrat": {
+  "author": "Роб Скоттон"
+ },
+ "shmyak-slasti-ili-napasti": {
+  "author": "Роб Скоттон"
+ },
+ "shmyak-govorit-spasibo": {
+  "author": "Роб Скоттон"
+ },
+ "s-lyubovyu-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-myshki-bratishki": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-shustrye-tsyplyata": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-paday-snezhok": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-na-fabrike-morozhenogo": {
+  "author": "Роб Скоттон"
+ },
+ "pro-babaku-kostochkinu-3": {
+  "author": "Анна Никольская"
+ },
+ "pizhamnye-istorii-pro-mashiny-i-mashinki": {
+  "ageLabel": "2–3 года"
+ },
+ "pryatki-na-ferme": {
+  "ageLabel": "2–3 года"
+ },
+ "kotenok-shmyak-shmyak-i-letnie-kanikuly": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-dobryh-snov-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "chik-i-briki-naryazhayut-elku": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "novogodnyaya-azbuka": {
+  "author": "Ольга Узорова"
+ },
+ "volshebnaya-kniga-dinozavrov-puteshestvie-v-yurskiy-period": {
+  "author": "Анастасия Галкина; Екатерина Ладатко"
+ },
+ "pizhamnye-istorii-zasypay-malysh": {
+  "ageLabel": "2–3 года"
+ },
+ "17-istoriy-i-skazok-dlya-pervogo-chteniya-bolshie-i-malenkie-mashinki": {
+  "author": "Лида Данилова"
+ },
+ "detskiy-etiket-v-skazkah-volshebnye-slova": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-chur-medvedya-ne-budit": {
+  "author": "Стив Смолмен"
+ },
+ "skazki-pro-emotsii-pochemu-mne-strashno": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "chik-i-briki-knizhki-kartonki-lyubimyy-lyagushastik": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-knizhki-kartonki-chudesnyy-sharik": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "neobyknovennye-priklyucheniya-peti-v-afrike": {
+  "author": "Борис Войцеховский"
+ },
+ "neobyknovennye-priklyucheniya-peti-v-kosmose": {
+  "author": "Борис Войцеховский"
+ },
+ "kotenok-shmyak-idet-k-doktoru": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-lyubvi-hvatit-na-dvoih": {
+  "author": "Джейн Чапмен"
+ },
+ "chik-i-briki-knizhki-kartonki-luzhitsa": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "v-gostyah-u-dinozavrov-razgadka-ischeznoveniya-dinozavrov-rassledovanie": {
+  "author": "Анастасия Галкина; Екатерина Ладатко"
+ },
+ "kotenok-shmyak-mamin-pomoschnik": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-temnoy-temnoy-nochyu": {
+  "author": "М. Кристина Батлер"
+ },
+ "kotenok-shmyak-malenkiy-pochtalon": {
+  "author": "Роб Скоттон"
+ },
+ "moi-pervye-skazki-fantazernye-skazki": {
+  "author": "Алексей Лисаченко"
+ },
+ "kotenok-shmyak-malenkiy-biznesmen": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-shmyak-i-bolshoy-sekret": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-shkolnyy-spektakl": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-prezident": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-bibliotechnaya-knizhka": {
+  "author": "Роб Скоттон"
+ },
+ "detskiy-etiket-v-skazkah-dobrye-dela": {
+  "author": "Елена Ульева"
+ },
+ "sonnye-skazki-spi-moya-radost": {
+  "author": "Елена Ульева"
+ },
+ "spi-drakosha-bayu-bay": {
+  "author": "Бьянка Шульц"
+ },
+ "chik-i-briki-knizhki-kartonki-strashnoe-chudovische": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-knizhki-kartonki-super-puper-samokat": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-knizhki-kartonki-novyy-drug": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "knizhki-kartinki-ya-lyublyu-tebya-vsem-serdtsem": {
+  "author": "Джейн Чапмен"
+ },
+ "hochu-byt-kak-ty": {
+  "author": "Джейн Чапмен"
+ },
+ "a-novyy-god-skoro": {
+  "author": "Джейн Чапмен"
+ },
+ "31-novogodnyaya-istoriya": {
+  "author": "Лида Данилова"
+ },
+ "kroshka-vendi-i-dom-na-dereve": {
+  "author": "Стив Ричардсон"
+ },
+ "samyy-snezhnyy-novyy-god": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-ya-lyublyu-tebya-vsem-serdtsem": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-lyubvi-hvatit-na-dvoih": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak-idet-k-doktoru": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-kto-ukral-novyy-god": {
+  "author": "М. Кристина Батлер"
+ },
+ "knizhki-kartinki-ezhik-i-snezhnaya-zima": {
+  "author": "Елена Ульева"
+ },
+ "kotenok-shmyak-i-lunnyy-kot": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-zabotlivyy-brat": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-noch-pered-rozhdestvom": {
+  "ageLabel": "2–4 года",
+  "author": "Стив Ричардсон; Клемент К. Мур"
+ },
+ "zolotaya-bibliotechka-malysha-zaychik-ischet-dom": {
+  "ageLabel": "2–3 года"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-temnoy-temnoy-nochyu": {
+  "author": "М. Кристина Батлер"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-ne-obnimayte-menya": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kroshka-vendi-i-dom-na-dereve": {
+  "author": "Стив Ричардсон"
+ },
+ "chik-i-briki-puglivaya-ulitka": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "frosya-korovina": {
+  "author": "Станислав Востоков"
+ },
+ "veselye-stihi-politseyskaya-mashinka": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "kniga-perevertysh-horoshiy-den-plohoy-den": {
+  "author": "Анастасия Галкина"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-govorit-spasibo": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-s-lyubovyu-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-taynyy-agent-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-spi-drakosha-bayu-bay": {
+  "author": "Бьянка Шульц"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-vse-lyubyat-drakoshu": {
+  "author": "Бьянка Шульц"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-ne-boysya-drakosha": {
+  "author": "Бьянка Шульц"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-chur-medvedya-ne-budit": {
+  "author": "Стив Смолмен"
+ },
+ "stihi-dlya-malyshey-kto-zhivet-zdes": {
+  "ageLabel": "2–3 года",
+  "author": "Юлия Симбирская"
+ },
+ "stihi-dlya-malyshey-kto-moya-mama": {
+  "ageLabel": "2–3 года",
+  "author": "Юлия Симбирская"
+ },
+ "stihi-dlya-malyshey-chey-malysh": {
+  "ageLabel": "2–3 года",
+  "author": "Юлия Симбирская"
+ },
+ "veselye-stihi-pozharnaya-mashinka": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "chik-i-briki-den-rozhdeniya": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "edinorog-v-kostyume-dinozavra-skazka-o-tom-kak-vazhno-byt-soboy": {
+  "author": "Мария Баулина"
+ },
+ "zvezdnye-skazki-izuchaem-kosmos": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-i-rybki": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-i-pingviny": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-uchitsya-plavat": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-slasti-ili-napasti": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-syrnik-bolshaya-kniga-istoriy-o-druzhbe-5-knig-v-odnoy": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-syrnik-bolshaya-kniga-priklyucheniy-5-knig-v-odnoy": {
+  "author": "Роб Скоттон"
+ },
+ "sonnye-skazki": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "ya-lyublyu-tebya-malysh-tri-istorii": {
+  "author": "Джейн Чапмен; Клэр Фридман"
+ },
+ "knizhki-kartinki-lapy-proch-ot-meda": {
+  "author": "Джейн Чапмен"
+ },
+ "clever-chtenie-podarok-deda-moroza": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-samyy-chudesnyy-podarok-na-svete": {
+  "author": "Марк Сперринг"
+ },
+ "veselye-stihi-skoraya-pomosch": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-hochu-byt-tigrom": {
+  "author": "Елена Фельдман"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-samyy-snezhnyy-novyy-god": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-hochu-byt-kak-ty": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-a-novyy-god-skoro": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-dobryh-snov-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-i-novyy-malysh": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak-luchshiy-podarok-dlya": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak-shkolnyy-spektakl": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-shmyak-i-letnie-kanikuly": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak-i-bibliotechnaya": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak-prezident": {
+  "author": "Роб Скоттон"
+ },
+ "kurochka-ryaba-skazka-panoramka": {
+  "author": "Константин Ушинский"
+ },
+ "kanikuly-u-dinozavrov-dinozavry-v-akvaparke": {
+  "author": "Доминик Хохвальд"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotenok-shmyak-i-bolshaya-tykva": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-s-novym-godom-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "drakosha-skazhi-pravdu-drakosha": {
+  "author": "Бьянка Шульц"
+ },
+ "kotenok-shmyak-prazdnichnye-istorii": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-syrnik-bolshaya-kniga-veselyh-istoriy": {
+  "author": "Роб Скоттон"
+ },
+ "bolshaya-skazochnaya-seriya-lyubimye-skazki-pro-zhivotnyh": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-vokrug-sveta-v-novyy-god": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-kroshka-vendi-i-dom-na-dereve-podarochnoe-izdanie": {
+  "author": "Стив Ричардсон"
+ },
+ "knizhki-kartinki-zima-prishla-malysh-tri-istorii": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-s-novym-godom-malysh-tri-istorii": {
+  "author": "Джейн Чапмен"
+ },
+ "clever-chtenie-lavanda-blu-priklyucheniya-v-volshebnom-lesu": {
+  "author": "Стив Ричардсон"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-poleznyh-skazok": {
+  "author": "Елена Ульева"
+ },
+ "dobryh-snov-shmyak-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-shkolnyy-spektakl-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-i-zagadochnoe-zernyshko-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-mamin-pomoschnik-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "skazka-na-noch-schastlivyy-dom": {
+  "author": "Елена Фельдман"
+ },
+ "skazka-na-noch-chto-delayut-mama-i-papa-kogda-ya-splyu": {
+  "author": "Борис Войцеховский"
+ },
+ "kniga-perevertysh-mama-menya-lyubit-papa-menya-lyubit": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "bolshaya-kniga-kosmicheskih-skazok-30-i-1-istoriya-dlya-chteniya-na": {
+  "author": "Алексей Лисаченко"
+ },
+ "kniga-perevertysh-babushka-menya-lyubit-dedushka-menya-lyubit": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "kanikuly-u-dinozavrov-dinozavry-v-letnoy-shkole": {
+  "author": "Доминик Хохвальд"
+ },
+ "skazka-na-noch-horoshiy-den": {
+  "ageLabel": "2–4 года",
+  "author": "Анастасия Галкина",
+  "whyRecommended": "Если ребёнок любит сказки и сюжеты об искусстве, книга подойдёт ему в возрасте 2–4 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "skazka-na-noch-kolybelnaya-ovechki": {
+  "ageLabel": "2–4 года",
+  "author": "Борис Войцеховский"
+ },
+ "skazka-na-noch-spi-drakosha-bayu-bay": {
+  "ageLabel": "2–4 года",
+  "author": "Бьянка Шульц"
+ },
+ "sunduchok-semeynyh-skazok-bratik-menya-lyubit": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "pomogayuschie-skazki-maminy-pomoschniki": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-zodiakalnye-skazki-mify-i-legendy": {
+  "author": "Елена Ульева"
+ },
+ "sunduchok-semeynyh-skazok-sestrenka-menya-lyubit": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "lyubimye-skazki-kurochka-ryaba-skazka-igra": {
+  "author": "Константин Ушинский"
+ },
+ "lyubimye-skazki-repka-skazka-igra": {
+  "author": "Константин Ушинский",
+  "whyRecommended": "Если ребёнок любит сказки и сюжеты об искусстве, книга подойдёт ему в возрасте 3–5 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "lyuboznatelnyy-malysh-chto-byvaet-vesnoy": {
+  "author": "Елена Ульева"
+ },
+ "lyuboznatelnyy-malysh-lesnye-malyshi": {
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-kak-shurochka-i-murochka-vyhuhol-iskali": {
+  "author": "Марина Дороченкова"
+ },
+ "sunduchok-semeynyh-skazok-masterskaya-dedushki-uchim-tsveta-i-schitaem": {
+  "ageLabel": "2–4 года"
+ },
+ "sunduchok-semeynyh-skazok-u-babushki-v-sadu-uchim-tsveta-i-schitaem-do-5": {
+  "ageLabel": "2–4 года"
+ },
+ "sunduchok-semeynyh-skazok-u-babushki-na-kuhne-uchim-protivopolozhnosti": {
+  "ageLabel": "2–4 года"
+ },
+ "knizhki-kartinki-ezhik-igor-nedovolen": {
+  "author": "Андреа Райтмейер"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-skazhi-pravdu-drakosha": {
+  "author": "Бьянка Шульц"
+ },
+ "bolshaya-skazochnaya-seriya-semeynye-skazki-razvivaem-emotsionalnyy": {
+  "author": "Елена Ульева"
+ },
+ "pomogayuschie-skazki-uchus-druzhit-skazki": {
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-mama-ya-lyublyu-tebya": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-skazki-pro-dobrye-dela": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-sunduchok-semeynyh-skazok-ya-lyublyu-tebya-zaychonok": {
+  "author": "Ксения Валаханович"
+ },
+ "lyuboznatelnyy-malysh-zveryata-v-lesu": {
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-priklyucheniya-v-gusinyh-lapkah": {
+  "author": "Андрей Снесарь"
+ },
+ "chik-i-briki-knizhki-kartonki-snegovik": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "chik-i-briki-knizhki-kartonki-chik-i-briki-naryazhayut-elku": {
+  "ageLabel": "2–3 года",
+  "author": "Аксель Шеффлер"
+ },
+ "igraem-uchimsya-razvivaemsya-kiki-pora-na-gorshok": {
+  "ageLabel": "2–3 года"
+ },
+ "igraem-uchimsya-razvivaemsya-kiki-otday-sosku": {
+  "ageLabel": "2–3 года"
+ },
+ "knizhki-kartinki-ya-ne-vorchunya": {
+  "author": "Стив Смолмен"
+ },
+ "pomogayuschie-skazki-u-menya-vse-poluchitsya": {
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-sekret-v-chemodane": {
+  "author": "Юлия Весова"
+ },
+ "knizhki-kartinki-modnyy-ded-moroz": {
+  "author": "Евгения Русинова"
+ },
+ "knizhki-kartinki-tvoya-lyubov-vsegda-so-mnoy": {
+  "author": "Елена Фельдман"
+ },
+ "bolshaya-skazochnaya-seriya-novogodnyaya-kniga-skazok": {
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-poverit-v-chudo-ili-kak-spasti-deda-moroza": {
+  "author": "Анастасия Лютикова"
+ },
+ "kolya-i-masiandr-stroyat-lift": {
+  "author": "Нелли Мартова"
+ },
+ "knizhki-kartinki-malyshka-pyshka-i-testotryasenie": {
+  "author": "Евгения Русинова"
+ },
+ "clever-chtenie-odnazhdy-v-lesu-sbornik-stihotvoreniy": {
+  "author": "Ксения Валаханович"
+ },
+ "kolya-i-masiandr-pervyy-sneg": {
+  "author": "Нелли Мартова"
+ },
+ "lyuboznatelnyy-malysh-chto-byvaet-osenyu": {
+  "author": "Елена Ульева"
+ },
+ "lyuboznatelnyy-malysh-priklyucheniya-bukashek": {
+  "author": "Елена Ульева"
+ },
+ "lyuboznatelnyy-malysh-chto-byvaet-zimoy": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-ischet-druga": {
+  "author": "Юлия Весова"
+ },
+ "knizhki-kartinki-samyy-smelyy-hameleon": {
+  "author": "Андреа Райтмейер",
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об искусстве и страхе, книга подойдёт ему в возрасте 3–5 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "moya-mama-samaya-luchshaya": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-skazki-pro-detskiy-sad-spravlyaemsya-s": {
+  "author": "Елена Ульева"
+ },
+ "skazka-na-noch-spokoynoy-nochi-ferma": {
+  "author": "Наталия Мендес"
+ },
+ "semeynye-skazki-papa-ya-lyublyu-tebya": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-samyy-luchshiy-drug": {
+  "author": "Мелани Браумэрт"
+ },
+ "kniga-perevertysh-bratik-menya-lyubit-sestrenka-menya-lyubit": {
+  "author": "Елена Ульева"
+ },
+ "kotenok-shmyak-kotenok-shmyak-mechtatelnye-istorii": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-kotenok-shmyak-klassnye-istorii": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-kotenok-shmyak-uyutnye-istorii": {
+  "author": "Роб Скоттон"
+ },
+ "cemeynye-skazki-maminy-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-kuda-ischezla-rechka": {
+  "author": "Андреа Райтмейер"
+ },
+ "knizhki-kartinki-sladkih-snov-malyshka-myshka": {
+  "author": "Софи Шёнвальд"
+ },
+ "cemeynye-skazki-papiny-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-idet-v-shkolu": {
+  "author": "Юлия Весова"
+ },
+ "skazka-na-noch-spokoynoy-nochi-ekskavator": {
+  "author": "Наталия Мендес"
+ },
+ "kotenok-shmyak-istorii-priklyucheniy": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-kotenok-shmyak-i-sestrenka-plyusha": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-slonenok-idet-v-detskiy-sad": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Симбирская"
+ },
+ "knizhki-kartinki-maks-i-lunnyy-bob": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-kotenok-shmyak-na-fabrike-morozhenogo": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-spokoynoy-nochi-shmyak": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-kotenok-shmyak-poy-ne-boysya": {
+  "author": "Роб Скоттон"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-edet-na-remont": {
+  "author": "Юлия Весова"
+ },
+ "kotenok-shmyak-myagkaya-oblozhka-kotenok-shmyak-pechet-tort": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-myagkaya-oblozhka-paday-snezhok": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-myagkaya-oblozhka-kotenok-shmyak-na-fabrike-morozhenogo": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-chto-delayut-mama-i-papa-kogda-ya": {
+  "author": "Борис Войцеховский"
+ },
+ "shokoladus-sekret-volshebnogo-kakao": {
+  "author": "Майя Фогель"
+ },
+ "kotenok-shmyak-myagkaya-oblozhka-prazdnichnye-istorii": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-myagkaya-oblozhka-kotenok-shmyak-i-sestrenka-plyusha": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-myagkaya-oblozhka-istorii-priklyucheniy": {
+  "author": "Роб Скоттон"
+ },
+ "kotenok-shmyak-idet-k-doktoru-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-ya-lyublyu-tebya-malysh-tri-istorii": {
+  "author": "Джейн Чапмен; Клэр Фридман"
+ },
+ "shmyak-slasti-ili-napasti-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "kniga-stihov-dlya-malyshey-polnaya-tachka-chudakov-i-chudachek": {
+  "author": "Юлия Весова"
+ },
+ "drakosha-novyy-drug-drakoshi": {
+  "author": "Бьянка Шульц"
+ },
+ "kotenok-shmyak-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-pro-zhivotnyh": {
+  "author": "Елена Ульева"
+ },
+ "shmyak-govorit-spasibo-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "s-lyubovyu-shmyak-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-kotenok-shmyak-i-bolshaya-tykva": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-davay-delitsya-drakosha": {
+  "author": "Бьянка Шульц"
+ },
+ "drakosha-davay-delitsya-drakosha": {
+  "author": "Бьянка Шульц"
+ },
+ "knizhki-kartinki-buka-i-schenok-perepoloh-v-sobachey-shkole": {
+  "ageLabel": "6 лет"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-kotastrofa": {
+  "author": "Бьянка Шульц"
+ },
+ "clever-komiks-drakony-nalsary-drakoniy-ostrov": {
+  "author": "Мари-Элен Дельваль; Пьер Эртель"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-samaya-sonnaya-knizhka": {
+  "author": "Елена Фельдман"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-malyshka-pyshka-i-testotryasenie": {
+  "author": "Евгения Русинова"
+ },
+ "clever-chtenie-priklyucheniya-shurochki-i-murochki-myagkaya-oblozhka": {
+  "author": "Марина Дороченкова; Анна Кравчук"
+ },
+ "clever-chtenie-kak-shurochka-i-murochka-iskali-vyhuhol-myagkaya-oblozhka": {
+  "author": "Марина Дороченкова; Анна Кравчук"
+ },
+ "knizhki-kartinki-s-nakleykami-shmyak-i-letnie-kanikuly-knizhka-s": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-shmyak-uchitsya-plavat-knizhka-s": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-shmyak-i-pingviny-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-kotenok-shmyak-i-bibliotechnaya-knizhka": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-shmyak-i-rybki-knizhka-s-nakleykami": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-kotenok-shmyak-prezident-knizhka-s": {
+  "ageLabel": "2–4 года",
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-s-nakleykami-s-novym-godom-shmyak-knizhka-s-nakleykami": {
+  "author": "Роб Скоттон"
+ },
+ "lyubimye-skazki-glavnye-skazki-malysha": {
+  "author": "Константин Ушинский"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-zima-prishla-malysh-tri-istorii": {
+  "author": "Джейн Чапмен"
+ },
+ "clever-chtenie-poverit-v-chudo-ili-kak-spasti-novyy-god": {
+  "author": "Анастасия Лютикова"
+ },
+ "clever-chtenie-novyy-god-v-kedrovom-lesu-advent-kalendar-v-skazkah": {
+  "author": "Анастасия Хачатурова"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-s-novym-godom-malysh-tri-istorii": {
+  "author": "Джейн Чапмен"
+ },
+ "priklyucheniya-ezhulki-kak-ezhulka-i-ego-druzya-poverili-v-novogodnee": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-kak-ezhulka-i-ego-druzya-chut-novyy-god-ne": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-chto-stryaslos-pod-novyy-god": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-kak-ezhulka-i-ego-druzya-spasli-novyy-god": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-kak-ezhulka-i-ego-druzya-pomogli-dedu-morozu": {
+  "author": "М. Кристина Батлер"
+ },
+ "knizhki-kartinki-bratets-lis-i-volshebnyy-talisman": {
+  "author": "Тибо Прюнь"
+ },
+ "malenkiy-gruzovichok-gruzovichok-spasaet-novyy-god": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-volshebnoe-pismo-dedu-morozu": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-v-strane-snezhnyh-chudes": {
+  "author": "Клэр Фридман"
+ },
+ "knizhki-kartinki-sonnye-skazki-na-novyy-god": {
+  "author": "Елена Фельдман"
+ },
+ "knizhki-kartinki-schelkunchik": {
+  "author": "Нелли Суслова"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-kak-ezhulka-i-ego-druzya-2": {
+  "author": "М. Кристина Батлер"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-schelkunchik": {
+  "author": "Нелли Суслова"
+ },
+ "skazka-na-noch-spokoynoy-nochi-pozharnaya-mashinka": {
+  "author": "Наталия Мендес"
+ },
+ "skazka-na-noch-spokoynoy-nochi-politseyskaya-mashinka": {
+  "author": "Наталия Мендес"
+ },
+ "skazka-na-noch-spokoynoy-nochi-zoopark": {
+  "author": "Наталия Мендес"
+ },
+ "skazka-na-noch-spokoynoy-nochi-pesik": {
+  "author": "Наталия Мендес"
+ },
+ "skazka-na-noch-spokoynoy-nochi-lesnye-zveryata": {
+  "author": "Наталия Мендес"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-voshititelnyy-mister-kus-kus": {
+  "author": "Елена Фельдман"
+ },
+ "drakosha-zolotaya-kniga-skazok": {
+  "author": "Бьянка Шульц"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-kak-ezhulka-i-ego-druzya-chut": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-chto-stryaslos-pod-novyy-god": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-kak-ezhulka-i-ego-druzya": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-kak-ezhulka-i-ego-druzya-3": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-samyy-prekryasnyy-den": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-myagkaya-oblozhka-samaya-zvezdnaya-noch": {
+  "author": "М. Кристина Батлер"
+ },
+ "bolshaya-skazochnaya-seriya-novyy-god-skazki-i-legendy-narodov-mira": {
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-dinozavry-detektivy-delo-kopchenoy-skumbrii": {
+  "author": "Алексей Лисаченко"
+ },
+ "pervoe-chtenie-vmeste-veselee-31-istoriya": {
+  "author": "Лида Данилова"
+ },
+ "priklyucheniya-dinozavrika-dina-dinozavrik-din-ne-hochet-delitsya": {
+  "ageLabel": "2–4 года",
+  "author": "Тьерри Бедуэ"
+ },
+ "skazkoterapiya-bolshaya-kniga-sonnyh-skazok": {
+  "author": "Елена Ульева"
+ },
+ "sunduchok-semeynyh-skazok-semeynye-skazki": {
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-dinozavrika-dina-dinozavrik-din-nichego-ne-boitsya": {
+  "ageLabel": "2–4 года",
+  "author": "Тьерри Бедуэ"
+ },
+ "divnomorskie-syschiki-delo-o-plyazhnom-vore": {
+  "author": "Марина Беляева"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-novogodnih-skazok-so-vsego": {
+  "author": "Елена Ульева"
+ },
+ "myaukis-myaukis-priklyucheniya-vedminogo-kota": {
+  "author": "Альба Де Эван; Ксабье Домингес"
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-maks-i-lunnyy-bob": {
+  "author": "Роб Скоттон"
+ },
+ "knizhki-kartinki-ezhik-sladkih-snov": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-gruzovichok-gruzovichok-speshit-na-pomosch": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-gruzovichok-gruzovichok-spokoynoy-nochi": {
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-ezhulki-samaya-zvezdnaya-noch": {
+  "author": "М. Кристина Батлер"
+ },
+ "priklyucheniya-ezhulki-samyy-prekryasnyy-den": {
+  "author": "М. Кристина Батлер"
+ },
+ "strashno-interesnye-priklyucheniya-po-sledam-privideniya": {
+  "author": "Анастасия Колтовскова"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-appetitnyh-skazok": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-schastlivaya-zvezda": {
+  "author": "М. Кристина Батлер"
+ },
+ "knizhki-kartinki-bratets-lis-i-bolshoy-perepoloh": {
+  "author": "Тибо Прюнь"
+ },
+ "knizhki-kartinki-bratets-lis-i-novyy-drug": {
+  "author": "Тибо Прюнь"
+ },
+ "knizhki-kartinki-sekret-hrabrogo-medvezhonka": {
+  "author": "Сюзанна Чью"
+ },
+ "istoriya-pobedy-a-zori-zdes-tihie-zavtra-byla-voyna-luchshie-knigi-k-80": {
+  "author": "Борис Васильев"
+ },
+ "pervoe-chtenie-vernye-druzya-31-istoriya": {
+  "author": "Лида Данилова"
+ },
+ "clever-komiks-magiya-vesny-ula-i-vinka": {
+  "author": "Мария Бренн"
+ },
+ "priklyucheniya-tosi-bosi-tosya-bosya-i-pohititel-sil": {
+  "author": "Юлия Весова"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-ne-hochet-spat": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "malenkiy-gruzovichok-gruzovichok-na-stroyke": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-chudische-kapitan-i-rozovyy-kit": {
+  "author": "Борис Войцеховский"
+ },
+ "knizhki-kartinki-pochemu-serdit-manul": {
+  "author": "Елена Фельдман"
+ },
+ "detskiy-etiket-v-skazkah-pro-horoshie-manery": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "shokoladus-sekret-yaguara": {
+  "author": "Майя Фогель"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-pro-druzhbu": {
+  "author": "Елена Ульева"
+ },
+ "detskiy-etiket-v-skazkah-pro-volshebnye-slova": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-gruzovichok-gruzovichok-v-derevne": {
+  "author": "Елена Ульева"
+ },
+ "skazki-dlya-detey-dobrye-skazki": {
+  "author": "Александра Гали"
+ },
+ "pushistye-istorii-kotenok-plyusha-ischet-semyu": {
+  "author": "Елена Ульева"
+ },
+ "pushistye-istorii-kotenok-pushinka-ischet-dom": {
+  "author": "Елена Ульева"
+ },
+ "detskiy-detektiv-kot-murr-i-tayna-propavshego-velosipeda": {
+  "author": "Михаэль Энглер"
+ },
+ "supergeroi-komiks-supergeroi-priklyucheniya-nachinayutsya": {
+  "author": "Софи Лодвиц; Эв Пислер; Люси Дурбиано"
+ },
+ "sonnye-skazki-dlya-malyshey-zasypatelnye-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-dinozavrika-dina-dinozavrik-din-ne-hochet-spat": {
+  "ageLabel": "2–4 года",
+  "author": "Тьерри Бедуэ"
+ },
+ "knizhki-kartinki-pora-na-gorshok": {
+  "ageLabel": "2–3 года"
+ },
+ "semeynye-skazki-babushkiny-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "kak-ustroen-mir-mashiny": {
+  "ageLabel": "2–4 года",
+  "author": "Стефани Леду"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-pro-strahi": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-zabludilsya-v-gorode": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "kak-ustroen-mir-kosmos": {
+  "ageLabel": "2–4 года",
+  "author": "Стефани Леду"
+ },
+ "kak-ustroen-mir-ferma": {
+  "ageLabel": "2–4 года",
+  "author": "Стефани Леду"
+ },
+ "kak-ustroen-mir-dinozavry": {
+  "ageLabel": "2–4 года",
+  "author": "Стефани Леду"
+ },
+ "morskie-priklyucheniya-penelopy-kvills-penelopa-kvills-propavshaya": {
+  "author": "Виктория Альварез"
+ },
+ "pushistye-istorii-schenok-bublik-poteryalsya": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-moy-lyubimyy-medvezhonok": {
+  "ageLabel": "2–4 года"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-boitsya-temnoty": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "nemyslimye-istorii-kapitana-bumsa-kapitan-bums-i-zolotaya-rybka": {
+  "author": "Андреа Визибелли"
+ },
+ "pushistye-istorii-schenok-ogonek-day-lapu": {
+  "author": "Елена Ульева"
+ },
+ "sonnye-skazki-pro-mashinki-bayu-bay-traktor": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-tosi-bosi-tosya-bosya-i-nesmetnye-sokrovischa": {
+  "author": "Юлия Весова"
+ },
+ "clever-chtenie-dinozavry-detektivy-v-poiskah-zateryannogo-goroda": {
+  "author": "Алексей Лисаченко"
+ },
+ "knizhki-kartinki-detskiy-sad-dlya-zveryat": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "priklyucheniya-hameleona-ignata-hameleon-ignat-i-neveroyatnaya-grusha": {
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-pochitay-so-mnoy-malysh": {
+  "ageLabel": "2–4 года"
+ },
+ "clever-chtenie-zimnie-chudesa-v-kedrovom-lesu": {
+  "author": "Анастасия Хачатурова"
+ },
+ "lyubimye-skazki-bolshaya-kniga-skazok": {
+  "author": "Коллектив авторов; Дженис Эммерсон-Хикс"
+ },
+ "knizhki-kartinki-kto-zevnul-tot-proigral": {
+  "author": "Андреа Шютце"
+ },
+ "pushistye-istorii-schenok-druzhok-ischet-druzey": {
+  "author": "Елена Ульева"
+ },
+ "drakosha-serebryanaya-kniga-skazok": {
+  "author": "Бьянка Шульц"
+ },
+ "malenkiy-gruzovichok-gruzovichok-zlitsya": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-bolshoy-perepoloh-ili-kak-dovesti-babushek-do-belogo": {
+  "author": "Кристина Марси"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-volshebnyh-skazok": {
+  "author": "Елена Ульева"
+ },
+ "skazki-dlya-detey-moy-skazochnyy-novyy-god": {
+  "author": "Евгения Русинова"
+ },
+ "pushistye-istorii-kotenok-snezhinka-i-novogodnee-chudo": {
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-v-ledyanoy-akademii-tayna-volshebnogo-posoha": {
+  "author": "Ольга Кириллова"
+ },
+ "knizhki-kartinki-samyy-luchshiy-drug-norbert": {
+  "ageLabel": "2–4 года",
+  "author": "Норберт Ланда"
+ },
+ "semeynye-skazki-knizhki-kartinki-samaya-luchshaya-mama-na-svete": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-samyy-luchshiy-papa-na-svete": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "kollektsiya-pushistyh-istoriy-gav-tri-istorii-pro-schenyat": {
+  "author": "Елена Ульева"
+ },
+ "kollektsiya-pushistyh-istoriy-myau-tri-istorii-pro-kotyat": {
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-milla-i-mini-mamontenok-nahodka-na-klubnichnoy-gryadke": {
+  "author": "Александра Фабиш"
+ },
+ "semeynye-skazki-knizhki-kartonki-podarok-dlya-kotenka": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-knizhki-kartonki-malysh-musorovoz-vstrechaet-novyy": {
+  "ageLabel": "3 года",
+  "author": "Юлия Весова"
+ },
+ "sekret-pryanichnoy-fei-kak-spasti-rozhdestvo": {
+  "author": "Тереза Хохмут"
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-krasnaya-shapochka": {
+  "ageLabel": "2–4 года"
+ },
+ "knizhki-kartonki-zima-v-lesu": {
+  "ageLabel": "2–3 года"
+ },
+ "malenkiy-gruzovichok-knizhki-kartonki-gruzovichok-spasaet-novyy-god": {
+  "ageLabel": "3 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartonki-kak-medvezhonok-poteryalsya": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-spasaet-gorod-ot-snega": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "drakosha-s-novym-godom-drakosha": {
+  "author": "Бьянка Шульц"
+ },
+ "stihi-dlya-malyshey-novyy-god-v-lyubimoy-skazke-sbornik-stihov": {
+  "author": "Мария Маслина"
+ },
+ "derevenskie-priklyucheniya-zima-v-gusinyh-lapkah": {
+  "author": "Андрей Снесарь"
+ },
+ "stihi-dlya-malyshey-lyagushki-na-makushke": {
+  "author": "Юлия Весова"
+ },
+ "malenkiy-musorovoz-sborniki-skazok-malysh-musorovoz-veselye": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "malenkiy-musorovoz-sborniki-skazok-malysh-musorovoz-sonnye-istorii": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "knizhki-kartinki-samaya-luchshaya-elochka": {
+  "author": "Джейн Чапмен"
+ },
+ "semeynye-skazki-moy-papa-samyy-luchshiy-podarochnoe": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "skazki-volshebnogo-lesa-novogodnie-skazki": {
+  "author": "Елена Ульева"
+ },
+ "derevenskie-priklyucheniya-derevnya-gusinye-lapki-tri-istorii-v-odnoy": {
+  "author": "Андрей Снесарь"
+ },
+ "semeynye-skazki-dedushkiny-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-moya-mama-samaya-luchshaya-podarochnoe": {
+  "author": "Елена Ульева"
+ },
+ "drakony-nalsary-kniga-tayn": {
+  "author": "Мари-Элен Дельваль; Пьер Эртель"
+ },
+ "detskie-stihi-polnaya-tachka-chudakov-i-chudachek": {
+  "author": "Юлия Весова"
+ },
+ "skazka-na-noch-spokoynoy-nochi-musorovozik": {
+  "ageLabel": "2–4 года",
+  "author": "Лена Вальде"
+ },
+ "skazka-na-noch-spokoynoy-nochi-pozharnaya-mashinka-karton": {
+  "ageLabel": "2–3 года",
+  "author": "Наталия Мендес"
+ },
+ "malenkiy-musorovoz-knizhki-kartonki-malysh-musorovoz-ischet-druga": {
+  "ageLabel": "2–3 года",
+  "author": "Юлия Весова"
+ },
+ "skazka-na-noch-spokoynoy-nochi-politseyskaya-mashinka-karton": {
+  "ageLabel": "2–3 года",
+  "author": "Наталия Мендес"
+ },
+ "malenkiy-gruzovichok-knizhki-kartonki-gruzovichok-spokoynoy-nochi": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-samyy-luchshiy-dedushka-na-svete": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-samaya-luchshaya-babushka-na-svete": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-mama-vsegda-ryadom": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "skazki-obnimashki-skazki-o-druzhnoy-seme": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-gruzovichok-bolshaya-kniga-priklyucheniy": {
+  "author": "Елена Ульева"
+ },
+ "ya-rastu-vmeste-s-maksom-maks-idet-na-gorshok": {
+  "ageLabel": "2–4 года",
+  "author": "Кристиан Тильман"
+ },
+ "knizhki-kartinki-kto-sel-moe-pechene": {
+  "ageLabel": "2–4 года",
+  "author": "Люси Астнер"
+ },
+ "ya-rastu-vmeste-s-maksom-maks-idet-v-detskiy-sad": {
+  "ageLabel": "2–4 года",
+  "author": "Кристиан Тильман"
+ },
+ "knizhki-kartinki-sladkih-snov-moy-malysh": {
+  "ageLabel": "2–4 года"
+ },
+ "divnomorskie-syschiki-tayna-ischeznuvshey-statuetki": {
+  "author": "Марина Беляева"
+ },
+ "semeynye-skazki-moy-dedushka-samyy-luchshiy": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-moya-babushka-samaya-luchshaya": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "shokoladus-volshebnaya-korona-mayya": {
+  "author": "Майя Фогель"
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-tri-medvedya": {
+  "ageLabel": "2–3 года"
+ },
+ "samostoyatelnyy-malysh-myshonok-misha-idet-na-gorshok": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "stihi-dlya-malyshey-solnyshko-dlya-mamy": {
+  "author": "Наталья Карпова"
+ },
+ "samostoyatelnyy-malysh-myshonok-misha-lozhitsya-spat": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "drakony-nalsary-chernaya-krepost": {
+  "author": "Мари-Элен Дельваль"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-ne-hochet-est": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "malenkiy-gruzovichok-chitaem-s-mamoy-malenkiy-gruzovichok-ne-hochet-spat": {
+  "author": "Елена Ульева"
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-zolushka": {
+  "ageLabel": "2–3 года"
+ },
+ "knizhki-kartonki-malysh-musorovoz-ne-hochet-spat": {
+  "ageLabel": "3 года",
+  "author": "Юлия Весова"
+ },
+ "sonnye-skazki-pro-mashinki-knizhki-kartonki-bayu-bay-ekskavator": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "skazki-dlya-malyshey-knizhki-kartonki-kot-v-sapogah": {
+  "ageLabel": "2–3 года"
+ },
+ "sonnye-skazki-pro-mashinki-knizhki-kartonki-bayu-bay-traktor": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartonki-malysh-musorovoz-edet-na-remont": {
+  "ageLabel": "3 года",
+  "author": "Юлия Весова"
+ },
+ "sonnye-skazki-pro-mashinki-knizhki-kartonki-bayu-bay-pozharnaya-mashinka": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "belaya-vorona-verona-mamina-pomoschnitsa": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-na-noch-pro-mashinki": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "skazki-na-noch-dlya-malyshey-dobryh-snov-malysh": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-malysh-musorovoz-ne-hochet-mytsya": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "knizhki-kartinki-volshebnye-skazki-starogo-filina": {
+  "author": "Аннет Амрайн"
+ },
+ "knizhki-kartinki-vazhnyy-den-malyshki-myshki": {
+  "author": "Софи Шёнвальд"
+ },
+ "knizhki-kartinki-kazhdyy-iz-nas-chudo": {
+  "ageLabel": "2–4 года",
+  "author": "Джейн Чапмен"
+ },
+ "skazki-pro-vremena-goda-bolshaya-kniga-skazok-pro-vremena-goda": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "knizhki-kartinki-krotik-i-sekret-druzhby": {
+  "ageLabel": "2–4 года",
+  "author": "Джейн Чапмен"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-na-noch": {
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-mamino-serdechko": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-uyutnye-skazki-dlya-chteniya-pered-snom": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-tosi-bosi-tosya-bosya-i-tainstvennyy-nikto": {
+  "author": "Юлия Весова"
+ },
+ "delo-o-sosedyah-monstrah": {
+  "author": "Мария Клинг"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-stihov-pro-mashinki": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "penelopa-kvills-ledyanoe-tsarstvo": {
+  "author": "Виктория Альварез"
+ },
+ "knizhki-kartinki-esli-vse-idet-ne-tak": {
+  "author": "Джейн Чапмен"
+ },
+ "knizhki-kartinki-zasypatelnye-skazki-na-kazhdyy-den": {
+  "author": "Елена Фельдман"
+ },
+ "zolotaya-klassika-dlya-detey-zolotoy-klyuchik-ili-priklyucheniya": {
+  "author": "Алексей Толстой"
+ },
+ "priklyucheniya-traktorenka-traktorenok-chinit-koleso": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "skazki-pro-vremena-goda-bolshaya-kniga-skazok-pro-prirodu": {
+  "author": "Елена Ульева"
+ },
+ "shkodus-i-druzya-neobychnyy-pitomets": {
+  "author": "Александр Арлен"
+ },
+ "strashno-interesnye-priklyucheniya-koldunya-po-sosedstvu": {
+  "author": "Анастасия Колтовскова"
+ },
+ "chitaem-vmeste-chitayu-sam-kak-mitya-o-sobake-mechtal": {
+  "author": "Юлия Весова"
+ },
+ "ya-rastu-vmeste-s-maksom-maks-idet-k-vrachu": {
+  "ageLabel": "2–4 года",
+  "author": "Кристиан Тильман"
+ },
+ "divnomorskie-syschiki-dve-istorii-v-odnoy-knige": {
+  "author": "Марина Беляева"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-priklyucheniy-mashinok": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "ya-rastu-vmeste-s-maksom-maks-prazdnuet-den-rozhdeniya": {
+  "ageLabel": "2–4 года",
+  "author": "Кристиан Тильман"
+ },
+ "bolshaya-kniga-pomogayuschih-skazok": {
+  "author": "Елена Ульева"
+ },
+ "skazki-obnimashki-mamina-lyubov-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "skazki-obnimashki-moi-emotsii-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева",
+  "whyRecommended": "Для читателей 3–5 лет это сказка и фэнтези об искусстве, взрослении и волшебстве. Книгу можно выбрать для самостоятельного или совместного чтения."
+ },
+ "shedevry-detskoy-literatury-zolotoy-klyuchik-ili-priklyucheniya-buratino": {
+  "author": "Алексей Толстой"
+ },
+ "skazki-obnimashki-dobrye-dela-skazki-dlya-chteniya-pered-snom": {
+  "author": "Елена Ульева"
+ },
+ "stihi-dlya-malyshey-solnyshko-v-ladoshke": {
+  "author": "Наталья Карпова"
+ },
+ "detektivy-lili-i-zelda-delo-o-propavshem-zaveschanii": {
+  "author": "Александра Фишер-Хунольд"
+ },
+ "skazka-na-noch-zasypatelnye-skazki-pro-zveryat": {
+  "ageLabel": "2–4 года",
+  "author": "Наталия Мендес"
+ },
+ "skazka-na-noch-zasypatelnye-skazki-pro-mashinki": {
+  "ageLabel": "2–4 года",
+  "author": "Наталия Мендес"
+ },
+ "chitaem-vmeste-chitayu-sam-samokat-dinka": {
+  "author": "Анастасия Безлюдная"
+ },
+ "shkodus-i-druzya-kak-stat-kotom": {
+  "author": "Александр Арлен"
+ },
+ "shkodus-i-druzya-polnyy-dom-kotov": {
+  "author": "Александр Арлен"
+ },
+ "pravila-bezopasnosti-doma": {
+  "author": "Елена Ульева"
+ },
+ "samostoyatelnyy-malysh-bayu-bay-malyshi": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-tosi-bosi-tosya-bosya-priklyucheniya-malenkoy-fantazerki": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "strashilki-dlya-podrostkov-devochka-iz-chernogo-mramora": {
+  "author": "Ася Плошкина"
+ },
+ "taktilnye-knizhki-sladkih-snov-ferma": {
+  "ageLabel": "2–3 года",
+  "author": "Юлия Весова"
+ },
+ "taktilnye-knizhki-sladkih-snov-les": {
+  "ageLabel": "2–3 года",
+  "author": "Юлия Весова"
+ },
+ "volshebnaya-shkola-snov-i-mechtaniy-zagadka-sbezhavshih-snov": {
+  "author": "Флориан Беккерхофф"
+ },
+ "zasypatelnye-skazki-maminy-skazki-na-noch": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "clever-chtenie-shurochka-i-murochka-bolshaya-ekspeditsiya": {
+  "author": "Марина Дороченкова"
+ },
+ "semeynye-skazki-knizhki-kartinki-papa-vsegda-ryadom": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "stihi-dlya-malyshey-papa-mama-ya-sbornik-stihotvoreniy": {
+  "author": "Юлия Весова"
+ },
+ "zolotaya-klassika-dlya-detey-snezhnaya-koroleva": {
+  "author": "Ханс Кристиан Андерсен"
+ },
+ "shokoladus-perets-piff-paff": {
+  "author": "Майя Фогель"
+ },
+ "shokoladus-magicheskiy-oreshek": {
+  "author": "Майя Фогель"
+ },
+ "zasypatelnye-skazki-pro-mashinki-bayu-bay-politseyskaya-mashinka": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "shokoladus-esche-nemnogo-priklyucheniy": {
+  "author": "Майя Фогель"
+ },
+ "shedevry-detskoy-literatury-skazki-pushkina": {
+  "author": "Александр Пушкин"
+ },
+ "zasypatelnye-skazki-pro-mashinki-bayu-bay-pozharnaya-mashinka": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева",
+  "whyRecommended": "Если ребёнок любит сказки и сюжеты об искусстве, книга подойдёт ему в возрасте 2–4 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "zasypatelnye-skazki-pro-mashinki-bayu-bay-ekskavator": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-gruzovichok-knizhki-kartinki-gruzovichok-zlitsya": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-gruzovichok-knizhki-kartinki-gruzovichok-i-ego-druzya-7762": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-pro-igrushki": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-myagkaya-oblozhka-bolshaya-kniga-skazok-pro": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-myagkaya-oblozhka-bolshaya-kniga-skazok-pro-2": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-myagkaya-oblozhka-bolshaya-kniga-skazok-na": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "pravila-bezopasnosti-v-skazkah-pravila-bezopasnosti-na-ulitse": {
+  "author": "Елена Ульева"
+ },
+ "pravila-bezopasnosti-v-skazkah-pravila-bezopasnosti-kruglyy-god": {
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-maminyh-skazok": {
+  "author": "Елена Ульева"
+ },
+ "mishka-tishka-i-horoshie-manery": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "bolshaya-skazochnaya-seriya-bolshaya-kniga-skazok-pro-detskiy-sad": {
+  "author": "Елена Ульева"
+ },
+ "semeynye-skazki-knizhki-kartinki-myagkaya-oblozhka-mama-vsegda-ryadom": {
+  "ageLabel": "2–4 года",
+  "author": "Елена Ульева"
+ },
+ "dachnyy-detektiv-tayna-staroy-yabloni": {
+  "author": "Ольга Кириллова"
+ },
+ "shkolnaya-klassika-sto-let-tomu-vpered": {
+  "author": "Кир Булычёв"
+ },
+ "belaya-vorona-verona-neugomonnaya-boltushka": {
+  "ageLabel": "2–4 года",
+  "author": "Юлия Весова"
+ },
+ "biblioteka-priklyucheniy-ostrov-sokrovisch": {
+  "author": "Роберт Льюис Стивенсон"
+ },
+ "pushistye-priklyucheniya-kotenok-plyusha-ischet-semyu": {
+  "author": "Елена Ульева"
+ },
+ "priklyucheniya-kotyat-i-schenyat-kotenok-plyusha-ili-pushistye": {
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-knizhki-kartonki-malysh-musorovoz-zabludilsya-v": {
+  "ageLabel": "3 года",
+  "author": "Юлия Весова"
+ },
+ "zasypatelnye-skazki-pro-mashinki-knizhki-kartonki-bayu-bay": {
+  "ageLabel": "2–3 года",
+  "author": "Елена Ульева"
+ },
+ "malenkiy-musorovoz-knizhki-kartonki-malysh-musorovoz-boitsya-temnoty": {
+  "ageLabel": "3 года",
+  "author": "Юлия Весова"
+ },
+ "malenkiy-musorovoz-knizhki-kartonki-malysh-musorovoz-idet-v-shkolu": {
+  "ageLabel": "3 года",
+  "author": "Юлия Весова"
+ },
+ "strashilki-dlya-podrostkov-yanisyarvi-mrachnaya-tayna-chudo-ozera": {
+  "author": "Ксения Коскина"
+ },
+ "tayna-zelenogo-bmv": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malchik-volk-zov-tayny": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "duh-iz-volshebnoy-fleyty-tom-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "greys-prodelki-ozornoy-printsessy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-prints-illyustratsii-ha-chang-tahtag": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Маленький принц",
+  "editionNote": "иллюстрации Ха Чанг — Tahtag",
+  "editionContributors": "Нора Галь",
+  "author": "Антуан де Сент-Экзюпери"
+ },
+ "sny-bongo": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-s-lisim-hvostom-tom-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "alisa-v-strane-chudes-illyustratsii-ha-chang-tahtag": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Алиса в Стране чудес",
+  "editionNote": "иллюстрации Ха Чанг — Tahtag"
+ },
+ "emil-i-margo-beskonechnoe-chaepitie-kniga-dlya-pervogo-chteniya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "volchonok-po-oshibke": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "letnie-istorii-pro-miru-i-goshu": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "greys-skazochnoe-nedorazumenie": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "duh-iz-volshebnoy-fleyty-tom-1-kanikuly-s-ekayami": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tayna-knyazheskoy-usadby": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "uno-kroshechnoe-priklyuchenie": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "uno-s-nosom-naperegonki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tayna-odnoy-nogi": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zato-sam-rasskazy-dlya-pervogo-chteniya-4-stupen-mnogo-bukv": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zato-sam-rasskazy-dlya-pervogo-chteniya-3-stupen-6-7-bukv": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zato-sam-rasskazy-dlya-pervogo-chteniya-2-stupen-6-bukv": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zato-sam-rasskazy-dlya-pervogo-chteniya-1-stupen-3-4-bukvy": {
+  "ageLabel": "3–4 года",
+  "pages": null,
+  "lengthCategory": null
+ },
+ "emil-i-margo-kamennyy-monstr-kniga-dlya-pervogo-chteniya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tayna-kovarnoy-rusalki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-medved": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zolotaya-pechatnaya-mashinka": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ohotniki-na-prizrakov-tom-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zimnie-istorii-pro-miru-i-goshu": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "greys-korolevstvo-vverh-kopytami": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "strashnye-istorii": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zamok-kolduna-kniga-kvest": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "les-vverh-tormashkami": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "gde-rabotaet-yaga": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ohotniki-na-prizrakov-tom-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "mrachnyy-vzvod-byl-ili-nebyl": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hton-v-palto-zhit-dalshe": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "burya-i-chudnoy-otryad": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tochka-zreniya-vseveduschego-chitatelya-tom-4": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tochka-zreniya-vseveduschego-chitatelya-tom-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "interstellar": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zlodeyskiy-put-tom-7": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "novyy-god-v-russkoy-istorii": {
+  "pages": null,
+  "lengthCategory": null,
+  "author": "Екатерина Мокрушева"
+ },
+ "akademiya-matematiki-bitva-hakerov-tom-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "svetomore-tom-2-razrushitel-solntsa": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "akademiya-matematiki-delo-hakerskogo-kluba-tom-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "svetomore-tom-3-temnye-vremena": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-s-lisim-hvostom-tom-6": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "pomoschnik-bibliotekarya-113": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "anya-iz-zelenyh-mezoninov": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-globus": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "lavka-straha": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "emil-i-margo-strashno-vazhnaya-tseremoniya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "deniskiny-rasskazy-vneklassnoe-chtenie": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Денискины рассказы",
+  "editionNote": "Внеклассное чтение"
+ },
+ "beleet-parus-odinokiy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "missiya-dikogo-robota": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "kashtanka-i-drugie-rasskazy-vneklassnoe-chtenie": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Каштанка и другие рассказы",
+  "editionNote": "Внеклассное чтение"
+ },
+ "volshebnaya-biblioteka-brokkoli": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "volshebnik-izumrudnogo-goroda-vneklassnoe-chtenie": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Волшебник Изумрудного города",
+  "editionNote": "Внеклассное чтение",
+  "author": "Александр Волков"
+ },
+ "skazy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "legendy-i-mify-drevney-gretsii-bogi-i-geroi": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "timur-i-ego-komanda-vneklassnoe-chtenie": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Тимур и его команда",
+  "editionNote": "Внеклассное чтение"
+ },
+ "snezhnaya-koroleva-illyustratsii-oksany-viktorovoy": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Снежная королева",
+  "editionNote": "иллюстрации Оксаны Викторовой",
+  "editionContributors": "Оксана Викторова",
+  "author": "Ханс Кристиан Андерсен"
+ },
+ "biblioteka-kota-mortimera": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devyat-myshat-i-kot": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-s-lisim-hvostom-tom-5": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "magazinchik-moego-dedushki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "sonnye-skazki-gregori": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "puteshestvie-v-drevlyandiyu": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "amir-i-bezumnyy-ingredient": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "knizhnyy-les": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hroniki-pereputya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "missiya-luchshaya-podruga": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-s-lisim-hvostom-tom-4": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dikiy-robot-paperback": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "alisa-v-strane-snov-odnazhdy-v-skazke": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "chudovische-i-krasavitsa-odnazhdy-v-skazke": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-medvedya-gustava-kosolapaya-dolina": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-s-lisim-hvostom-tom-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-snegurochek-i-tayna-propavshey-hranitelnitsy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dve-zimy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tayna-zabroshennogo-doma": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zato-sam-rasskazy-dlya-pervogo-chteniya-kniga-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "sharf-v-yarkuyu-polosku": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ryzhiy-kot-i-novyy-god": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-medvedya-gustava-revuschiy-ruchey": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "devochka-s-lisim-hvostom-tom-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "alisa-v-strane-chudes": {
+  "pages": null,
+  "lengthCategory": null,
+  "editionContributors": "Loputyn (Лопутин)",
+  "author": "Льюис Кэрролл"
+ },
+ "dzhuliya-i-akula": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-prints": {
+  "pages": null,
+  "lengthCategory": null,
+  "editionContributors": "Клаудиа Бордин",
+  "author": "Антуан де Сент-Экзюпери"
+ },
+ "talant-koula": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-talantov-urok-tretiy-chudovischa-na-vyhod": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hraniteli-mira-doroga-domoy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-na-noch": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-medvedya-gustava-dom-v-malinnike": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dom-vdali-ot-mira": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zato-sam-rasskazy-dlya-pervogo-chteniya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "my-igrali-s-ognem": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "elka-pryaniki-podarki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "yeti-kamera-motor": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-magicheskih-zverey-kto-sidit-v-temnote": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "bezrabotnyy-ded-moroz-volshebnyy-krugovorot": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hraniteli-mira": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "nezemlyane": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-talantov-urok-vtoroy-konets-sveta": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "gula-kamakri": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "promezhute": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "alisa-v-strane-chudes-i-v-zazerkale": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-teo-idet-v-detskiy-sad": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "muzyka-krylev": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "privet-mayak": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-magicheskih-zverey-kopay-glubzhe": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-talantov-urok-pervyy-zverskiy-shum": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "prosto-rikka-i-tochka": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "kit-na-plyazhe": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-magicheskih-zverey": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tilda-yablochnoe-semechko-pogonya-za-udachey": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "indigo-s-marmeladnoy-ulitsy-i-ee-chudovischnye-pitomtsy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zakon-rakushki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "chay-v-zimnem-lesu": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "lanselot": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "yeti-deti-ded-moroz": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "krasnaya-nitochka": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dve-schepotki-schastya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "vse-budet-horosho-obyazatelno": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "pinella-propella": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "imya-dlya-kapitana": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "banka-so-svetlyachkami": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tri-geroya-matildy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zhozefina-mechtaet-o-druge": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zhozefina-mechtaet-o-more": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "stihi-o-tsvetah": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tilda-yablochnoe-semechko-bolshoy-perepoloh": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zhil-na-svete-barsuk": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "istorii-dyadyushki-duba-kniga-2-serdtse": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "madam-badubeda": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "moh-istoriya-odnogo-psa": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "proisshestvie-v-kuryatnike": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "v-poiskah-volka": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "yaroshtorm": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "drug-nepohozhiy-na-drugih": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tilda-yablochnoe-semechko-veter-priklyucheniy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "istoriya-severnogo-kruga": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "stertyy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ya-zabyla-vse-na-svete": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "istorii-dyadyushki-duba-kniga-1-vstrecha": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tilda-yablochnoe-semechko-kuda-propal-rupert": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hilda-i-taynoe-ubezhische": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "nika-prevraschaetsya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "myshonok-po-imeni-dzhulian": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "bolshoy-vopros-malenkogo-hameleona": {
+  "ageLabel": "2–4 года",
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ne-opazdyvay-medved": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "plemya-zippoli": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "odnazhdy-lunnoy-nochyu": {
+  "ageLabel": "2–4 года",
+  "pages": null,
+  "lengthCategory": null
+ },
+ "sirius": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "vzaperti": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "koshachiy-cherdak": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "rozhdestvo-i-novyy-god": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hilda-i-bolshoy-parad": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "volk-po-imeni-strannik": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "pervyy-sneg": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "v-dome-slon": {
+  "ageLabel": "2–4 года",
+  "pages": null,
+  "lengthCategory": null
+ },
+ "privet-eto-my": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "a-u-nashey-koshki-est-babushka": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "slon": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dusya-i-porosenok-bobik": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tonkiy-mech": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "pes-proglotivshiy-mir": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "iskrenne-vash-zhiraf": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zagadka-propavshey-kamei": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "luchshiy-podarok-dlya-mamy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "krasivaya-kniga-o-more": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "spasenie-dikogo-robota": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "s-vozvrascheniem-tikki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "monti": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hilda-i-nevidimyy-narodets": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "spokoynoy-nochi-miyuki": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "miyuki-postoy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "poteryal-myshonok-son": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "pasha-i-papa-govoryat-o-zhivotnyh": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "nochnye-rytsari": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zdravstvuyte-mister-hlad": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "lyublyu-mama": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "nastoyaschiy-korablik": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "365-pingvinov": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "igrushechnye-rasskazy": {
+  "ageLabel": "2–3 года",
+  "pages": null,
+  "lengthCategory": null
+ },
+ "motsart-i-robinzon-volshebstvo-syrnoy-luny": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "motsart-i-robinzon-derzkiy-blinnyy-plan": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "motsart-i-robinzon-pochti-neobitaemyy-ostrov": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "prints-i-svintus": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ya-ne-tvoya-mama": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dom": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "bayu-bay-do-utra": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "vozvraschenie": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "uroki-lva": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "dom-dlya-lis": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "priklyuchenie": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "chey-bok": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "osennie-istorii-pro-miru-i-goshu": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-duh-schastya": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hilda-i-tvig-progulka-pod-dozhdem": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "duh-chernilnitsy": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "puteshestvie-alisy-il-l-gamartsa": {
+  "title": "Путешествие Алисы",
+  "editionNote": "ил. Л. Гамарца",
+  "author": "Кир Булычёв"
+ },
+ "zagadka-sekretnoy-komnaty-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Загадка секретной комнаты",
+  "seriesNumber": 3
+ },
+ "yarmarka-zakrytyh-dverey-8": {
+  "title": "Ярмарка закрытых дверей",
+  "seriesNumber": 8
+ },
+ "tayna-propavshey-zhemchuzhiny-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Тайна пропавшей жемчужины",
+  "seriesNumber": 1
+ },
+ "vsadnik-bez-golovy-il-n-ustinova": {
+  "title": "Всадник без головы",
+  "editionNote": "ил. Н. Устинова"
+ },
+ "tainstvennyy-shepot-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Таинственный шепот",
+  "seriesNumber": 2
+ },
+ "malenkiy-krasnyy-traktor-i-parovozik-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Маленький красный Трактор и паровозик",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "karandash-i-samodelkin-v-derevne-kozyavkino-il-yu-yakunina": {
+  "title": "Карандаш и Самоделкин в деревне Козявкино",
+  "editionNote": "ил. Ю. Якунина"
+ },
+ "krasnaya-shapochka-i-drugie-skazki-il-yu-goncharovoy": {
+  "title": "Красная Шапочка и другие сказки",
+  "editionNote": "ил. Ю. Гончаровой"
+ },
+ "oliver-tvist-il-e-orehovoy": {
+  "title": "Оливер Твист",
+  "editionNote": "ил. Е. Ореховой"
+ },
+ "priklyucheniya-karandasha-i-samodelkina-il-a-eliseeva": {
+  "title": "Приключения Карандаша и Самоделкина",
+  "editionNote": "ил. А. Елисеева"
+ },
+ "volshebnaya-shkola-karandasha-i-samodelkina-il-a-eliseeva": {
+  "title": "Волшебная школа Карандаша и Самоделкина",
+  "editionNote": "ил. А. Елисеева"
+ },
+ "ya-rastu-stihi-il-a-ilchenko": {
+  "title": "Я расту. Стихи",
+  "editionNote": "ил. А. Ильченко"
+ },
+ "operatsiya-prizrak-iz-kamina-7": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Операция «Призрак из камина»",
+  "seriesNumber": 7
+ },
+ "malenkaya-politseyskaya-mashinka-i-propavshee-morozhenoe-il-r-amtora": {
+  "ageLabel": "3–4 года",
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Маленькая полицейская машинка и пропавшее мороженое",
+  "editionNote": "ил. Р. Амтора"
+ },
+ "podvigi-gerakla-il-a-vlasovoy": {
+  "title": "Подвиги Геракла",
+  "editionNote": "ил. А. Власовой"
+ },
+ "malenkiy-krasnyy-traktor-s-dnem-rozhdeniya-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор, с днем рождения!",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "skazka-o-poteryannom-vremeni-il-e-komrakovoy": {
+  "title": "Сказка о потерянном времени",
+  "editionNote": "ил. Е. Комраковой"
+ },
+ "vse-deniskiny-rasskazy-il-n-balandinoy": {
+  "title": "Все Денискины рассказы",
+  "editionNote": "ил. Н. Баландиной"
+ },
+ "dnevnik-bekona-iz-robloks-udaleno-kniga-7": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "tayna-starogo-shkafa-4": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Тайна старого шкафа",
+  "seriesNumber": 4
+ },
+ "malenkiy-musorovoz-i-tayna-ukradennyh-gazet-il-r-amtora": {
+  "title": "Маленький мусоровоз и тайна украденных газет",
+  "editionNote": "ил. Р. Амтора"
+ },
+ "malenkiy-krasnyy-traktor-i-pobeda-nad-strahom-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и победа над страхом",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "vovkiny-rasskazy-edem-na-yug-vypusk-2-dlya-detey": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "novogodniy-domik-dlya-myshki-il-r-harri": {
+  "title": "Новогодний домик для Мышки",
+  "editionNote": "ил. Р. Харри"
+ },
+ "chto-sluchilos-na-rozhdestvo-il-k-hansen": {
+  "title": "Что случилось на Рождество",
+  "editionNote": "ил. К. Хансен"
+ },
+ "zlaya-kniga-2-novoe-oformlenie": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "delo-ozhivshih-kukol-6": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дело оживших кукол",
+  "seriesNumber": 6
+ },
+ "legenda-o-proklyatom-komode-5": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Легенда о проклятом комоде",
+  "seriesNumber": 5
+ },
+ "rozhdenie-magicheskih-suschestv-chast-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-krasnyy-traktor-i-lesnoe-priklyuchenie-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и лесное приключение",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "malenkaya-zlaya-kniga-kniga-advent-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "deti-lesa-prevraschenie-karaga-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети леса. Превращение Карага",
+  "seriesNumber": 1
+ },
+ "detektiv-iz-robloks-prizrak-goroda-blokvyu-middl-kniga-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-dyadyushki-rimusa-il-i-petelinoy": {
+  "title": "Сказки дядюшки Римуса",
+  "editionNote": "ил. И. Петелиной"
+ },
+ "volshebnik-izumrudnogo-goroda-il-a-vlasovoy-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Волшебник Изумрудного города",
+  "editionNote": "ил. А. Власовой",
+  "seriesNumber": 1
+ },
+ "detektiv-iz-robloks-mezhdu-mirami-kniga-6": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-vertolet-i-smelost-v-serdtse-il-r-amtora": {
+  "title": "Маленький вертолет и смелость в сердце",
+  "editionNote": "ил. Р. Амтора"
+ },
+ "malenkiy-krasnyy-traktor-i-samolet-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и самолет",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "volshebnik-iz-strany-oz-il-syue-tszin": {
+  "title": "Волшебник из страны Оз",
+  "editionNote": "ил. Сюэ Цзинь"
+ },
+ "deti-lesa-opasnaya-druzhba-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети леса. Опасная дружба",
+  "seriesNumber": 2
+ },
+ "deti-lesa-mest-pumy-4": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети леса. Месть пумы",
+  "seriesNumber": 4
+ },
+ "karandash-i-samodelkin-v-strane-piramid-il-yu-yakunina": {
+  "title": "Карандаш и Самоделкин в Стране пирамид",
+  "editionNote": "ил. Ю. Якунина"
+ },
+ "agent-na-myagkih-lapah-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Агент на мягких лапах",
+  "seriesNumber": 1
+ },
+ "malenkiy-krasnyy-traktor-i-novogodnyaya-elka-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и новогодняя елка",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "dnevnik-bekona-iz-robloks-minuta-slavy-kniga-4": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "pozharnaya-mashinka-i-vera-v-sebya-il-r-amtora": {
+  "ageLabel": "3–4 года",
+  "title": "Пожарная машинка и вера в себя",
+  "editionNote": "ил. Р. Амтора"
+ },
+ "malenkiy-krasnyy-traktor-i-sekret-nastoyaschego-schastya-il-r-amtora": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и секрет настоящего счастья",
+  "editionNote": "ил. Р. Амтора"
+ },
+ "deti-lesa-tayna-holli-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети леса. Тайна Холли",
+  "seriesNumber": 3
+ },
+ "borodino-stihotvoreniya-i-poemy-il-n-gavritskova": {
+  "title": "Бородино. Стихотворения и поэмы",
+  "editionNote": "ил. Н. Гаврицкова"
+ },
+ "myaumyau-tom-2-zhizn-horosha-pravda": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "hroniki-narnii-il-p-beyns": {
+  "title": "Хроники Нарнии",
+  "editionNote": "ил. П. Бейнс",
+  "author": "Клайв Стейплз Льюис"
+ },
+ "detektiv-iz-robloks-tayna-propavshey-kapsuly-kniga-5": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "veselye-priklyucheniya-sobaki-dnevnik-foksa-mikki-il-a-eliseeva": {
+  "title": "Веселые приключения собаки. Дневник фокса Микки",
+  "editionNote": "ил. А. Елисеева"
+ },
+ "veselye-priklyucheniya-sobaki-vsegda-vash-pes-buts-il-a-eliseeva": {
+  "title": "Веселые приключения собаки. Всегда ваш, пес Бутс",
+  "editionNote": "ил. А. Елисеева"
+ },
+ "malenkiy-krasnyy-traktor-i-novyy-drug-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и новый друг",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "deti-lesa-sekret-sfinksa-5": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети леса. Секрет сфинкса",
+  "seriesNumber": 5
+ },
+ "zolotaya-kollektsiya-skazok-il-e-shafranskoy": {
+  "title": "Золотая коллекция сказок",
+  "editionNote": "ил. Е. Шафранской"
+ },
+ "priklyucheniya-barona-myunhgauzena-il-i-egunova": {
+  "title": "Приключения барона Мюнхгаузена",
+  "editionNote": "ил. И. Егунова",
+  "author": "Рудольф Эрих Распе"
+ },
+ "snezhnaya-koroleva-il-martiny-peluzo": {
+  "title": "Снежная королева",
+  "editionNote": "ил. Мартины Пелузо",
+  "author": "Ханс Кристиан Андерсен"
+ },
+ "santa-klaus-i-ego-priklyucheniya-il-mirti": {
+  "title": "Санта-Клаус и его приключения",
+  "editionNote": "ил. Мирти"
+ },
+ "dnevnik-bekona-iz-robloks-novaya-shkola-kniga-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-i-rasskazy-il-a-egunovoy": {
+  "title": "Сказки и рассказы",
+  "editionNote": "ил. А. Егуновой"
+ },
+ "piter-krolik-i-drugie-il-huamen-studio": {
+  "title": "Питер-кролик и другие",
+  "editionNote": "ил. Хуамен Студио"
+ },
+ "malenkiy-krasnyy-traktor-i-olenenok-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и олененок",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "kapriya-tayna-klyucha": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "delo-1-nefritovyy-drakon": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "deti-morya-vodnyy-zagovor-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети моря. Водный заговор",
+  "seriesNumber": 2
+ },
+ "rikki-tikki-tavi-i-drugie-skazki-il-k-pavlovoy": {
+  "title": "Рикки-Тикки-Тави и другие сказки",
+  "editionNote": "ил. К. Павловой"
+ },
+ "tayna-ozera-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Тайна озера",
+  "seriesNumber": 2
+ },
+ "deti-morya-sekrety-golubogo-rifa-5": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети моря. Секреты «Голубого рифа»",
+  "seriesNumber": 5
+ },
+ "malenkiy-krasnyy-traktor-i-pyatnistaya-korova-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Маленький красный Трактор и пятнистая корова",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "dnevnik-bekona-iz-robloks-pyatnitsa-koshmarnitsa-kniga-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-muk-i-drugie-skazki-il-m-mitrofanova": {
+  "title": "Маленький Мук и другие сказки",
+  "editionNote": "ил. М. Митрофанова"
+ },
+ "deti-morya-opasnye-volny-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети моря. Опасные волны",
+  "seriesNumber": 3
+ },
+ "priklyucheniya-doistoricheskogo-malchika-il-v-kanivtsa": {
+  "title": "Приключения доисторического мальчика",
+  "editionNote": "ил. В. Канивца"
+ },
+ "sekret-elovyh-pisem-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Секрет еловых писем",
+  "seriesNumber": 2
+ },
+ "chto-takoe-horosho-stihi-detyam-il-e-kuznetsovoy": {
+  "title": "Что такое хорошо? Стихи детям",
+  "editionNote": "ил. Е. Кузнецовой"
+ },
+ "priklyucheniya-barona-myunhgauzena-il-n-ustinova": {
+  "title": "Приключения барона Мюнхгаузена",
+  "editionNote": "ил. Н. Устинова"
+ },
+ "deti-morya-tayna-kita-oborotnya-4": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дети моря. Тайна кита-оборотня",
+  "seriesNumber": 4
+ },
+ "zagadka-serebryanogo-zmeya-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Загадка Серебряного Змея",
+  "seriesNumber": 3
+ },
+ "puteshestvie-po-zvezdam-vypusk-4": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zagadka-sbezhavshego-seyfa-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Загадка сбежавшего сейфа",
+  "seriesNumber": 3
+ },
+ "skazki-gansa-hristiana-andersena-il-e-melnikovoy": {
+  "title": "Сказки Ганса Христиана Андерсена",
+  "editionNote": "ил. Е. Мельниковой",
+  "author": "Ханс Кристиан Андерсен"
+ },
+ "malenkiy-krasnyy-traktor-i-korablik-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и кораблик",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "alya-klyaksich-i-bukva-a-il-e-galdyaevoy": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Аля, Кляксич и буква А",
+  "editionNote": "ил. Е. Гальдяевой"
+ },
+ "luchshie-skazki-i-rasskazy-dlya-detey-il-v-kanivtsa": {
+  "title": "Лучшие сказки и рассказы для детей",
+  "editionNote": "ил. В. Канивца"
+ },
+ "hroniki-narnii-il-p-beyns-sin": {
+  "title": "Хроники Нарнии",
+  "editionNote": "ил. П. Бэйнс; син."
+ },
+ "konek-gorbunok-il-i-egunova": {
+  "title": "Конек-горбунок",
+  "editionNote": "ил. И. Егунова",
+  "author": "Пётр Ершов"
+ },
+ "novogodnie-priklyucheniya-karandasha-i-samodelkina-il-yu-yakunina": {
+  "title": "Новогодние приключения Карандаша и Самоделкина",
+  "editionNote": "ил. Ю. Якунина"
+ },
+ "veselye-priklyucheniya-nechistoy-sily-il-t-lyahovich": {
+  "title": "Веселые приключения нечистой силы",
+  "editionNote": "ил. Т. Ляхович"
+ },
+ "poka-yubu-spit-kniga-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "poka-yubu-spit-kniga-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "poka-yubu-spit-kniga-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "bryum-malenkaya-vedma-tom-2-les-zabludshih-dush": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "shkola-chudo-veschey-neveroyatnaya-sumka-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Школа чудо-вещей. Невероятная сумка",
+  "seriesNumber": 3
+ },
+ "skazki-i-istorii-il-l-alekseevoy": {
+  "title": "Сказки и истории",
+  "editionNote": "ил. Л. Алексеевой",
+  "author": "Ханс Кристиан Андерсен"
+ },
+ "dnevnik-bekona-iz-robloks-krovatnye-boyni-kniga-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "detektiv-iz-robloks-poteryannaya-vo-vremeni-kniga-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "detektiv-iz-robloks-pohischennyy-kubok-kniga-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-krasnyy-traktor-i-chestnyy-postupok-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и честный поступок",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "malenkiy-krasnyy-traktor-i-bespokoynye-sosedi-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и беспокойные соседи",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "lili-i-zapretnaya-magiya-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Лили и запретная магия",
+  "seriesNumber": 1
+ },
+ "nochevka-s-grabitelyami-vypusk-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "zhizn-i-priklyucheniya-chudaka-il-a-vlasovoy": {
+  "title": "Жизнь и приключения чудака",
+  "editionNote": "ил. А. Власовой"
+ },
+ "proklyatie-koshachego-papirusa-vypusk-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "malenkiy-krasnyy-traktor-i-zimnie-chudesa-il-f-gossensa": {
+  "ageLabel": "3–4 года",
+  "title": "Маленький красный Трактор и зимние чудеса",
+  "editionNote": "ил. Ф. Госсенса"
+ },
+ "tayna-privratnikov-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Тайна привратников",
+  "seriesNumber": 2
+ },
+ "zamok-s-sekretom-vypusk-7": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "starik-hottabych-il-v-kanivtsa": {
+  "title": "Старик Хоттабыч",
+  "editionNote": "ил. В. Канивца",
+  "author": "Лазарь Лагин"
+ },
+ "krugosvetnoe-puteshestvie-karandasha-i-samodelkina-il-yu-yakunina": {
+  "title": "Кругосветное путешествие Карандаша и Самоделкина",
+  "editionNote": "ил. Ю. Якунина"
+ },
+ "otel-s-sekretom-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Отель с секретом",
+  "seriesNumber": 1
+ },
+ "schelkunchik-i-myshinyy-korol-il-eleny-larussi": {
+  "title": "Щелкунчик и Мышиный король",
+  "editionNote": "ил. Елены Ларусси"
+ },
+ "konek-gorbunok-il-a-eliseeva": {
+  "title": "Конек-горбунок",
+  "editionNote": "ил. А. Елисеева",
+  "author": "Пётр Ершов"
+ },
+ "emmi-i-poslednie-elfy-tom-1-ubezhische": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "emmi-i-poslednie-elfy-tom-2-vozvraschenie-korolevstva": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "chto-ya-chuvstvuyu-segodnya-il-f-zito": {
+  "title": "Что я чувствую сегодня",
+  "editionNote": "ил. Ф. Зито"
+ },
+ "krasnyy-kapyushonchik-tom-2-priklyuchenie-v-gorah": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "rapuntsel-samye-krasivye-skazki-il-a-simanchuka": {
+  "title": "Рапунцель. Самые красивые сказки",
+  "editionNote": "ил. А. Симанчука"
+ },
+ "eho-kviktorn-i-zoloto-drakona-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Эхо Квикторн и Золото Дракона",
+  "seriesNumber": 2
+ },
+ "nerealnye-kanikuly-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "bembi-il-din-syaozhun": {
+  "title": "Бемби",
+  "editionNote": "ил. Дин Сяожун"
+ },
+ "shkola-chudo-veschey-letayuschiy-zont-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Школа чудо-вещей. Летающий зонт",
+  "seriesNumber": 2
+ },
+ "shkola-chudo-veschey-ischeznuvshiy-podsvechnik-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Школа чудо-вещей. Исчезнувший подсвечник",
+  "seriesNumber": 1
+ },
+ "printsessa-buntarka-i-spasennoe-rozhdestvo-4-il-k-engelking": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Принцесса-бунтарка и спасенное Рождество",
+  "editionNote": "ил. К. Энгелькинг",
+  "seriesNumber": 4
+ },
+ "printsessa-buntarka-i-baron-lgunishka-3-il-k-engelking": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Принцесса-бунтарка и барон-лгунишка",
+  "editionNote": "ил. К. Энгелькинг",
+  "seriesNumber": 3
+ },
+ "hroniki-narnii-nachalo-istorii-chetyre-povesti-il-p-beyns": {
+  "title": "Хроники Нарнии: начало истории. Четыре повести",
+  "editionNote": "ил. П. Бэйнс",
+  "author": "Клайв Стейплз Льюис"
+ },
+ "volshebnik-izumrudnogo-goroda-vse-puteshestviya-v-volshebnoy-strane-il": {
+  "title": "Волшебник Изумрудного города. Все путешествия в Волшебной стране",
+  "editionNote": "ил. В. Канивца"
+ },
+ "chasy-zvezd-sdelka-s-chudovischem-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Часы звезд. Сделка с чудовищем",
+  "seriesNumber": 1
+ },
+ "delo-o-nevidimke-7": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дело о невидимке",
+  "seriesNumber": 7
+ },
+ "spasti-odettu-6": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Спасти Одетту",
+  "seriesNumber": 6
+ },
+ "dnevnik-propavshey-sestry-1-novoe-oformlenie": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "ne-popadis-vypusk-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "eho-kviktorn-i-velikoe-zapredele-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Эхо Квикторн и Великое Запределье",
+  "seriesNumber": 1
+ },
+ "klan-volkov-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Клан волков",
+  "seriesNumber": 1
+ },
+ "lili-i-magiya-drakona-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Лили и магия дракона",
+  "seriesNumber": 2
+ },
+ "lili-i-uznik-magii-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Лили и узник магии",
+  "seriesNumber": 3
+ },
+ "lili-i-magiya-peremen-4": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Лили и магия перемен",
+  "seriesNumber": 4
+ },
+ "zolotoy-lug-rasskazy-o-zhivotnyh-il-dudarenko": {
+  "title": "Золотой луг. Рассказы о животных",
+  "editionNote": "ил. Дударенко"
+ },
+ "daresh-dolina-holodnogo-ognya-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Дареш. Долина Холодного огня",
+  "seriesNumber": 2
+ },
+ "rasskazy-o-zhivotnyh-il-s-yarovogo": {
+  "title": "Рассказы о животных",
+  "editionNote": "ил. С. Ярового"
+ },
+ "vedminy-konfety": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "grizli-il-v-kanivtsa": {
+  "title": "Гризли",
+  "editionNote": "ил. В. Канивца"
+ },
+ "yadovityy-drug-7": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Ядовитый друг",
+  "seriesNumber": 7
+ },
+ "lisiy-plan-6": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Лисий план",
+  "seriesNumber": 6
+ },
+ "sokolinyy-pik-zov-vetra-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Соколиный пик. Зов ветра",
+  "seriesNumber": 2
+ },
+ "taynyy-dnevnik-kota-borisa-vypusk-4": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "chudesa-sveta-dlya-detey-ot-6-do-12-let": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "korol-volk-4": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Король-волк",
+  "seriesNumber": 4
+ },
+ "na-beregu-temnogo-morya-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "На берегу Темного моря",
+  "seriesNumber": 1
+ },
+ "chernaya-kareta-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Черная Карета",
+  "seriesNumber": 2
+ },
+ "oshibka-saymona-5": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Ошибка Саймона",
+  "seriesNumber": 5
+ },
+ "chasy-zvezd-serebryanaya-koroleva-2": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Часы звезд. Серебряная королева",
+  "seriesNumber": 2
+ },
+ "buterbrodnyy-vor-vypusk-3": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "rouz-i-magiya-zerkala-novoe-oformlenie-4": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Роуз и магия зеркала (новое оформление)",
+  "seriesNumber": 4
+ },
+ "rouz-i-magiya-maski-novoe-oformlenie-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Роуз и магия маски (новое оформление)",
+  "seriesNumber": 3
+ },
+ "rouz-i-tayna-magii-novoe-oformlenie-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Роуз и тайна магии (новое оформление)",
+  "seriesNumber": 1
+ },
+ "skazki-il-v-kanivtsa": {
+  "title": "Сказки",
+  "editionNote": "ил. В. Канивца"
+ },
+ "prizrak-na-cherdake-vypusk-2": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "edinorog-na-kuhne-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Единорог на кухне",
+  "seriesNumber": 3,
+  "author": "Софи Кинселла"
+ },
+ "sekretnyy-klyuch-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Секретный ключ",
+  "seriesNumber": 1
+ },
+ "syschik-na-arene-5": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Сыщик на арене",
+  "seriesNumber": 5
+ },
+ "shkola-dobra-i-zla-poslednee-dolgo-i-schastlivo-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Школа Добра и Зла. Последнее «долго и счастливо»",
+  "seriesNumber": 3
+ },
+ "ne-morgay-vypusk-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "skazki-ruslan-i-lyudmila-il-a-vlasovoy": {
+  "title": "Сказки. Руслан и Людмила",
+  "editionNote": "ил. А. Власовой",
+  "author": "Александр Пушкин"
+ },
+ "frizhel-i-fluffi-tayna-propavshih-arbuzov-vypusk-1": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "sem-podzemnyh-koroley-il-v-kanivtsa-3": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Семь подземных королей",
+  "editionNote": "ил. В. Канивца",
+  "seriesNumber": 3
+ },
+ "koshmarius-i-ischeznuvshee-zele-1": {
+  "pages": null,
+  "lengthCategory": null,
+  "title": "Кошмариус и исчезнувшее зелье",
+  "seriesNumber": 1
+ },
+ "naoborotnyy-mir": {
+  "pages": null,
+  "lengthCategory": null
+ },
+ "korolevstvo-krivyh-zerkal": {
+  "whyRecommended": "Если ребёнок любит реалистическую прозу и сюжеты об отношениях, книга подойдёт ему в возрасте 3–12 лет. Она подходит для самостоятельного или совместного чтения."
+ },
+ "ya-ne-ya-zhanna": {
+  "author": "Александра Зайцева"
+ },
+ "neveroyatno-opasnaya-sliz-ledyanye-myshki-sedobnye-kamni-i-esche-95": {
+  "author": "Ася Ванякина; Настя Троян"
+ },
+ "druzhba-posle-ssory-novye-priklyucheniya-emo-i-chiki": {
+  "author": "Грегг Релье; Джошуа Вайс"
+ }
+}
