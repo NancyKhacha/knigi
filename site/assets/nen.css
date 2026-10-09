@@ -275,12 +275,17 @@ details.annotation .meta{margin-top:10px}
   .header .nav{display:none}
   .header .wrap{flex-wrap:nowrap;justify-content:space-between}
   .header-fav{display:inline-flex;align-items:center;height:36px;padding:0 12px;border-radius:var(--radius-tab);box-shadow:var(--ring-control)}
-  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--nen-blue-700);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
-  .tabbar a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 2px;border-radius:var(--radius-tab);font:500 12px/1.2 var(--font-text);color:var(--nen-blue-50);text-align:center}
+  /* Пункты по ширине слова и одинаковые промежутки между ними, а не равные колонки */
+  .tabbar{display:flex;justify-content:space-between;position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--nen-blue-700);padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+  .tabbar a{flex:0 0 auto;display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 10px;border-radius:var(--radius-tab);font:500 12px/1.2 var(--font-text);color:var(--nen-blue-50);white-space:nowrap}
   .tabbar a:hover{text-decoration:none;background:rgba(255,255,255,.12)}
   .tabbar a[aria-current=page]{background:var(--nen-white);color:var(--nen-blue-900);font-weight:600}
   body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   .footer{margin-top:48px}
+}
+@media (max-width:374px){
+  .tabbar{padding-left:4px;padding-right:4px}
+  .tabbar a{padding:0 7px;font-size:11px}
 }
 
 /* ── Статьи НЭН на странице книги ── */
