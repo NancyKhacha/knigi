@@ -22,4 +22,6 @@ python3 site/build.py                          # рабочая версия в 
 NEN_PREVIEW=0 python3 site/build.py --out dist # версия для n-e-n.ru/knigi/
 python3 scripts/check_cards.py cards/batches/batch-001.json   # проверить карточки
 python3 scripts/collect_notes.py               # обновить review.csv и PROGRESS.md
+python3 scripts/seo_check.py dist              # SEO-проверка собранного сайта
+python3 scripts/nen_mentions.py                # обновить ссылки на статьи НЭН (нужен архив журнала)
 ```

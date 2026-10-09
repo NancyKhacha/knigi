@@ -18,6 +18,9 @@ BASE = '/knigi'                         # путь сервиса на сайт�
 ORIGIN = 'https://n-e-n.ru'             # для canonical, og:url и разметки
 COVERS = ORIGIN + BASE if PREVIEW else BASE   # для <img>
 COVERS_ABS = ORIGIN + BASE                      # для og:image и разметки — всегда полный адрес
+# Полный адрес сайта со своими картинками (иллюстрация для соцсетей): в превью — GitHub Pages
+SITE_ABS = os.environ.get('NEN_SITE_ABS') or ('https://nancykhacha.github.io/knigi' if PREVIEW else ORIGIN + BASE)
+OG_DEFAULT = (SITE_ABS + '/assets/og.jpg', 1200, 630, 'Малыш с игрушкой разглядывает книжку — иллюстрация НЭН')
 NO_YO = os.environ.get('NEN_YO', '0') != '1'   # в статьях НЭН пишут без «ё»
 PER_PAGE = 48
 OUT = os.path.join(ROOT, sys.argv[sys.argv.index('--out') + 1] if '--out' in sys.argv else 'docs')
@@ -142,6 +145,47 @@ def yo(s):
     return s.replace('ё', 'е').replace('Ё', 'Е') if NO_YO and isinstance(s, str) else s
 
 
+# Неразрывные пробелы: короткие слова не висят в конце строки, тире не переносится в начало,
+# число не отрывается от слова («5 лет»), инициалы — от фамилии.
+NBSP = '\u00a0'
+SHORT_WORDS = re.compile(r'(?<![^\s\u00a0(«„"—])([А-Яа-яЁёA-Za-z]{1,2}|(?i:для|без|под|над|про|при|обо|изо|или|что|как|это|все|его|еще|уже))'
+                         r' (?=\S)')
+TYPO_RULES = [
+    (re.compile(r' (?=[—–] )'), NBSP),                               # «слово — слово»
+    (re.compile(r'(?<=\d) (?=[А-Яа-яЁё%])'), NBSP),                   # «5 лет», «48 книг»
+    (re.compile(r'(?<=\b[А-ЯЁA-Z]\.) (?=[А-ЯЁA-Z])'), NBSP),            # «А. С. Пушкин»
+    (re.compile(r' (?=(?:ли|же|бы|ль)\b)'), NBSP),                     # частицы — к предыдущему слову
+    (re.compile(r'(?<=№) '), NBSP),
+]
+
+
+def typo(text):
+    """Неразрывные пробелы в обычном тексте (не в HTML)."""
+    if not isinstance(text, str):
+        return text
+    text = SHORT_WORDS.sub(lambda m: m.group(1) + NBSP, text)
+    for rx, rep in TYPO_RULES:
+        text = rx.sub(rep, text)
+    return text
+
+
+def typo_html(doc):
+    """Типографика для текста страницы: только <body>, мимо тегов, скриптов и стилей."""
+    head, sep, body = doc.partition('<body')
+    parts = re.split(r'(<[^>]+>)', body)
+    skip = False
+    for i, part in enumerate(parts):
+        if part.startswith('<'):
+            tag = part[1:].split(None, 1)[0].lower().rstrip('>') if len(part) > 2 else ''
+            if tag in ('script', 'style', 'textarea'):
+                skip = True
+            elif tag in ('/script', '/style', '/textarea'):
+                skip = False
+        elif part and not skip and i:
+            parts[i] = typo(part)
+    return head + sep + ''.join(parts)
+
+
 def e(s):
     """Текст для HTML: «ё» по правилам НЭН и экранирование."""
     return html.escape(yo(str(s)), quote=True)
@@ -201,6 +245,17 @@ def url(path):
 
 # ── Данные ───────────────────────────────────────────────────────────────────
 
+# Серии издательства, которые попали в название книги: «Книжки-картинки (мягкая обложка). Макс и Лунный Боб».
+SERIES_PREFIX = re.compile(r'^(?:Семейные сказки\.\s*)?(?:Книжки-картинки(?: с наклейками)?|Большая сказочная серия|Библиотека приключений|Золотая классика для детей)'
+                           r'(?:\s*\(мягкая обложка\))?\.\s+')
+
+
+def clean_title(t):
+    out = re.sub(r'\s*\(мягкая обложка\)', '', SERIES_PREFIX.sub('', t)).strip()
+    out = re.sub(r'^(.{3,40}?)\.\s+(\1\b.*)$', r'\2', out)          # «Котенок Шмяк. Котенок Шмяк на фабрике…»
+    return out if len(out) >= 3 else t
+
+
 def load():
     books = json.load(open(os.path.join(ROOT, 'site/data/books.json'), encoding='utf-8'))
     cards = {}
@@ -226,6 +281,8 @@ def load():
                     b['ageLabel'] = f'{lo}+'
                 else:
                     b['ageLabel'] = f'{lo}–{hi} {age_word(hi)}' if lo != hi else f'{hi} {age_word(hi)}'
+        if clean_title(b['title']) != b['title']:
+            b['catalogTitle'], b['title'] = b['title'], clean_title(b['title'])
         b['snippet'] = first_sentences(c['about']) if c else short(b.get('shortDescription', ''), 160)
         b['rank'] = (0 if c and c.get('source', '').startswith('knowledge') else 1 if c else 2)
         b['url'] = url(f'/kniga/{b["slug"]}/')
@@ -233,7 +290,56 @@ def load():
     collections_ = json.load(open(os.path.join(ROOT, 'site/content/collections.json'), encoding='utf-8'))
     landings_path = os.path.join(ROOT, 'site/content/landings.json')
     landings = json.load(open(landings_path, encoding='utf-8')) if os.path.exists(landings_path) else {}
+    for name, target in (('nen-articles.json', NEN_ARTICLES), ('nen-reading.json', NEN_READING)):
+        path = os.path.join(ROOT, 'site/content', name)
+        if os.path.exists(path):
+            target.update(json.load(open(path, encoding='utf-8')))
     return books, collections_, landings
+
+
+def book_title(b):
+    c = b.get('card') or {}
+    return c.get('seoTitle') or (f'«{b["title"]}», {b["author"]} — о чём книга и с какого возраста | НЭН'
+                                 if len(b['title']) + len(b['author']) < 30 else f'«{short(b["title"], 40)}» — книга для детей {b["ageMin"]}–{b["ageMax"]} лет | НЭН')
+
+
+def editions(books):
+    """Издания одной книги: одно название и общий автор или одинаковый заголовок страницы.
+    Основное издание — то, что мы знаем лучше и что в твердой обложке; у остальных canonical на него."""
+    def norm(s):
+        return re.sub(r'\s+', ' ', re.sub(r'[^\w ]+', ' ', yo(s).lower())).strip()
+    parent = list(range(len(books)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+    by_key = collections.defaultdict(list)
+    for i, b in enumerate(books):
+        by_key[('t', norm(b['title']))].append(i)
+        by_key[('s', norm(book_title(b)))].append(i)
+    for (kind, _), idx in by_key.items():
+        for i in idx[1:]:
+            a, o = books[idx[0]], books[i]
+            words = lambda x: {w for w in norm(x['author']).split() if len(w) > 2}
+            if kind == 's' or words(a) & words(o) or not (words(a) and words(o)):
+                parent[find(i)] = find(idx[0])
+    groups = collections.defaultdict(list)
+    for i in range(len(books)):
+        groups[find(i)].append(books[i])
+    n = 0
+    for g in groups.values():
+        if len(g) < 2:
+            continue
+        g.sort(key=lambda b: (b['rank'], bool(re.search(r'myagkaya-oblozhka|paperback|vneklassnoe|podarochnoe', b['slug'])),
+                              bool(b.get('editionNote')), len(b['slug'])))
+        main = g[0]
+        main['otherEditions'] = g[1:]
+        for b in g[1:]:
+            b['mainEdition'] = main
+            n += 1
+    return n
 
 
 def similar(books):
@@ -246,7 +352,7 @@ def similar(books):
         cand = set().union(*(by_theme[t] for t in b.get('themes', []))) if b.get('themes') else set()
         scored = []
         for j in cand:
-            if j == i:
+            if j == i or books[j].get('mainEdition'):
                 continue
             o = books[j]
             overlap = min(b['ageMax'], o['ageMax']) - max(b['ageMin'], o['ageMin'])
@@ -279,17 +385,35 @@ def item_list(books, name):
         {'@type': 'ListItem', 'position': i + 1, 'url': ORIGIN + b['url'], 'name': b['title']} for i, b in enumerate(books)]}
 
 
-TABBAR = [('Каталог', '/katalog/'), ('Подборки', '/podborki/'), ('Возраст', '/vozrast/'), ('Темы', '/tema/'), ('Подбор', '/podbor/')]
+NEN_LINKS = [('Журнал «Нет, это нормально»', 'https://n-e-n.ru/'), ('Развитие ребенка', 'https://n-e-n.ru/razvitie/'),
+             ('Эксперты НЭН', 'https://n-e-n.ru/eksperty/'), ('Генератор имен', 'https://n-e-n.ru/imena/'),
+             ('Раскраска «Акварель»', 'https://n-e-n.ru/aquarelle/'), ('Тесты', 'https://n-e-n.ru/quizes/')]
+NEN_SOCIAL = [('Телеграм', 'https://t.me/net_etonorm'), ('ВКонтакте', 'https://vk.com/net_eto_normalno'),
+              ('Дзен', 'https://dzen.ru/nenru'), ('YouTube', 'https://www.youtube.com/@netetonorm'),
+              ('Одноклассники', 'https://ok.ru/netetonorm')]
+NEN_ORG = {'@type': 'Organization', '@id': 'https://n-e-n.ru/#organization', 'name': 'Нет, это нормально', 'alternateName': 'НЭН',
+           'url': 'https://n-e-n.ru/', 'logo': {'@type': 'ImageObject', 'url': 'https://n-e-n.ru/img/nen_logo.png', 'width': 162, 'height': 74},
+           'sameAs': [h for _, h in NEN_SOCIAL]}
+
+TABBAR = [('Каталог', '/katalog/'), ('Подборки', '/podborki/'), ('Возраст', '/vozrast/'), ('Темы', '/tema/'), ('Найти книгу', '/podbor/')]
 NAV = [('Каталог', '/katalog/'), ('Подборки', '/podborki/'), ('По возрасту', '/vozrast/'), ('Темы', '/tema/'),
        ('Подобрать книгу', '/podbor/'), ('Избранное', '/izbrannoe/')]
 
 
-def page(path, title, description, body, *, schema=(), og_type='website', image=None, active=None, noindex=False):
-    canonical = ORIGIN + url(path)
+def page(path, title, description, body, *, schema=(), og_type='website', image=None, active=None, noindex=False, canonical=None):
+    canonical = ORIGIN + url(canonical or path)
     robots = 'noindex, nofollow' if PREVIEW or noindex else 'index, follow, max-image-preview:large, max-snippet:-1'
     nav = ''.join(f'<a href="{url(p)}"{" aria-current=page" if p == active else ""}>{e(n)}</a>' for n, p in NAV)
     tabbar = ''.join(f'<a href="{url(p)}"{" aria-current=page" if p == active else ""}>{e(n)}</a>' for n, p in TABBAR)
-    og_image = f'<meta property="og:image" content="{e(image)}">' if image else ''
+    if image:
+        og_image = f'<meta property="og:image" content="{e(image)}">\n<meta name="twitter:image" content="{e(image)}">'
+        card = 'summary'
+    else:
+        src, w, h, alt = OG_DEFAULT
+        og_image = (f'<meta property="og:image" content="{e(src)}">\n<meta property="og:image:width" content="{w}">\n'
+                    f'<meta property="og:image:height" content="{h}">\n<meta property="og:image:alt" content="{e(alt)}">\n'
+                    f'<meta name="twitter:image" content="{e(src)}">')
+        card = 'summary_large_image'
     preview = ('<div class="preview-bar">Рабочая версия для разработки. Сервис живет на '
                '<a href="https://n-e-n.ru/knigi/">n-e-n.ru/knigi</a></div>') if PREVIEW else ''
     graph = [s for s in schema if s]
@@ -310,7 +434,9 @@ def page(path, title, description, body, *, schema=(), og_type='website', image=
 <meta property="og:description" content="{e(description)}">
 <meta property="og:url" content="{e(canonical)}">
 {og_image}
-<meta name="twitter:card" content="{'summary_large_image' if image else 'summary'}">
+<meta name="twitter:card" content="{card}">
+<meta name="twitter:title" content="{e(title)}">
+<meta name="twitter:description" content="{e(description)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap">
@@ -332,7 +458,8 @@ def page(path, title, description, body, *, schema=(), og_type='website', image=
 <footer class="footer"><div class="wrap">
 <div><h2>{e('Что почитать с детьми')}</h2><p>{e('Книжные рекомендации редакции НЭН: для каждой книги объясняем, кому она подойдет, что важно знать родителям и о чём поговорить после чтения.')}</p></div>
 <div><h2>Разделы</h2><ul>{''.join(f'<li><a href="{url(p)}">{e(n)}</a></li>' for n, p in NAV[:5])}</ul></div>
-<div><h2>НЭН</h2><ul><li><a href="https://n-e-n.ru/">{e('Журнал «Нет, это нормально»')}</a></li><li><a href="https://n-e-n.ru/razvitie/">{e('Развитие ребенка')}</a></li><li><a href="https://n-e-n.ru/eksperty/">{e('Эксперты НЭН')}</a></li></ul></div>
+<div><h2>НЭН</h2><ul>{''.join(f'<li><a href="{h}">{e(n)}</a></li>' for n, h in NEN_LINKS)}</ul></div>
+<div><h2>{e('НЭН в соцсетях')}</h2><ul>{''.join(f'<li><a href="{h}" rel="noopener">{e(n)}</a></li>' for n, h in NEN_SOCIAL)}</ul></div>
 </div></footer>
 <script src="{url('/assets/app.js')}?v={ASSET_VERSION}" defer></script>
 </body>
@@ -343,7 +470,7 @@ def page(path, title, description, body, *, schema=(), og_type='website', image=
 def cover_img(b, cls='', eager=False, size=(240, 320)):
     if not b.get('cover'):
         return f'<div class="{cls}" aria-hidden="true"></div>'
-    loading = '' if eager else ' loading="lazy"'
+    loading = ' fetchpriority="high"' if eager else ' loading="lazy"'
     return (f'<div class="{cls}"><img src="{e(COVERS + b["cover"])}" alt="{e("Обложка книги «" + b["title"] + "»")}" '
             f'width="{size[0]}" height="{size[1]}"{loading} decoding="async"></div>')
 
@@ -390,9 +517,23 @@ def write(path, content):
     target = os.path.join(OUT, path.strip('/'), 'index.html') if path.endswith('/') else os.path.join(OUT, path.strip('/'))
     os.makedirs(os.path.dirname(target), exist_ok=True)
     with open(target, 'w', encoding='utf-8') as f:
-        f.write(yo(content))
+        f.write(typo_html(yo(content)) if target.endswith('.html') else yo(content))
     if path.endswith('/'):
         WRITTEN.append(path)
+
+
+def edition_kind(b):
+    if re.search(r'myagkaya-oblozhka|paperback', b['slug']) or 'мягкая обложка' in b.get('catalogTitle', ''):
+        return 'мягкая обложка'
+    if 'podarochnoe' in b['slug']:
+        return 'подарочное издание'
+    return ''
+
+
+def edition_label(b):
+    parts = [b.get('publisher'), str(b.get('publicationYear') or ''), b.get('editionNote') or edition_kind(b)]
+    label = ', '.join(x for x in parts if x) or b['title']
+    return short(label, 60)
 
 
 def render_book(b, in_collections):
@@ -446,6 +587,22 @@ def render_book(b, in_collections):
     links.append(f'<a class="chip" href="{url(band_path(band))}">{e(band[4])}</a>')
     if links:
         blocks.append('<section class="block"><h2 class="h3">Темы и жанры</h2><div class="chips">' + ''.join(links) + '</div></section>')
+    if b.get('otherEditions') or b.get('mainEdition'):
+        main_ed = b.get('mainEdition') or b
+        eds = [main_ed] + main_ed.get('otherEditions', [])
+        items = ''.join(f'<a class="chip" href="{x["url"]}">{e(edition_label(x))}</a>' for x in eds if x is not b)
+        lead = ('Это одно из изданий книги. Главная страница с рекомендацией — '
+                f'<a href="{main_ed["url"]}">«{e(main_ed["title"])}»</a>.') if b.get('mainEdition') else 'В каталоге есть и другие издания этой книги.'
+        blocks.append(f'<section class="block"><h2 class="h3">Другие издания</h2><p class="body">{lead}</p><div class="chips">{items}</div></section>')
+    arts = list(NEN_ARTICLES.get(b['slug'], []))
+    for x in [b.get('mainEdition')] + (b.get('otherEditions') or []) + (b['mainEdition'].get('otherEditions', []) if b.get('mainEdition') else []):
+        for a in NEN_ARTICLES.get(x['slug'], []) if x else []:
+            if a['url'] not in {y['url'] for y in arts}:
+                arts.append(a)
+    if arts:
+        items = ''.join(f'<li><a href="{e(a["url"])}">{e(a["title"])}</a><span class="meta">{e(" · ".join(x for x in (a.get("section"), ru_date(a.get("date"))) if x and x != "Без рубрики"))}</span></li>'
+                        for a in arts[:3])
+        blocks.append(f'<section class="block"><h2 class="h3">Книга в статьях НЭН</h2><ul class="reads">{items}</ul></section>')
     if in_collections:
         items = ''.join(f'<a class="chip" href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a>' for col in in_collections)
         blocks.append(f'<section class="block"><h2 class="h3">Книга в подборках НЭН</h2><div class="chips">{items}</div></section>')
@@ -462,8 +619,11 @@ def render_book(b, in_collections):
 </div></article></div>
 {sim}<div class="page-end"></div>'''
 
-    title = c.get('seoTitle') or (f'«{b["title"]}», {b["author"]} — о чём книга и с какого возраста | НЭН'
-                                   if len(b['title']) + len(b['author']) < 30 else f'«{short(b["title"], 40)}» — книга для детей {b["ageMin"]}–{b["ageMax"]} лет | НЭН')
+    main_ed = b.get('mainEdition')
+    title = book_title(b)
+    if main_ed:
+        hint = short(b.get('editionNote') or edition_kind(b) or ', '.join(x for x in (b.get('publisher'), str(b.get('publicationYear') or '')) if x) or 'другое издание', 24)
+        title = f'«{short(b["title"], 64 - len(hint) - 9)}» — {hint} | НЭН'
     desc = c.get('seoDescription') or short(f'Для детей {b["ageMin"]}–{b["ageMax"]} лет. {b.get("shortDescription", "")}', 160)
     book_ld = {'@type': 'Book', '@id': ORIGIN + b['url'] + '#book', 'url': ORIGIN + b['url'], 'name': b['title'],
                'author': [{'@type': 'Person' if not NOT_PEOPLE.search(a) else 'Organization', 'name': a} for a in b['authors']],
@@ -476,7 +636,27 @@ def render_book(b, in_collections):
         if v:
             book_ld[k] = v
     write(f'/kniga/{b["slug"]}/', page(f'/kniga/{b["slug"]}/', title, desc, body, schema=[book_ld, crumbs_ld], og_type='book',
-                                      image=(COVERS_ABS + b['cover']) if b.get('cover') else None, active=None))
+                                      image=(COVERS_ABS + b['cover']) if b.get('cover') else None, active=None,
+                                      canonical=f'/kniga/{main_ed["slug"]}/' if main_ed else None))
+
+
+MONTHS = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
+
+
+def ru_date(iso):
+    m = re.match(r'(\d{4})-(\d{2})-(\d{2})', iso or '')
+    return f'{int(m.group(3))} {MONTHS[int(m.group(2)) - 1]} {m.group(1)}' if m else ''
+
+
+def nen_reading(path):
+    """Подборки журнала НЭН по теме страницы (site/content/nen-reading.json)."""
+    arts = NEN_READING.get(path)
+    if not arts:
+        return ''
+    cards = ''.join(f'<article class="text-card"><span class="num">{e(ru_date(a["date"]) or "НЭН")}</span>'
+                    f'<h3><a href="{e(a["url"])}">{e(a["title"])}</a></h3></article>' for a in arts)
+    return (f'<section class="section wrap"><div class="section-head"><h2 class="h2">Читайте в журнале НЭН</h2></div>'
+            f'<div class="grid grid-3">{cards}</div></section>')
 
 
 def render_list(path, crumbs, h1, title, description, intro_html, books, *, faq=None, extra_top='', active=None, related=''):
@@ -497,10 +677,11 @@ def render_list(path, crumbs, h1, title, description, intro_html, books, *, faq=
 {intro_html if p == 1 else ''}</header>{extra_top if p == 1 else ''}
 <div class="results-meta"><span class="meta">{e(f"Показаны {(p - 1) * PER_PAGE + 1}–{(p - 1) * PER_PAGE + len(part)} из {len(books)}")}</span></div>
 {book_grid(part)}{pager(path, n_pages, p)}</div>
-{related if p == 1 else ''}{faq_html}<div class="page-end"></div>'''
+{related if p == 1 else ''}{nen_reading(path) if p == 1 else ''}{faq_html}<div class="page-end"></div>'''
         coll = {'@type': 'CollectionPage', 'url': ORIGIN + url(sub), 'name': h1_p, 'description': description,
                 'mainEntity': item_list(part, h1_p)}
-        write(sub, page(sub, title if p == 1 else f'{h1} — страница {p} | НЭН', description, body,
+        write(sub, page(sub, title if p == 1 else f'{h1} — страница {p} | НЭН',
+                        description if p == 1 else f'{short(description, 135)} Страница {p} из {n_pages}.', body,
                         schema=[coll, crumbs_ld, faq_ld], active=active))
 
 
@@ -515,6 +696,8 @@ def main():
     global ASSET_VERSION, AUTHOR_PAGES, THEME_PAGES, GENRE_PAGES, AGE_PAGES
     books, cols, landings = load()
     by_slug = {b['slug']: b for b in books}
+    n_editions = editions(books)
+    listed = [b for b in books if not b.get('mainEdition')]   # в тематических списках — только основное издание
     similar(books)
 
     if os.path.exists(OUT):
@@ -524,11 +707,11 @@ def main():
     ASSET_VERSION = hashlib.md5(b''.join(open(f, 'rb').read() for f in sorted(glob.glob(os.path.join(OUT, 'assets/*'))))).hexdigest()[:8]
 
     ordered = sorted(books, key=lambda b: (b['rank'], b['title']))
-    themes = collections.Counter(t for b in books for t in b.get('themes', []))
-    genres = collections.Counter(g for b in books for g in b.get('genres', []))
+    themes = collections.Counter(t for b in listed for t in b.get('themes', []))
+    genres = collections.Counter(g for b in listed for g in b.get('genres', []))
     THEME_PAGES = {t for t, n in themes.items() if n >= 8 and t in THEMES}
     GENRE_PAGES = {g for g, n in genres.items() if n >= 8 and g in GENRES}
-    authors = collections.Counter(a for b in books for a in b['authors'] if not NOT_PEOPLE.search(a))
+    authors = collections.Counter(a for b in listed for a in b['authors'] if not NOT_PEOPLE.search(a))
     AUTHOR_PAGES = {a for a, n in authors.items() if n >= 3}
     AGE_PAGES = {a: f'/vozrast/{a}-{slugify(age_word(a))}/' for a in range(1, 15)}
 
@@ -544,7 +727,7 @@ def main():
     band_counts = {}
     for band in AGE_BANDS:
         slug, label, lo, hi, h1, big, small = band
-        sel = [b for b in books if b['ageMin'] <= hi and b['ageMax'] >= lo]
+        sel = [b for b in listed if b['ageMin'] <= hi and b['ageMax'] >= lo]
         def fit(b, lo=lo, hi=hi):
             span = b['ageMax'] - b['ageMin'] + 1
             inside = min(b['ageMax'], hi) - max(b['ageMin'], lo) + 1
@@ -566,7 +749,7 @@ def main():
 
     age_counts = {}
     for a in range(1, 15):
-        sel = [b for b in books if b['ageMin'] <= a <= b['ageMax']]
+        sel = [b for b in listed if b['ageMin'] <= a <= b['ageMax']]
         sel.sort(key=lambda b: (b['rank'], abs((b['ageMin'] + b['ageMax']) / 2 - a) + 0.2 * (b['ageMax'] - b['ageMin']), b['title']))
         age_counts[a] = len(sel)
         path = AGE_PAGES[a]
@@ -589,7 +772,7 @@ def main():
             slug, h1 = table[key]
             path = f'{prefix}{slug}/'
             land = landings.get(path, {})
-            sel = sorted((b for b in books if key in b.get(field, [])), key=lambda b: (b['rank'], b['ageMin'], b['title']))
+            sel = sorted((b for b in listed if key in b.get(field, [])), key=lambda b: (b['rank'], b['ageMin'], b['title']))
             render_list(path, [('Что почитать с детьми', '/'), (crumb, '/tema/'), (land.get('h1') or h1, None)], land.get('h1') or h1,
                         land.get('title') or f'{h1}: что почитать — рекомендации НЭН',
                         land.get('description') or short(f'{h1}: {books_word(len(sel))} для разного возраста с рекомендациями редакции НЭН — о чём книга, почему советуем и о чём поговорить после чтения.', 160),
@@ -597,7 +780,7 @@ def main():
                         sel, faq=land.get('faq'), active='/tema/')
 
     # Перед сном
-    bed = sorted((b for b in books if b.get('suitableForBedtime')), key=lambda b: (b['rank'], b['ageMin'], b['title']))
+    bed = sorted((b for b in listed if b.get('suitableForBedtime')), key=lambda b: (b['rank'], b['ageMin'], b['title']))
     land = landings.get('/pered-snom/', {})
     render_list('/pered-snom/', [('Что почитать с детьми', '/'), ('Книги перед сном', None)], land.get('h1') or 'Книги для чтения перед сном',
                 land.get('title') or 'Книги для чтения перед сном: спокойные истории для детей | НЭН',
@@ -607,13 +790,21 @@ def main():
 
     # Авторы
     for a in sorted(AUTHOR_PAGES):
-        sel = sorted((b for b in books if a in b['authors']), key=lambda b: (b['ageMin'], b['title']))
+        sel = sorted((b for b in listed if a in b['authors']), key=lambda b: (b['ageMin'], b['title']))
         path = f'/avtor/{slugify(a)}/'
-        render_list(path, [('Что почитать с детьми', '/'), ('Авторы', '/avtor/'), (a, None)], f'{a}: книги для детей',
-                    f'{a} — книги для детей: что почитать и с какого возраста | НЭН',
-                    short(f'{a}: {books_word(len(sel))} в каталоге НЭН — для какого возраста, о чём каждая книга и почему мы ее советуем.', 160),
-                    intro(landings.get(path), f'{books_word(len(sel)).capitalize()} в каталоге НЭН. Они отсортированы по возрасту — от самых младших читателей к старшим.'),
-                    sel, active=None)
+        title = next(t for t in (f'{a} — книги для детей: что почитать и с какого возраста | НЭН',
+                                 f'{a}: книги для детей и с какого возраста | НЭН', f'{a}: книги для детей | НЭН') if len(t) <= 70 or t.endswith('детей | НЭН'))
+        lo, hi = min(b['ageMin'] for b in sel), max(b['ageMax'] for b in sel)
+        names = [f'«{b["title"]}»' for b in sel[:4]]
+        listing = (', '.join(names[:-1]) + ' и ' + names[-1]) if len(names) > 1 else names[0]
+        top = [THEME_SHORT.get(t, t).lower() for t, _ in collections.Counter(t for b in sel for t in b.get('themes', [])).most_common(3)]
+        fallback = [f'{a}: {books_word(len(sel))} в каталоге НЭН — {listing}{" и другие" if len(sel) > 4 else ""}. '
+                    f'Они подойдут детям {lo}–{hi} {age_word(hi)}' + (f', а главные темы — {", ".join(top)}.' if top else '.'),
+                    'Книги отсортированы по возрасту — от младших читателей к старшим. В карточке каждой мы рассказываем, о чём книга, '
+                    'почему мы ее советуем, что важно знать родителям и о чём поговорить с ребенком после чтения.']
+        render_list(path, [('Что почитать с детьми', '/'), ('Авторы', '/avtor/'), (a, None)], f'{a}: книги для детей', title,
+                    short(f'{a}: {books_word(len(sel))} в каталоге НЭН для детей {lo}–{hi} {age_word(hi)} — о чём каждая книга, с какого возраста читать и почему мы ее советуем.', 160),
+                    intro(landings.get(path), fallback), sel, active=None)
 
     # Подборки
     for col in cols:
@@ -630,9 +821,9 @@ def main():
 <div class="grid grid-2" style="margin-top:28px">{items}</div></div><div class="page-end"></div>'''
         coll = {'@type': 'CollectionPage', 'url': ORIGIN + url(path), 'name': col['title'], 'description': col['description'],
                 'mainEntity': item_list(sel, col['title'])}
-        write(path, page(path, f'{col["title"]} — подборка НЭН', short(col['description'], 160), body,
-                         schema=[coll, crumbs_ld], active='/podborki/',
-                         image=(COVERS_ABS + sel[0]['cover']) if sel and sel[0].get('cover') else None))
+        col_title = col.get('seoTitle') or (f'{col["title"]} — подборка НЭН' if len(col['title']) <= 52 else f'{col["title"]} | НЭН')
+        write(path, page(path, col_title, short(col['description'], 160), body,
+                         schema=[coll, crumbs_ld], active='/podborki/'))
     crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('Подборки', None)])
     cards_html = ''.join(
         f'<article class="text-card"><span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3>'
@@ -650,7 +841,8 @@ def main():
         f'<div class="chips">' + ''.join(f'<a class="chip" href="{url(AGE_PAGES[a])}">{e(f"{a} {age_word(a)}")}</a>' for a in range(max(band[2], 1), min(band[3], 14) + 1)) +
         '</div></section>' for band in AGE_BANDS)
     body = f'''{crumbs_html}<div class="wrap"><header class="list-head"><h1 class="h1">Книги по возрасту</h1>
-<div class="intro"><p>Выберите возраст ребенка — покажем книги, которые ему подойдут, начиная с тех, что мы знаем и советуем лучше всего. Внутри каждой группы можно уточнить возраст до года.</p></div></header>
+<div class="intro"><p>Выберите возраст ребенка — покажем книги, которые ему подойдут, начиная с тех, что мы знаем и советуем лучше всего. Внутри каждой группы можно уточнить возраст до года.</p>
+<p>Возраст на каждой книге — рекомендация редакции НЭН, а не издательская маркировка 0+, 6+ или 12+. Маркировка говорит, кому книгу можно продавать, но не когда ее интересно читать. Мы смотрим на объем, язык и темы: можно ли книгу слушать или уже читать самому, нужна ли помощь взрослого, чтобы обсудить сложное. Группы совпадают с возрастными тегами в журнале НЭН.</p></div></header>
 <div class="age-groups" style="margin-top:28px">{groups}</div></div><div class="page-end"></div>'''
     write('/vozrast/', page('/vozrast/', 'Книги для детей по возрасту — НЭН', 'Что почитать ребенку от 1 года до 14 лет: книги по возрасту с рекомендациями редакции НЭН.',
                             body, schema=[crumbs_ld], active='/vozrast/'))
@@ -714,7 +906,7 @@ def main():
 <div class="chips">{''.join(f'<button class="chip" type="button" data-mode="{k}" aria-pressed="false">{e(v)}</button>' for k, v in MODE.items())}<button class="chip" type="button" data-bed="1" aria-pressed="false">перед сном</button></div>
 <div class="btn-row"><button class="btn btn-secondary" type="button" data-prev>Назад</button><button class="btn btn-primary" type="submit">Показать книги</button></div></div>
 </form>
-<noscript><section class="section"><h2 class="h3" style="margin-bottom:12px">Выберите возраст</h2><div class="chips">{no_js}</div></section></noscript>
+<section class="section"><h2 class="h3" style="margin-bottom:12px">Или выберите сами</h2><p class="body" style="margin-bottom:16px">{e('Подбор учитывает возраст ребенка, выбранные темы и то, как вы будете читать: вместе, самостоятельно или перед сном. Первыми идут книги, которые редакция знает и советует лучше всего. Если хочется посмотреть всё, откройте книги по возрасту или по темам.')}</p><div class="chips">{no_js}<a class="chip" href="{url('/tema/')}">Все темы</a><a class="chip" href="{url('/pered-snom/')}">Перед сном</a></div></section>
 <div id="quiz-results" style="margin-top:28px"></div></div><div class="page-end"></div>'''
     write('/podbor/', page('/podbor/', 'Подобрать книгу для ребенка — НЭН', 'Ответьте на три вопроса о возрасте и интересах ребенка — НЭН предложит подходящие книги и объяснит выбор.',
                            body, schema=[crumbs_ld], active='/podbor/'))
@@ -725,8 +917,10 @@ def main():
     # Главная
     start = [by_slug[s] for s in json.load(open(os.path.join(ROOT, 'site/content/home.json'), encoding='utf-8'))['start'] if s in by_slug]
     tiles = ''.join(f'<a class="age-tile" href="{url(band_path(band))}"><b>{e(band[5])} <small>{e(band[6])}</small></b><span>{e(books_word(band_counts[band[0]]))}</span></a>' for band in AGE_BANDS)
-    hero_img = next((f for f in ('hero.webp', 'hero.png', 'hero.jpg') if os.path.exists(os.path.join(ROOT, 'site/assets', f))), None)
-    hero_art = f'<div class="hero-art"><img src="{url("/assets/" + hero_img)}" alt="" width="560" height="420"></div>' if hero_img else ''
+    hero_art = ''
+    if os.path.exists(os.path.join(ROOT, 'site/assets/hero.webp')):
+        hero_art = (f'<div class="hero-art"><img src="{url("/assets/hero.webp")}" srcset="{url("/assets/hero-600.webp")} 600w, {url("/assets/hero.webp")} 1200w" '
+                    f'sizes="(min-width: 900px) 600px, 100vw" alt="" width="1200" height="630" fetchpriority="high" decoding="async"></div>')
     top_themes = ''.join(f'<a class="topic" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEME_SHORT.get(t, t))}</a>' for t in
                          ['эмоции', 'страх', 'детский сад', 'школа', 'дружба', 'братья и сёстры', 'смерть', 'война', 'первая любовь', 'буллинг', 'космос', 'динозавры'] if t in THEME_PAGES)
     col_cards = ''.join(
@@ -746,6 +940,7 @@ def main():
 <section class="section"><div class="section-head"><h2 class="h2">Книги, с которых можно начать</h2><a href="{url('/katalog/')}">Весь каталог</a></div>{book_grid(start)}</section>
 <section class="section"><div class="panel-deep"><div><h2 class="h2">Не знаете, что выбрать</h2><p class="body" style="margin-top:12px">{e('Три вопроса о ребенке — и мы предложим книги из каталога с объяснением, почему они подойдут.')}</p></div>
 <div><a class="btn btn-primary" href="{url('/podbor/')}">Подобрать книгу</a></div></div></section>
+</div>{nen_reading('/')}<div class="wrap">
 <section class="section"><h2 class="h2">Как мы выбираем книги</h2><div class="intro" style="margin-top:16px">{''.join(f'<p>{e(p)}</p>' for p in home.get('about', [
         'В каталоге — книги, которые редакция НЭН и наши эксперты советуют читать с детьми: классика, которую стоит перечитать, и современные книги о том, что волнует детей сегодня.',
         'Мы не пересказываем аннотации издательств. Для каждой книги пишем, о чём она, почему мы ее советуем, что важно знать родителям — от сложных тем до устаревших взглядов — и какие вопросы обсудить с ребенком после чтения.',
@@ -753,25 +948,27 @@ def main():
     )}</div></section></div><div class="page-end"></div>'''
     site_ld = {'@type': 'WebPage', 'url': ORIGIN + url('/'), 'name': 'Что почитать с детьми — рекомендации НЭН',
                'description': 'Книги для детей по возрасту, интересам и настроению ребенка с рекомендациями редакции НЭН.',
-               'publisher': {'@type': 'Organization', 'name': 'Нет, это нормально', 'alternateName': 'НЭН', 'url': ORIGIN + '/'}}
+               'inLanguage': 'ru', 'isPartOf': {'@type': 'WebSite', '@id': 'https://n-e-n.ru/#website', 'url': 'https://n-e-n.ru/', 'name': 'Нет, это нормально'},
+               'publisher': {'@id': NEN_ORG['@id']}}
     write('/', page('/', 'Что почитать с детьми — книги по возрасту и темам | НЭН',
                     f'Что почитать ребенку: {books_word(len(books))} по возрасту, темам и жанрам с рекомендациями редакции НЭН — о чём книга, почему советуем и о чём поговорить после чтения.',
-                    body, schema=[site_ld], active=None))
+                    body, schema=[site_ld, NEN_ORG], active=None))
 
     # 404, индекс для фильтров, sitemap, robots
     write('/404.html', page('/404/', 'Страница не найдена — НЭН', 'Такой страницы нет.',
                             f'<div class="wrap"><header class="list-head"><h1 class="h1">Такой страницы нет</h1><div class="intro"><p>Возможно, книгу переименовали. Попробуйте <a href="{url("/katalog/")}">каталог</a> или <a href="{url("/podbor/")}">подбор книги</a>.</p></div></header></div><div class="page-end"></div>', noindex=True))
-    theme_list = sorted(themes)
-    genre_list = sorted(genres)
+    theme_list = sorted({t for b in books for t in b.get('themes', [])})
+    genre_list = sorted({g for b in books for g in b.get('genres', [])})
     index = {'themes': [yo(t) for t in theme_list], 'genres': [yo(g) for g in genre_list], 'modes': MODE, 'base': BASE, 'covers': COVERS,
              'bands': {band[0]: [band[2], band[3]] for band in AGE_BANDS},
              'books': [[b['slug'], yo(b['title']), yo(b['author']), b['ageMin'], b['ageMax'], b.get('readingMode') or '',
                         b.get('cover') or '', 1 if b.get('suitableForBedtime') else 0,
                         [theme_list.index(t) for t in b.get('themes', [])], [genre_list.index(g) for g in b.get('genres', [])],
-                        yo(short(b['snippet'], 120)), yo(b['ageLabel']), b['rank']] for b in ordered]}
+                        typo(yo(short(b['snippet'], 120))), yo(b['ageLabel']), b['rank']] for b in ordered]}
     os.makedirs(os.path.join(OUT, 'data'), exist_ok=True)
     json.dump(index, open(os.path.join(OUT, 'data/index.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
-    urls = [p for p in WRITTEN if p not in ('/izbrannoe/',)]
+    secondary = {f'/kniga/{b["slug"]}/' for b in books if b.get('mainEdition')}
+    urls = [p for p in WRITTEN if p not in ('/izbrannoe/',) and p not in secondary]
     sitemap = ''.join(f'<url><loc>{ORIGIN}{url(p)}</loc><lastmod>{TODAY}</lastmod></url>' for p in sorted(urls))
     open(os.path.join(OUT, 'sitemap.xml'), 'w', encoding='utf-8').write(
         f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sitemap}</urlset>\n')
@@ -779,10 +976,12 @@ def main():
         'User-agent: *\nDisallow: /\n' if PREVIEW else f'User-agent: *\nAllow: /\nSitemap: {ORIGIN}{BASE}/sitemap.xml\n')
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     print(f'страниц: {len(WRITTEN)}; карточек с новыми текстами: {written} из {len(books)}; '
-          f'темы: {len(THEME_PAGES)}, жанры: {len(GENRE_PAGES)}, авторы: {len(AUTHOR_PAGES)}; папка: {OUT}')
+          f'темы: {len(THEME_PAGES)}, жанры: {len(GENRE_PAGES)}, авторы: {len(AUTHOR_PAGES)}; '
+          f'других изданий (canonical на основное): {n_editions}; папка: {OUT}')
 
 
 ASSET_VERSION = ''
+NEN_ARTICLES, NEN_READING = {}, {}
 AUTHOR_PAGES, THEME_PAGES, GENRE_PAGES, AGE_PAGES = set(), set(), set(), {}
 
 if __name__ == '__main__':

@@ -33,14 +33,15 @@ img{max-width:100%;display:block}
 a{color:var(--text-link);text-decoration:none}
 a:hover{text-decoration:underline}
 :focus-visible{outline:2px solid var(--nen-blue);outline-offset:2px;border-radius:4px}
-h1,h2,h3,h4{margin:0;font-family:var(--font-display);color:var(--text-primary)}
-p{margin:0}
+h1,h2,h3,h4{margin:0;font-family:var(--font-display);color:var(--text-primary);text-wrap:balance}
+p{margin:0;text-wrap:pretty}
 .wrap{max-width:calc(var(--content) + 2*var(--gutter));margin:0 auto;padding:0 var(--gutter)}
 [hidden]{display:none!important}
 .visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* ── Превью ── */
 .preview-bar{background:var(--nen-yellow-200);color:var(--nen-yellow-ink);font:500 13px/1.4 var(--font-text);text-align:center;padding:8px var(--gutter)}
+.preview-bar a{white-space:nowrap}
 
 /* ── Шапка сервиса ── */
 .header{background:var(--surface-card);box-shadow:var(--ring-default)}
@@ -219,7 +220,8 @@ details.annotation .meta{margin-top:10px}
 .footer{margin-top:72px;background:var(--nen-charcoal);color:var(--nen-blue-50);padding:40px 0}
 .footer a{color:var(--nen-blue-50)}
 .footer .wrap{display:grid;gap:20px}
-@media (min-width:768px){.footer .wrap{grid-template-columns:2fr 1fr 1fr}}
+@media (min-width:600px){.footer .wrap{grid-template-columns:1fr 1fr}}
+@media (min-width:960px){.footer .wrap{grid-template-columns:2fr 1fr 1fr 1fr}}
 .footer h2{color:var(--nen-blue-50);font:600 14px/1.4 var(--font-display);margin-bottom:10px}
 .footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;font:400 14px/1.5 var(--font-text)}
 .footer p{font:400 14px/1.5 var(--font-text);color:#D7DBF0}
@@ -244,10 +246,27 @@ details.annotation .meta{margin-top:10px}
 .topic:hover{text-decoration:none;box-shadow:var(--ring-brand);color:var(--nen-blue-700)}
 .topic .count{font:500 13px/1 var(--font-text);color:var(--text-secondary)}
 
-/* ── Иллюстрация на первом экране ── */
+/* ── Иллюстрация на первом экране: сиреневая плашка в цвет фона картинки ── */
 .hero-copy{display:grid;gap:20px;align-content:start}
-@media (min-width:900px){.hero-with-art{grid-template-columns:1.1fr .9fr;align-items:center;gap:40px}}
-.hero-art img{width:100%;height:auto;border-radius:var(--radius-md)}
+.hero-with-art{--hero-bg:#CCCEFB;margin-top:24px;padding:0;gap:0;background:var(--hero-bg);border-radius:var(--radius-md);overflow:hidden}
+.hero-with-art .hero-copy{padding:4px 20px 24px}
+.hero-with-art .hero-art{order:-1}
+.hero-with-art .eyebrow,.hero-with-art .hero-stats div{color:var(--nen-blue-900)}
+.hero-art img{width:100%;height:auto}
+@media (min-width:900px){
+  .hero-with-art{grid-template-columns:1fr 1fr;align-items:center}
+  .hero-with-art .hero-copy{padding:48px 0 48px 48px}
+  .hero-with-art .hero-art{order:0}
+}
+/* На телефоне кнопки первого экрана — в одну строку */
+@media (max-width:599px){
+  .hero .btn-row{flex-wrap:nowrap;gap:8px}
+  .hero .btn{flex:1 1 0;padding:0 10px;min-width:0}
+}
+@media (max-width:399px){
+  .hero-with-art .hero-copy{padding:4px 16px 20px}
+  .hero .btn{font-size:11px;padding:0 6px}
+}
 
 /* ── «Избранное» в шапке и нижнее меню на телефоне ── */
 .header-fav{display:none;font:500 13px/1 var(--font-text);color:var(--text-primary)}
@@ -256,10 +275,15 @@ details.annotation .meta{margin-top:10px}
   .header .nav{display:none}
   .header .wrap{flex-wrap:nowrap;justify-content:space-between}
   .header-fav{display:inline-flex;align-items:center;height:36px;padding:0 12px;border-radius:var(--radius-tab);box-shadow:var(--ring-control)}
-  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--surface-card);box-shadow:inset 0 1px 0 var(--nen-neutral-200);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
-  .tabbar a{display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:var(--radius-tab);font:500 12px/1.2 var(--font-text);color:var(--text-primary);text-align:center}
-  .tabbar a:hover{text-decoration:none}
-  .tabbar a[aria-current=page]{background:var(--nen-blue);color:var(--nen-white)}
+  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--nen-blue-700);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}
+  .tabbar a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 2px;border-radius:var(--radius-tab);font:500 12px/1.2 var(--font-text);color:var(--nen-blue-50);text-align:center}
+  .tabbar a:hover{text-decoration:none;background:rgba(255,255,255,.12)}
+  .tabbar a[aria-current=page]{background:var(--nen-white);color:var(--nen-blue-900);font-weight:600}
   body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
   .footer{margin-top:48px}
 }
+
+/* ── Статьи НЭН на странице книги ── */
+.reads{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.reads li{display:flex;flex-direction:column;gap:2px}
+.reads a{font:500 16px/1.45 var(--font-text)}
