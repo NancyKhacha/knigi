@@ -315,7 +315,8 @@ def load():
             b['annotation'], b['annotationSource'], b['annotationByNen'] = nen_ann[b['slug']]['annotation'], 'Текст редакции НЭН', True
         sens = sensitive.get(b['slug']) or {}
         b['sensitive'] = sens.get('topics', [])
-        b['themes'] = list(b.get('themes', [])) + [t for t in sens.get('addThemes', []) if t not in b.get('themes', [])]
+        b['themes'] = [t for t in b.get('themes', []) if t not in sens.get('removeThemes', [])] + \
+            [t for t in sens.get('addThemes', []) if t not in b.get('themes', [])]
         b['adult'] = b['ageMin'] >= 18          # 18+: подростковая вилка НЭН (до 20 лет), но свой блок «перед чтением»
         b['rank'] = (0 if c and c.get('source', '').startswith('knowledge') else 1 if c else 2)
         b['url'] = url(f'/kniga/{b["slug"]}/')

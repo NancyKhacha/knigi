@@ -1,0 +1,2572 @@
+{
+ "451-gradus-po-farengeytu": {
+  "topics": [
+   "суицид",
+   "война",
+   "насилие"
+  ]
+ },
+ "7-hrustalnyh-sharov": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "adel-blan-sek-neobyknovennye-priklyucheniya-t-2-kn-4-6": {
+  "topics": [
+   "насилие",
+   "страшные сцены"
+  ]
+ },
+ "akuly-krasnogo-morya": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "alma-neotrazimaya": {
+  "topics": [
+   "насилие",
+   "дискриминация"
+  ]
+ },
+ "alma-svoboda": {
+  "topics": [
+   "насилие",
+   "дискриминация"
+  ]
+ },
+ "alma-veter-krepchaet": {
+  "topics": [
+   "насилие",
+   "дискриминация"
+  ]
+ },
+ "alye-parusa": {
+  "topics": [
+   "смерть",
+   "буллинг",
+   "бедность и голод"
+  ]
+ },
+ "amerikanets-kitayskogo-proishozhdeniya": {
+  "topics": [
+   "буллинг",
+   "дискриминация"
+  ]
+ },
+ "amulet-hranitelnitsa-kamnya": {
+  "topics": [
+   "смерть",
+   "страшные сцены"
+  ]
+ },
+ "angel-s-chertova-ostrova": {
+  "topics": [
+   "развод родителей"
+  ]
+ },
+ "anya-iz-zelenyh-mezoninov": {
+  "topics": [
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "banda-iz-leyptsiga": {
+  "topics": [
+   "Холокост и репрессии"
+  ]
+ },
+ "banka-so-svetlyachkami": {
+  "topics": [
+   "домашнее насилие"
+  ]
+ },
+ "bdv-ili-bolshoy-i-dobryy-velikan": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "begletsy": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "begletsy-stark": {
+  "topics": [
+   "тяжелая болезнь",
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "beleet-parus-odinokiy": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "beleet-parus-odinokiy-kataev": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "belogrudka": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "belyy-klyk": {
+  "topics": [
+   "насилие",
+   "жестокость к животным"
+  ]
+ },
+ "bembi-il-din-syaozhun": {
+  "topics": [
+   "смерть",
+   "жестокость к животным"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "bereg-mertvyh-nezabudok": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "bertik-i-chmuh": {
+  "topics": [
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "beskonechnaya-istoriya": {
+  "topics": [
+   "смерть",
+   "буллинг"
+  ]
+ },
+ "bezdna-chellendzhera": {
+  "topics": [
+   "психические расстройства"
+  ]
+ },
+ "biblioteka-priklyucheniy-myagkaya-oblozhka-robinzon-kruzo": {
+  "topics": [
+   "насилие",
+   "устаревшие взгляды"
+  ]
+ },
+ "biblioteka-priklyucheniy-ostrov-sokrovisch": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ]
+ },
+ "biblioteka-priklyucheniy-robinzon-kruzo": {
+  "topics": [
+   "насилие",
+   "устаревшие взгляды"
+  ]
+ },
+ "billi-i-knopy": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "bogi-kak-lyudi-kniga-1-krugi-na-vode": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "bolnitsa-dlya-dinozavrov-mezozoyskie-istorii": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "bolshoy-i-dobryy-velikan": {
+  "topics": [
+   "страшные сцены",
+   "сиротство"
+  ]
+ },
+ "bombochkoy-ne-prygat": {
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "borodino-stihotvoreniya-i-poemy-il-n-gavritskova": {
+  "topics": [
+   "война",
+   "смерть"
+  ],
+  "addThemes": [
+   "война"
+  ]
+ },
+ "brat-drakona": {
+  "topics": [
+   "тяжелая болезнь"
+  ],
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "bred-kakoy-to": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "bumazhnyy-zmey": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "burya-i-chudnoy-otryad": {
+  "removeThemes": [
+   "буллинг"
+  ]
+ },
+ "charli-i-bolshoy-steklyannyy-lift": {
+  "topics": [
+   "страшные сцены",
+   "устаревшие взгляды"
+  ]
+ },
+ "charli-i-shokoladnaya-fabrika": {
+  "topics": [
+   "бедность и голод"
+  ]
+ },
+ "cherez-granitsu": {
+  "topics": [
+   "война",
+   "Холокост и репрессии"
+  ]
+ },
+ "chernilnoe-serdtse": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "chernyy-pes": {
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "chuchelo": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "chudo": {
+  "topics": [
+   "смерть",
+   "буллинг",
+   "дискриминация"
+  ],
+  "addThemes": [
+   "буллинг",
+   "инклюзия"
+  ]
+ },
+ "clever-chtenie-lavanda-blu-priklyucheniya-v-volshebnom-lesu": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "clever-chtenie-sekret-v-chemodane": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "daresh-dolina-holodnogo-ognya-2": {
+  "removeThemes": [
+   "буллинг",
+   "смерть"
+  ]
+ },
+ "dashenka-ili-istoriya-schenyachey-zhizni": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "davay-igrat": {
+  "topics": [
+   "смерть",
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "dayuschiy": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ]
+ },
+ "den-chisla-pi": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "desyat-dney-do-kontsa-sveta": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ]
+ },
+ "detektiv-iz-robloks-mezhdu-mirami-kniga-6": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "detektivy-lili-i-zelda-delo-o-propavshem-zaveschanii": {
+  "topics": [
+   "смерть",
+   "насилие"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "deti-kapitana-granta": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "deti-lesa-sekret-sfinksa-5": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "deti-morya-opasnye-volny-3": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "deti-morya-vodnyy-zagovor-2": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "deti-vorona": {
+  "topics": [
+   "Холокост и репрессии",
+   "сиротство"
+  ]
+ },
+ "devochka-kotoraya-menyala-sudbu": {
+  "topics": [
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "devochka-s-lisim-hvostom-tom-3": {
+  "topics": [
+   "буллинг"
+  ],
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "devyatnadtsat-minut": {
+  "topics": [
+   "насилие",
+   "суицид",
+   "смерть",
+   "буллинг",
+   "откровенные сцены"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "dnevnik-bekona-iz-robloks-krovatnye-boyni-kniga-2": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "dnevnik-bekona-iz-robloks-pyatnitsa-koshmarnitsa-kniga-3": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "dnevnik-propavshey-sestry-1-novoe-oformlenie": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "dolgaya-zima": {
+  "topics": [
+   "бедность и голод"
+  ]
+ },
+ "dolgiy-put-vniz": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "dom-kotoryy-poshel": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "dom-v-kotorom": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "самоповреждение",
+   "алкоголь и наркотики",
+   "буллинг"
+  ],
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "dom-za-radugoy": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "dragotsennosti-kastafore": {
+  "topics": [
+   "дискриминация"
+  ]
+ },
+ "dve-zimy": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "dzhagger-dzhagger": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "dzheyms-i-chudo-persik": {
+  "topics": [
+   "домашнее насилие",
+   "сиротство"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "dzheyn-lisa-i-ya": {
+  "topics": [
+   "буллинг",
+   "дискриминация"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "dzheyn-lisa-i-ya-britt": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "dzhuliya-i-akula": {
+  "topics": [
+   "психические расстройства"
+  ]
+ },
+ "edinorog-v-kostyume-dinozavra-skazka-o-tom-kak-vazhno-byt-soboy": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "edyat-li-pokoyniki-torty-s-klubnikoy": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "eleanor-i-park": {
+  "topics": [
+   "сексуальное насилие",
+   "домашнее насилие",
+   "алкоголь и наркотики",
+   "буллинг",
+   "ненормативная лексика"
+  ]
+ },
+ "enn-iz-zelenyh-mezoninov": {
+  "topics": [
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "esli-hochesh-byt-krasivym-entsiklopediya-hoteniy": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "flon-flon-i-myuzett": {
+  "topics": [
+   "война"
+  ]
+ },
+ "fonarik-lilka-2-e-izd": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "formula-z": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "fotografii-na-pamyat-sbornik": {
+  "topics": [
+   "война",
+   "дискриминация"
+  ]
+ },
+ "fridrih-lvinyy-zev-verhom-na-shmele": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "frosya-korovina": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "gadkiy-utenok": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "garri-potter-i-filosofskiy-kamen": {
+  "topics": [
+   "домашнее насилие",
+   "сиротство"
+  ]
+ },
+ "gde-net-zimy": {
+  "topics": [
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "gips": {
+  "topics": [
+   "развод родителей"
+  ]
+ },
+ "glaz-volka": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "golodnye-igry": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "психические расстройства",
+   "бедность и голод"
+  ]
+ },
+ "golos-dotsuk": {
+  "topics": [
+   "насилие",
+   "психические расстройства"
+  ]
+ },
+ "golos-monstra": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь",
+   "буллинг",
+   "развод родителей"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "golubi-uleteli": {
+  "topics": [
+   "домашнее насилие",
+   "сиротство"
+  ]
+ },
+ "gore-ot-uma": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "gorod-solntsa-kniga-1-glaza-smerti": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "gorod-solntsa-kniga-4-serdtse-mgly": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "gorod-solntsa-kniga-4-serdtse-mgly-2-e-izd": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "gorod-solntsa-v-2-tomah-tom-2-myagkaya-oblozhka": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "gorodskie-legendy": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "govori": {
+  "topics": [
+   "сексуальное насилие",
+   "самоповреждение",
+   "психические расстройства",
+   "буллинг"
+  ]
+ },
+ "greys-prodelki-ozornoy-printsessy": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "grizli-il-v-kanivtsa": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "gud-bay-berlin": {
+  "topics": [
+   "алкоголь и наркотики",
+   "ненормативная лексика"
+  ]
+ },
+ "haydi": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "heytery": {
+  "topics": [
+   "откровенные сцены",
+   "ненормативная лексика"
+  ]
+ },
+ "hobbit-ili-tuda-i-obratno": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ]
+ },
+ "hram-solntsa": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "hroniki-narnii-il-p-beyns": {
+  "topics": [
+   "война",
+   "смерть",
+   "устаревшие взгляды"
+  ]
+ },
+ "hroniki-narnii-il-p-beyns-sin": {
+  "topics": [
+   "война",
+   "смерть",
+   "устаревшие взгляды"
+  ]
+ },
+ "i-pro-tebya-tam-napisano": {
+  "topics": [
+   "ненормативная лексика"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "inktober-mesyats-peremen": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "insu-pu-ostrov-poteryannyh-detey": {
+  "topics": [
+   "война",
+   "бедность и голод"
+  ]
+ },
+ "istorii-dyadyushki-duba-kniga-2-serdtse": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "istoriya-pobedy-a-zori-zdes-tihie-zavtra-byla-voyna-luchshie-knigi-k-80": {
+  "topics": [
+   "война",
+   "смерть",
+   "суицид",
+   "Холокост и репрессии",
+   "насилие"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "istoriya-pobedy-alpiyskaya-ballada-sotnikov": {
+  "topics": [
+   "война",
+   "насилие",
+   "смерть",
+   "откровенные сцены"
+  ]
+ },
+ "istoriya-pobedy-ulitsa-mladshego-syna": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "istoriya-pobedy-voennaya-tayna-golubaya-chashka-timur-i-ego-komanda": {
+  "topics": [
+   "смерть",
+   "насилие",
+   "война"
+  ]
+ },
+ "istoriya-s-kladbischem": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "сиротство",
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "istoriya-severnogo-kruga": {
+  "topics": [
+   "тяжелая болезнь"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "k-nebesam": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "kak-gitler-ukral-rozovogo-krolika-2-e-izdanie": {
+  "topics": [
+   "Холокост и репрессии"
+  ]
+ },
+ "kak-ya-teper-zhivu": {
+  "topics": [
+   "война",
+   "насилие",
+   "самоповреждение",
+   "откровенные сцены"
+  ],
+  "addThemes": [
+   "война"
+  ]
+ },
+ "kamen-nozhnitsy-bumaga": {
+  "topics": [
+   "Холокост и репрессии",
+   "насилие"
+  ]
+ },
+ "kanikuly-u-dinozavrov-dinozavry-v-akvaparke": {
+  "removeThemes": [
+   "развод родителей"
+  ]
+ },
+ "kashtanka": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "kashtanka-i-drugie-rasskazy-vneklassnoe-chtenie": {
+  "topics": [
+   "домашнее насилие",
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "kevin": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "klan-volkov-1": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "kniga-vseh-veschey": {
+  "topics": [
+   "домашнее насилие"
+  ]
+ },
+ "knizhki-kartinki-malyshka-pyshka-i-testotryasenie": {
+  "topics": [
+   "буллинг",
+   "дискриминация"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "knizhki-kartinki-myagkaya-oblozhka-malyshka-pyshka-i-testotryasenie": {
+  "topics": [
+   "буллинг",
+   "дискриминация"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "knizhnyy-vor": {
+  "topics": [
+   "война",
+   "Холокост и репрессии",
+   "смерть"
+  ],
+  "addThemes": [
+   "война",
+   "смерть"
+  ]
+ },
+ "kogda-moy-papa-stal-kustom": {
+  "topics": [
+   "война"
+  ],
+  "addThemes": [
+   "война"
+  ]
+ },
+ "koralina": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "korolevishny-3kolbaski": {
+  "topics": [
+   "буллинг",
+   "дискриминация"
+  ]
+ },
+ "korolevstvo-kraeugolnogo-kamnya-otvaga-kniga-4": {
+  "topics": [
+   "смерть",
+   "насилие"
+  ]
+ },
+ "korolevstvo-kraeugolnogo-kamnya-pervenitsy-maya-kniga-2": {
+  "topics": [
+   "дискриминация",
+   "бедность и голод"
+  ]
+ },
+ "korolevstvo-kraeugolnogo-kamnya-proschanie-kniga-3": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "kortik": {
+  "topics": [
+   "война",
+   "насилие"
+  ]
+ },
+ "koshachiy-cherdak": {
+  "topics": [
+   "война",
+   "бедность и голод"
+  ]
+ },
+ "koshmarius-i-ischeznuvshee-zele-1": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "kovcheg-othodit-rovno-v-vosem": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "krab-s-zolotymi-kleshnyami": {
+  "topics": [
+   "алкоголь и наркотики"
+  ]
+ },
+ "krabat-ili-legendy-staroy-melnitsy": {
+  "topics": [
+   "смерть",
+   "сиротство",
+   "страшные сцены"
+  ]
+ },
+ "kradenyy-gorod": {
+  "topics": [
+   "война",
+   "смерть",
+   "бедность и голод",
+   "сиротство"
+  ]
+ },
+ "kroshka-enot-i-tot-kto-sidit-v-prudu": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "krossover": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "krupnaya-kost-zefirnyy-zhora": {
+  "addThemes": [
+   "тело"
+  ]
+ },
+ "krylatye-sandalii": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "kto-ubil-snezhka": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "kuda-uhodit-kumutkan-brat-moy-bzou-sbornik": {
+  "topics": [
+   "война"
+  ]
+ },
+ "lavka-straha": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "legendy-i-mify-drevney-gretsii-bogi-i-geroi": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "leningradskie-skazki": {
+  "topics": [
+   "война",
+   "Холокост и репрессии",
+   "смерть",
+   "сиротство",
+   "бедность и голод"
+  ],
+  "addThemes": [
+   "война"
+  ]
+ },
+ "leopard-za-steklom": {
+  "topics": [
+   "Холокост и репрессии"
+  ]
+ },
+ "leto-v-mihaluvke-i-v-vilgelmuvke": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "lev-koldunya-i-platyanoy-shkaf": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "lichnoe-delo-saveliya-puzikova": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "lidochka": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "lisiy-plan-6": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "lovtsy-monstrov-prizrak-mrachnogo-doma": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "luchshee-lekarstvo": {
+  "topics": [
+   "тяжелая болезнь"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "lui-sredi-prizrakov": {
+  "topics": [
+   "алкоголь и наркотики",
+   "развод родителей"
+  ]
+ },
+ "madiken": {
+  "topics": [
+   "бедность и голод"
+  ]
+ },
+ "malchik-kotoryy-plaval-s-piranyami": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "malchik-so-shpagoy": {
+  "topics": [
+   "насилие",
+   "буллинг"
+  ]
+ },
+ "malenkaya-povest-o-lyubvi": {
+  "topics": [
+   "война"
+  ]
+ },
+ "malenkaya-printsessa": {
+  "topics": [
+   "смерть",
+   "сиротство",
+   "бедность и голод",
+   "устаревшие взгляды"
+  ]
+ },
+ "malenkie-zhenschiny": {
+  "topics": [
+   "война",
+   "тяжелая болезнь"
+  ]
+ },
+ "malenkiy-domik-v-prerii": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "malenkiy-fermer": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "malenkiy-muk-i-drugie-skazki-il-m-mitrofanova": {
+  "topics": [
+   "буллинг",
+   "страшные сцены"
+  ]
+ },
+ "malenkiy-prints": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "malenkiy-prints-illyustratsii-ha-chang-tahtag": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "malenkiy-prints-ris-avtora-v-superoblozhke": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "malenkiy-prints-sent-ekzyuperi": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "malysh-fyut": {
+  "topics": [
+   "война"
+  ]
+ },
+ "marta-i-poltora-ubiystva": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "marta-s-cherepami": {
+  "topics": [
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "matilda": {
+  "topics": [
+   "домашнее насилие",
+   "насилие"
+  ]
+ },
+ "matilde": {
+  "topics": [
+   "Холокост и репрессии"
+  ]
+ },
+ "milye-kosti": {
+  "topics": [
+   "сексуальное насилие",
+   "насилие",
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "mirella": {
+  "topics": [
+   "сиротство",
+   "бедность и голод",
+   "страшные сцены"
+  ]
+ },
+ "missiya-dikogo-robota": {
+  "removeThemes": [
+   "буллинг"
+  ]
+ },
+ "moh-istoriya-odnogo-psa": {
+  "topics": [
+   "война",
+   "Холокост и репрессии"
+  ]
+ },
+ "moi-druzya-prizraki-2-e-izd": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "morfir-bern": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "morskoy-ohotnik": {
+  "topics": [
+   "война"
+  ]
+ },
+ "most-v-terabitiyu": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "moy-dedushka-byl-vishney": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "moy-papa-ptits": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "moya-schastlivaya-zhizn-8-e-izd": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "mrachnyy-vzvod-byl-ili-nebyl": {
+  "topics": [
+   "насилие",
+   "страшные сцены"
+  ]
+ },
+ "mrak-nastupaet": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "muley": {
+  "topics": [
+   "суицид",
+   "смерть"
+  ]
+ },
+ "mumu-rasskazy": {
+  "topics": [
+   "смерть",
+   "жестокость к животным"
+  ]
+ },
+ "my-igrali-s-ognem": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "myshi-puli-i-sobaki": {
+  "topics": [
+   "война"
+  ]
+ },
+ "na-beregah-yabebiri": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "na-krayu-otonabi": {
+  "topics": [
+   "дискриминация"
+  ]
+ },
+ "na-sluzhbe-u-ee-velichestva-smerti": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "nad-propastyu-vo-rzhi": {
+  "topics": [
+   "суицид",
+   "смерть",
+   "психические расстройства",
+   "алкоголь и наркотики",
+   "откровенные сцены"
+  ]
+ },
+ "naoborotnyy-mir": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "ne-morgay-vypusk-1": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "ne-popadis-vypusk-3": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "ne-revi-ty-esche-zhiv": {
+  "topics": [
+   "война",
+   "Холокост и репрессии",
+   "бедность и голод"
+  ]
+ },
+ "neveroyatnoe-nashestvie-medvedey-na-sitsiliyu": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "neznayka-na-lune": {
+  "topics": [
+   "бедность и голод"
+  ]
+ },
+ "nikogda": {
+  "topics": [
+   "смерть",
+   "психические расстройства"
+  ],
+  "removeThemes": [
+   "развод родителей",
+   "буллинг"
+  ]
+ },
+ "nochnoy-sadovnik": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "nuzhnye-veschi": {
+  "topics": [
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "ochen-ochen-osobennyy-detektiv": {
+  "topics": [
+   "насилие"
+  ],
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "odinokoe-derevo": {
+  "topics": [
+   "психические расстройства"
+  ]
+ },
+ "odissey-hitroumnyy-geroy": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "ogromnyy-krokodil": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "ohotniki-na-prizrakov-tom-2": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "oliver-tvist-il-e-orehovoy": {
+  "topics": [
+   "насилие",
+   "сиротство",
+   "бедность и голод"
+  ]
+ },
+ "oshibka-saymona-5": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "oshibka-v-kode": {
+  "topics": [
+   "тяжелая болезнь",
+   "смерть"
+  ]
+ },
+ "ostorozhno-pitbul-tere": {
+  "topics": [
+   "домашнее насилие",
+   "психические расстройства"
+  ]
+ },
+ "ostrov-moego-dedushki": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "ostrov-na-ptichey-ulitse": {
+  "topics": [
+   "Холокост и репрессии",
+   "война",
+   "насилие",
+   "сиротство"
+  ]
+ },
+ "ostrov-sokrovisch": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "ostrov-v-more-prud-belyh-liliy-annika-tor-tom-1": {
+  "topics": [
+   "Холокост и репрессии",
+   "война",
+   "сиротство"
+  ]
+ },
+ "otel-bolshaya-l": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "padenie": {
+  "topics": [
+   "дискриминация"
+  ]
+ },
+ "paks": {
+  "topics": [
+   "война",
+   "смерть",
+   "жестокость к животным"
+  ]
+ },
+ "paks-doroga-domoy": {
+  "topics": [
+   "война",
+   "смерть",
+   "сиротство"
+  ],
+  "removeThemes": [
+   "буллинг"
+  ]
+ },
+ "pampa-blyuz": {
+  "topics": [
+   "тяжелая болезнь",
+   "сиротство"
+  ]
+ },
+ "parko": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "pastuh-i-pastushka-zvezdopad": {
+  "topics": [
+   "война",
+   "смерть",
+   "насилие",
+   "откровенные сцены"
+  ],
+  "addThemes": [
+   "война",
+   "смерть"
+  ]
+ },
+ "pautina-sharlotty": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "peppi-dlinnyychulok": {
+  "topics": [
+   "сиротство",
+   "устаревшие взгляды"
+  ]
+ },
+ "persey-pobeditel-meduzy": {
+  "removeThemes": [
+   "война",
+   "смерть"
+  ]
+ },
+ "persi-dzhekson-i-pohititel-molniy": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "pes-ne-tot": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "piraty": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "piter-pen": {
+  "topics": [
+   "насилие",
+   "устаревшие взгляды"
+  ]
+ },
+ "po-tu-storonu-siney-granitsy": {
+  "topics": [
+   "Холокост и репрессии"
+  ]
+ },
+ "podsnezhniki-i-vonyuchie-krysy": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "podvigi-gerakla-il-a-vlasovoy": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "podvodnyy-svet": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "poemy": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ]
+ },
+ "polety-v-odinochku": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "pollianna": {
+  "topics": [
+   "тяжелая болезнь",
+   "сиротство"
+  ]
+ },
+ "polnochnyy-sad": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "pomoschnik-bibliotekarya-113": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "posledniy-chernyy-kot": {
+  "topics": [
+   "жестокость к животным",
+   "суицид"
+  ]
+ },
+ "postup-haosa-nozh-kotorogo-net": {
+  "topics": [
+   "война",
+   "насилие",
+   "смерть",
+   "жестокость к животным"
+  ]
+ },
+ "poyuschiy-provod": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "pozhiratel-ischet-beluyu-sovu": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "pozhirayuschiy": {
+  "topics": [
+   "война",
+   "смерть"
+  ],
+  "addThemes": [
+   "война"
+  ]
+ },
+ "pravila-treh": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "pravilo-69-dlya-tolstoy-chayki": {
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "priklyucheniya-elektronika": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "priklyucheniya-geklberri-finna": {
+  "topics": [
+   "домашнее насилие",
+   "насилие",
+   "алкоголь и наркотики",
+   "дискриминация"
+  ]
+ },
+ "priklyucheniya-konni-v-nochnom-lesu": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "priklyucheniya-odisseya": {
+  "topics": [
+   "насилие"
+  ],
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "priklyucheniya-pinokkio": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "priklyucheniya-semeyki-hryullops": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "priklyucheniya-toma-soyera": {
+  "topics": [
+   "насилие",
+   "устаревшие взгляды"
+  ]
+ },
+ "prizrak-na-cherdake-vypusk-2": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "promezhute": {
+  "topics": [
+   "смерть",
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "prosto-rikka-i-tochka": {
+  "topics": [
+   "развод родителей"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "ptitsa-v-kletke": {
+  "topics": [
+   "домашнее насилие",
+   "буллинг",
+   "сиротство"
+  ]
+ },
+ "pyatnitsa-ili-dikaya-zhizn": {
+  "topics": [
+   "насилие",
+   "жестокость к животным"
+  ],
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "pyatoe-solntse": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "radio-popova": {
+  "topics": [
+   "сиротство",
+   "бедность и голод"
+  ]
+ },
+ "reka-tekuschaya-vspyat": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "respublika-shkid": {
+  "topics": [
+   "насилие",
+   "сиротство",
+   "бедность и голод"
+  ],
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "robin-i-skarlett-taynye-knigi-magov": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "russkaya-plennitsa-frantsuzskogo-kota": {
+  "topics": [
+   "война"
+  ]
+ },
+ "ryby-ne-tayut": {
+  "topics": [
+   "психические расстройства"
+  ]
+ },
+ "saharnyy-rebenok": {
+  "topics": [
+   "Холокост и репрессии",
+   "бедность и голод"
+  ]
+ },
+ "samo-soboy-i-voobsche": {
+  "topics": [
+   "развод родителей"
+  ]
+ },
+ "schastlivyy-neudachnik": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "semeyka-grimsbeyn-ohotniki-na-vedm": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "serdtse-na-brayle": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "serebryanye-konki": {
+  "topics": [
+   "тяжелая болезнь",
+   "бедность и голод",
+   "устаревшие взгляды"
+  ]
+ },
+ "shah-i-mat-sredi-zvezd": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "shkola-dobra-i-zla-poslednee-dolgo-i-schastlivo-3": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "shkola-shredingera": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "shkolnaya-klassika-malenkie-zhenschiny": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "shokoladus-esche-nemnogo-priklyucheniy": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "shokoladus-magicheskiy-oreshek": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "shokoladus-perets-piff-paff": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "shokoladus-sekret-volshebnogo-kakao": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "shokoladus-sekret-yaguara": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "shokoladus-volshebnaya-korona-mayya": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "shtorm-v-serdtse-serdtse-shtorma": {
+  "topics": [
+   "откровенные сцены"
+  ],
+  "addThemes": [
+   "тело"
+  ]
+ },
+ "sirius": {
+  "topics": [
+   "война",
+   "насилие",
+   "сиротство"
+  ]
+ },
+ "skazka-na-rozhdestvo": {
+  "topics": [
+   "война"
+  ]
+ },
+ "skazki-dyadyushki-rimusa": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "skazki-gansa-hristiana-andersena-il-e-melnikovoy": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "skazki-i-rasskazy-il-a-egunovoy": {
+  "topics": [
+   "смерть"
+  ],
+  "removeThemes": [
+   "развод родителей"
+  ]
+ },
+ "skazy": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "slepaya-kuritsa-hromaya-utka": {
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "slomannoe-uho": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "slon": {
+  "topics": [
+   "смерть",
+   "психические расстройства"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "slovno-iskra": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг",
+   "инклюзия"
+  ]
+ },
+ "smirennyy-voin": {
+  "topics": [
+   "насилие",
+   "смерть"
+  ]
+ },
+ "sobaka-pes": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "sokrovische-krasnogo-rakkama": {
+  "topics": [
+   "алкоголь и наркотики"
+  ]
+ },
+ "sonya-iz-7-buee": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "sovetskaya-seriya-voennaya-tayna-golubaya-chashka-timur-i-ego-komanda": {
+  "topics": [
+   "смерть",
+   "война",
+   "насилие"
+  ],
+  "addThemes": [
+   "смерть",
+   "война"
+  ]
+ },
+ "spasibo-uinn-diksi": {
+  "topics": [
+   "алкоголь и наркотики",
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "spisok-nemyslimyh-strahov": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь"
+  ]
+ },
+ "spoylery": {
+  "removeThemes": [
+   "война",
+   "смерть"
+  ]
+ },
+ "starik-hottabych": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "starik-hottabych-il-v-kanivtsa": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "stertyy": {
+  "topics": [
+   "развод родителей"
+  ]
+ },
+ "sto-platev": {
+  "topics": [
+   "буллинг",
+   "дискриминация",
+   "бедность и голод"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "strashilki-dlya-podrostkov-devochka-iz-chernogo-mramora": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "strashilki-dlya-podrostkov-yanisyarvi-mrachnaya-tayna-chudo-ozera": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "strashnye-istorii": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "strashnye-istorii-robloks-ne-igray-v-temnote": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "strashnye-skazki-dyadyushki-montegyu": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "strashnye-skazki-s-chernogo-korablya": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "strashnye-skazki-zhenschiny-v-belom": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "svetomore-tom-2-razrushitel-solntsa": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "svintusy": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "tainstvennaya-zvezda": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "tainstvennyy-sad": {
+  "topics": [
+   "смерть",
+   "сиротство",
+   "устаревшие взгляды"
+  ]
+ },
+ "talant-koula": {
+  "topics": [
+   "бедность и голод"
+  ]
+ },
+ "tam-gde-okean-vstrechaetsya-s-nebom": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "tayna-propavshey-zhemchuzhiny-1": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "tayna-starogo-shkafa-4": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "tayny-muzeya-voskovyh-figur-sekretnaya-missiya-drakuly": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "teni-radovara": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "tim-taler-ili-prodannyy-smeh": {
+  "topics": [
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "tim-taler-ili-prodannyy-smeh-illyustratsii-niki-golts-2-e-izd": {
+  "topics": [
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "timur-i-ego-komanda-vneklassnoe-chtenie": {
+  "topics": [
+   "война"
+  ],
+  "addThemes": [
+   "война"
+  ]
+ },
+ "tintin-i-pikarosy": {
+  "topics": [
+   "алкоголь и наркотики"
+  ]
+ },
+ "tintin-v-amerike": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "tintin-v-kongo": {
+  "topics": [
+   "устаревшие взгляды",
+   "жестокость к животным"
+  ]
+ },
+ "tintin-v-strane-chernogo-zolota": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "tobi-lolness": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "tochka-zreniya-vseveduschego-chitatelya-tom-3": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "страшные сцены"
+  ]
+ },
+ "tochka-zreniya-vseveduschego-chitatelya-tom-4": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "страшные сцены"
+  ]
+ },
+ "tomas-drimm-kniga-2-voyna-s-derevyami-nachnetsya-trinadtsatogo": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "tonkiy-mech": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "tri-tolstyaka": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "tri-tvoih-imeni": {
+  "topics": [
+   "смерть",
+   "сиротство",
+   "алкоголь и наркотики"
+  ]
+ },
+ "trinadtsataya-skazka": {
+  "topics": [
+   "домашнее насилие",
+   "насилие",
+   "смерть",
+   "психические расстройства"
+  ]
+ },
+ "troya-i-net-voyne-kontsa": {
+  "topics": [
+   "война",
+   "насилие"
+  ]
+ },
+ "tsatsa-zamorskaya": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "tsatsiki-i-lyubov": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "tsatsiki-idet-v-shkolu": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "tsvety-dlya-eldzhernona": {
+  "topics": [
+   "домашнее насилие",
+   "смерть",
+   "тяжелая болезнь",
+   "буллинг",
+   "откровенные сцены"
+  ]
+ },
+ "u-serebryanogo-ozera": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь"
+  ]
+ },
+ "ubit-peresmeshnika": {
+  "topics": [
+   "сексуальное насилие",
+   "домашнее насилие",
+   "насилие",
+   "дискриминация"
+  ]
+ },
+ "udar-skorpiona": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "udivitelnoe-puteshestvie-krolika-edvarda": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "udivitelnye-priklyucheniya-mauliny-shmitt-chast-1-moe-razrushennoe": {
+  "topics": [
+   "тяжелая болезнь",
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "udivitelnye-priklyucheniya-mauliny-shmitt-chast-2-v-ozhidanii-chuda": {
+  "topics": [
+   "тяжелая болезнь",
+   "развод родителей"
+  ],
+  "addThemes": [
+   "развод родителей"
+  ]
+ },
+ "ulichnye-lyudi": {
+  "topics": [
+   "бедность и голод"
+  ]
+ },
+ "ulichnyy-kot-po-imeni-bob": {
+  "topics": [
+   "алкоголь и наркотики",
+   "бедность и голод"
+  ]
+ },
+ "umeesh-li-ty-svistet-yohanna": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "utka-smert-i-tyulpan": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "v-poiskah-volka": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "vafelnoe-serdtse": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "vedma-sladkoy-derevni": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "vedminy-konfety": {
+  "topics": [
+   "страшные сцены"
+  ],
+  "addThemes": [
+   "страх"
+  ]
+ },
+ "vedmy": {
+  "topics": [
+   "смерть",
+   "сиротство",
+   "страшные сцены"
+  ]
+ },
+ "velvetovyy-krolik": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "vershiteli-kniga-2-kope-maary": {
+  "removeThemes": [
+   "смерть"
+  ]
+ },
+ "vinovaty-zvezdy": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь",
+   "откровенные сцены"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "vladimir-krasnoe-solnyshko": {
+  "topics": [
+   "война",
+   "насилие"
+  ]
+ },
+ "voennaya-tayna-golubaya-chashka-timur-i-ego-komanda-chuk-i-gek-m-o": {
+  "topics": [
+   "смерть",
+   "война",
+   "насилие"
+  ],
+  "addThemes": [
+   "смерть",
+   "война"
+  ]
+ },
+ "vokrug-sveta-v-vosemdesyat-dney": {
+  "topics": [
+   "устаревшие взгляды"
+  ]
+ },
+ "volche-nebo": {
+  "topics": [
+   "война"
+  ]
+ },
+ "volchonok-po-oshibke": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "volk": {
+  "topics": [
+   "буллинг"
+  ]
+ },
+ "volk-po-imeni-strannik": {
+  "topics": [
+   "смерть"
+  ]
+ },
+ "volna": {
+  "topics": [
+   "насилие",
+   "буллинг"
+  ]
+ },
+ "volshebnaya-biblioteka-brokkoli": {
+  "topics": [
+   "буллинг"
+  ],
+  "addThemes": [
+   "буллинг"
+  ]
+ },
+ "volshebnoe-koltso": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "volshebnyy-palets": {
+  "topics": [
+   "жестокость к животным"
+  ]
+ },
+ "voyna-katrin": {
+  "topics": [
+   "Холокост и репрессии",
+   "война"
+  ]
+ },
+ "voyna-katrin-graficheskiy-roman": {
+  "topics": [
+   "Холокост и репрессии",
+   "война"
+  ]
+ },
+ "voyna-s-liliputami": {
+  "removeThemes": [
+   "война"
+  ]
+ },
+ "vsadnik-bez-golovy-il-n-ustinova": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "устаревшие взгляды"
+  ]
+ },
+ "vse-budet-horosho-obyazatelno": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "vstrechi-po-sredam-ili-tetya-gulda-govorit-bezhim": {
+  "addThemes": [
+   "инклюзия"
+  ]
+ },
+ "vsya-sineva-neba": {
+  "topics": [
+   "смерть",
+   "тяжелая болезнь"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "vsya-vasha-nenavist": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "дискриминация",
+   "ненормативная лексика"
+  ]
+ },
+ "vtoroy-shans-roberta-uorrena": {
+  "topics": [
+   "смерть",
+   "психические расстройства"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "vverh-po-lestnitse-veduschey-vniz": {
+  "topics": [
+   "суицид",
+   "бедность и голод"
+  ]
+ },
+ "vzaperti": {
+  "topics": [
+   "насилие"
+  ]
+ },
+ "vzglyad-krolika": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "ya-nikomu-ne-skazhu": {
+  "topics": [
+   "психические расстройства"
+  ]
+ },
+ "yamy": {
+  "topics": [
+   "насилие",
+   "дискриминация"
+  ]
+ },
+ "yaroshtorm": {
+  "topics": [
+   "смерть",
+   "сиротство"
+  ]
+ },
+ "za-gorizontom-dve-povesti": {
+  "topics": [
+   "смерть"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "za-rekoy": {
+  "topics": [
+   "война"
+  ]
+ },
+ "zakoldovannaya-zhizn": {
+  "topics": [
+   "сиротство"
+  ]
+ },
+ "zhuki-ne-plachut": {
+  "topics": [
+   "война",
+   "смерть"
+  ]
+ },
+ "zhutko-gromko-i-zapredelno-blizko": {
+  "topics": [
+   "смерть",
+   "война",
+   "самоповреждение",
+   "откровенные сцены"
+  ],
+  "addThemes": [
+   "смерть"
+  ]
+ },
+ "zima-kogda-ya-vyros": {
+  "topics": [
+   "Холокост и репрессии",
+   "сиротство"
+  ]
+ },
+ "zolotaya-klassika-dlya-detey-schelkunchik-i-myshinyy-korol": {
+  "topics": [
+   "страшные сцены"
+  ]
+ },
+ "zolotye-vesla": {
+  "topics": [
+   "тяжелая болезнь"
+  ]
+ },
+ "zov-predkov": {
+  "topics": [
+   "насилие",
+   "смерть",
+   "жестокость к животным"
+  ]
+ },
+ "zver-iz-temnoty": {
+  "topics": [
+   "смерть",
+   "война"
+  ]
+ }
+}
