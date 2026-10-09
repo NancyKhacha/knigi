@@ -523,7 +523,7 @@ def main():
     # Перед сном
     bed = sorted((b for b in books if b.get('suitableForBedtime')), key=lambda b: (b['rank'], b['ageMin'], b['title']))
     land = landings.get('/pered-snom/', {})
-    render_list('/pered-snom/', [('Что почитать с детьми', '/'), ('Книги перед сном', None)], 'Книги для чтения перед сном',
+    render_list('/pered-snom/', [('Что почитать с детьми', '/'), ('Книги перед сном', None)], land.get('h1') or 'Книги для чтения перед сном',
                 land.get('title') or 'Книги для чтения перед сном: спокойные истории для детей | НЭН',
                 land.get('description') or f'Спокойные книги для вечернего чтения: {books_word(len(bed))} для детей разного возраста с рекомендациями редакции НЭН.',
                 intro(land, 'Спокойные истории без страшных поворотов, которые хорошо читать вечером. Многие из них короткие — можно читать по одной главе или сказке за вечер.'),
@@ -611,9 +611,10 @@ def main():
 <label><span class="visually-hidden">Жанр</span><select name="genre"><option value="">Любой жанр</option>{genre_opts}</select></label></div>
 <div class="chips" role="group" aria-label="Формат чтения">{''.join(f'<button class="chip" type="button" data-mode="{k}" aria-pressed="false">{e(v)}</button>' for k, v in MODE.items())}<button class="chip" type="button" data-bed="1" aria-pressed="false">перед сном</button></div>
 </form>'''
-    render_list('/katalog/', [('Что почитать с детьми', '/'), ('Каталог', None)], 'Каталог детских книг',
-                'Каталог детских книг с рекомендациями — НЭН',
-                f'{books_word(len(books)).capitalize()} для детей от 1 года до 17 лет с рекомендациями редакции НЭН: поиск по возрасту, теме, жанру и формату чтения.',
+    land = landings.get('/katalog/', {})
+    render_list('/katalog/', [('Что почитать с детьми', '/'), ('Каталог', None)], land.get('h1') or 'Каталог детских книг',
+                land.get('title') or 'Каталог детских книг с рекомендациями — НЭН',
+                land.get('description') or f'{books_word(len(books)).capitalize()} для детей от 1 года до 17 лет с рекомендациями редакции НЭН: поиск по возрасту, теме, жанру и формату чтения.',
                 intro(landings.get('/katalog/'), 'Ищите по названию, автору или теме. Фильтры применяются сразу и сохраняются в ссылке — ее можно отправить.'),
                 ordered, extra_top=filters + '<div id="catalog-results" hidden></div>', active='/katalog/')
 
