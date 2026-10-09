@@ -88,6 +88,47 @@ GENRES = {
     'историческая проза': ('istoricheskaya-proza', 'Историческая проза для подростков'),
     'книжка-картинка': ('knizhki-kartinki', 'Книжки-картинки для малышей'),
 }
+# Короткие подписи тем и жанров для навигации: «Про эмоции», а не «Книги про эмоции для детей».
+THEME_SHORT = {
+    'животные': 'Про животных', 'семья': 'О семье', 'дружба': 'О дружбе', 'природа': 'О природе', 'школа': 'Про школу',
+    'волшебство': 'О волшебстве', 'взросление': 'О взрослении', 'приключения': 'Приключения',
+    'братья и сёстры': 'О братьях и сёстрах', 'юмор': 'Смешные', 'отношения': 'Об отношениях', 'эмоции': 'Про эмоции',
+    'путешествия': 'О путешествиях', 'история': 'Об истории', 'страх': 'Про страхи', 'детский сад': 'Про детский сад',
+    'творчество': 'О творчестве', 'космос': 'Про космос', 'мифология': 'Мифы и легенды', 'смелость': 'О смелости',
+    'война': 'О войне', 'смерть': 'О смерти и утрате', 'спорт': 'О спорте', 'самооценка': 'О самооценке',
+    'первая любовь': 'О первой любви', 'музыка': 'О музыке', 'ответственность': 'Об ответственности',
+    'экология': 'Об экологии', 'театр': 'О театре', 'динозавры': 'Про динозавров', 'безопасность': 'О безопасности',
+    'доброта': 'О доброте', 'культурное разнообразие': 'О разных культурах', 'инклюзия': 'Об инклюзии',
+    'буллинг': 'О травле', 'принятие себя': 'О принятии себя', 'наука': 'О науке', 'изобретения': 'Об изобретениях',
+    'развод родителей': 'О разводе', 'техника': 'О технике', 'тело': 'О теле', 'морские приключения': 'Морские приключения',
+    'детектив': 'Детективные истории', 'фантастика': 'Фантастика',
+}
+GENRE_SHORT = {
+    'сказка': 'Сказки', 'приключения': 'Приключения', 'юмор': 'Юмор', 'реалистическая проза': 'Реалистическая проза',
+    'фэнтези': 'Фэнтези', 'детектив': 'Детективы', 'поэзия': 'Стихи', 'научная фантастика': 'Научная фантастика',
+    'семейная история': 'Семейные истории', 'историческая проза': 'Историческая проза', 'книжка-картинка': 'Книжки-картинки',
+}
+# Возрастные вилки — те же, что в возрастных тегах НЭН: 1-2 года, 2-3 года, 3-6 лет, 7-10 лет, подростки.
+# (адрес, подпись, от, до, заголовок страницы, крупная цифра на плитке, подпись на плитке)
+AGE_BANDS = [
+    ('1-2-goda', '1–2 года', 0, 2, 'Книги для детей 1–2 лет', '1–2', 'года'),
+    ('2-3-goda', '2–3 года', 2, 3, 'Книги для детей 2–3 лет', '2–3', 'года'),
+    ('3-6-let', '3–6 лет', 3, 6, 'Книги для детей 3–6 лет', '3–6', 'лет'),
+    ('7-10-let', '7–10 лет', 7, 10, 'Книги для детей 7–10 лет', '7–10', 'лет'),
+    ('podrostki', 'Подростки', 11, 17, 'Книги для подростков', '11+', 'лет'),
+]
+
+
+def band_of(b):
+    """Вилка, с которой у книги больше всего общих лет; при равенстве — младшая."""
+    best = max(AGE_BANDS, key=lambda band: (min(b['ageMax'], band[3]) - max(b['ageMin'], band[2]), -band[2]))
+    return best
+
+
+def band_path(band):
+    return f'/vozrast/{band[0]}/'
+
+
 NOT_PEOPLE = re.compile(r'народн|сказк|коллектив|авторы|драматурги|^редакц', re.I)
 TRANSLIT = dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя',
                     ['a', 'b', 'v', 'g', 'd', 'e', 'e', 'zh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't',
@@ -237,6 +278,7 @@ def item_list(books, name):
         {'@type': 'ListItem', 'position': i + 1, 'url': ORIGIN + b['url'], 'name': b['title']} for i, b in enumerate(books)]}
 
 
+TABBAR = [('Каталог', '/katalog/'), ('Подборки', '/podborki/'), ('Возраст', '/vozrast/'), ('Темы', '/tema/'), ('Подбор', '/podbor/')]
 NAV = [('Каталог', '/katalog/'), ('Подборки', '/podborki/'), ('По возрасту', '/vozrast/'), ('Темы', '/tema/'),
        ('Подобрать книгу', '/podbor/'), ('Избранное', '/izbrannoe/')]
 
@@ -245,6 +287,7 @@ def page(path, title, description, body, *, schema=(), og_type='website', image=
     canonical = ORIGIN + url(path)
     robots = 'noindex, nofollow' if PREVIEW or noindex else 'index, follow, max-image-preview:large, max-snippet:-1'
     nav = ''.join(f'<a href="{url(p)}"{" aria-current=page" if p == active else ""}>{e(n)}</a>' for n, p in NAV)
+    tabbar = ''.join(f'<a href="{url(p)}"{" aria-current=page" if p == active else ""}>{e(n)}</a>' for n, p in TABBAR)
     og_image = f'<meta property="og:image" content="{e(image)}">' if image else ''
     preview = ('<div class="preview-bar">Рабочая версия для разработки. Сервис живет на '
                '<a href="https://n-e-n.ru/knigi/">n-e-n.ru/knigi</a></div>') if PREVIEW else ''
@@ -254,7 +297,7 @@ def page(path, title, description, body, *, schema=(), og_type='website', image=
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
 <link rel="canonical" href="{e(canonical)}">
@@ -279,7 +322,9 @@ def page(path, title, description, body, *, schema=(), og_type='website', image=
 <header class="header"><div class="wrap">
 <a class="wordmark" href="{url('/')}">НЭН<small>{e('Что почитать с детьми')}</small></a>
 <nav class="nav" aria-label="Разделы сервиса">{nav}</nav>
+<a class="header-fav" href="{url('/izbrannoe/')}">Избранное</a>
 </div></header>
+<nav class="tabbar" aria-label="Разделы сервиса">{tabbar}</nav>
 <main>
 {body}
 </main>
@@ -302,8 +347,11 @@ def cover_img(b, cls='', eager=False, size=(240, 320)):
             f'width="{size[0]}" height="{size[1]}"{loading} decoding="async"></div>')
 
 
-def book_tags(b):
-    out = [f'<span class="tag tag-blue">{e(b["ageLabel"])}</span>']
+def book_tags(b, link_age=False):
+    if link_age:
+        out = [f'<a class="tag tag-blue" href="{url(band_path(band_of(b)))}" title="{e(band_of(b)[4])}">{e(b["ageLabel"])}</a>']
+    else:
+        out = [f'<span class="tag tag-blue">{e(b["ageLabel"])}</span>']
     if b.get('readingMode') in MODE:
         out.append(f'<span class="tag tag-pink">{e(MODE[b["readingMode"]])}</span>')
     if b.get('suitableForBedtime'):
@@ -389,12 +437,12 @@ def render_book(b, in_collections):
     links = []
     for t in b.get('themes', []):
         if t in THEME_PAGES:
-            links.append(f'<a class="chip" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(t)}</a>')
+            links.append(f'<a class="chip" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEME_SHORT.get(t, t))}</a>')
     for g in b.get('genres', []):
         if g in GENRE_PAGES:
-            links.append(f'<a class="chip" href="{url("/zhanr/" + GENRES[g][0] + "/")}">{e(g)}</a>')
-    age_mid = max(2, min(14, (b['ageMin'] + b['ageMax']) // 2))
-    links.append(f'<a class="chip" href="{url(AGE_PAGES[age_mid])}">{e("Книги для детей " + age_gen(age_mid))}</a>')
+            links.append(f'<a class="chip" href="{url("/zhanr/" + GENRES[g][0] + "/")}">{e(GENRE_SHORT.get(g, g))}</a>')
+    band = band_of(b)
+    links.append(f'<a class="chip" href="{url(band_path(band))}">{e(band[4])}</a>')
     if links:
         blocks.append('<section class="block"><h2 class="h3">Темы и жанры</h2><div class="chips">' + ''.join(links) + '</div></section>')
     if in_collections:
@@ -408,7 +456,7 @@ def render_book(b, in_collections):
 <button class="fav" type="button" data-fav="{b["slug"]}" aria-pressed="false">Сохранить в избранное</button>{facts_html}</aside>
 <div class="book-main">
 <header class="book-head"><span class="eyebrow">{e("Возрастная рекомендация НЭН · " + b["ageLabel"])}</span>
-<h1 class="h1">{e(b["title"])}</h1><p class="author">{authors_html}</p>{book_tags(b)}</header>
+<h1 class="h1">{e(b["title"])}</h1><p class="author">{authors_html}</p>{book_tags(b, link_age=True)}</header>
 {''.join(blocks)}
 </div></article></div>
 {sim}<div class="page-end"></div>'''
@@ -491,7 +539,30 @@ def main():
     for b in books:
         render_book(b, in_cols.get(b['slug'], []))
 
-    # По возрасту
+    # По возрасту: вилки, как в возрастных тегах НЭН, и уточнение по годам внутри вилки
+    band_counts = {}
+    for band in AGE_BANDS:
+        slug, label, lo, hi, h1, big, small = band
+        sel = [b for b in books if b['ageMin'] <= hi and b['ageMax'] >= lo]
+        def fit(b, lo=lo, hi=hi):
+            span = b['ageMax'] - b['ageMin'] + 1
+            inside = min(b['ageMax'], hi) - max(b['ageMin'], lo) + 1
+            return inside / span
+        sel.sort(key=lambda b: (b['rank'], -round(fit(b), 1), b['ageMin'], b['title']))
+        band_counts[slug] = len(sel)
+        path = band_path(band)
+        land = landings.get(path, {})
+        years = [a for a in range(max(lo, 1), min(hi, 14) + 1)]
+        year_chips = ''.join(f'<a class="chip" href="{url(AGE_PAGES[a])}">{e(f"{a} {age_word(a)}")}</a>' for a in years)
+        other = ''.join(f'<a class="chip" href="{url(band_path(x))}">{e(x[1])}</a>' for x in AGE_BANDS if x is not band)
+        related = (f'<section class="section wrap"><h2 class="h3">Уточнить возраст</h2><div class="chips" style="margin-top:12px">{year_chips}</div>'
+                   f'<h2 class="h3" style="margin-top:24px">Другие возрасты</h2><div class="chips" style="margin-top:12px">{other}</div></section>')
+        render_list(path, [('Что почитать с детьми', '/'), ('По возрасту', '/vozrast/'), (land.get('h1') or h1, None)], land.get('h1') or h1,
+                    land.get('title') or f'{h1}: что почитать — рекомендации НЭН',
+                    land.get('description') or short(f'{h1}: {books_word(len(sel))} с рекомендациями редакции НЭН — о чём книга, почему советуем и о чём поговорить после чтения.', 160),
+                    intro(land, f'Книги, которые подходят детям {label if slug != "podrostki" else "11–17 лет"}. Первыми идут те, что мы знаем и советуем лучше всего.'),
+                    sel, faq=land.get('faq'), active='/vozrast/', related=related)
+
     age_counts = {}
     for a in range(1, 15):
         sel = [b for b in books if b['ageMin'] <= a <= b['ageMax']]
@@ -503,7 +574,8 @@ def main():
         neighbours = ''.join(f'<a class="chip" href="{url(AGE_PAGES[x])}">{e(str(x) + " " + age_word(x))}</a>'
                              for x in (a - 2, a - 1, a + 1, a + 2) if x in AGE_PAGES)
         related = f'<section class="section wrap"><h2 class="h3">Соседние возрасты</h2><div class="chips" style="margin-top:12px">{neighbours}</div></section>'
-        render_list(path, [('Что почитать с детьми', '/'), ('По возрасту', '/vozrast/'), (h1, None)], h1,
+        band = AGE_BANDS[0] if a < 2 else AGE_BANDS[1] if a < 3 else AGE_BANDS[2] if a <= 6 else AGE_BANDS[3] if a <= 10 else AGE_BANDS[4]
+        render_list(path, [('Что почитать с детьми', '/'), ('По возрасту', '/vozrast/'), (band[4], band_path(band)), (h1, None)], h1,
                     land.get('title') or f'{h1}: что почитать — рекомендации НЭН',
                     land.get('description') or f'Что почитать ребенку в {a} {age_word(a)}: {books_word(len(sel))} с рекомендациями редакции НЭН — о чём книга, почему советуем и о чём поговорить после чтения.',
                     intro(land, f'Мы собрали книги, которые подходят детям в {a} {age_word(a)}. Для каждой есть короткое описание, объяснение, почему мы ее советуем, и вопросы для разговора после чтения.'),
@@ -572,21 +644,24 @@ def main():
 
     # Указатели: возраст, темы, авторы
     crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('По возрасту', None)])
-    tiles = ''.join(f'<a class="age-tile" href="{url(AGE_PAGES[a])}"><b>{a}</b><span>{e(age_word(a) + " · " + books_word(age_counts[a]))}</span></a>' for a in range(1, 15))
+    groups = ''.join(
+        f'<section class="age-group"><a class="age-tile" href="{url(band_path(band))}"><b>{e(band[5])} <small>{e(band[6])}</small></b><span>{e(books_word(band_counts[band[0]]))}</span></a>'
+        f'<div class="chips">' + ''.join(f'<a class="chip" href="{url(AGE_PAGES[a])}">{e(f"{a} {age_word(a)}")}</a>' for a in range(max(band[2], 1), min(band[3], 14) + 1)) +
+        '</div></section>' for band in AGE_BANDS)
     body = f'''{crumbs_html}<div class="wrap"><header class="list-head"><h1 class="h1">Книги по возрасту</h1>
-<div class="intro"><p>Выберите возраст ребенка — покажем книги, которые ему подойдут, начиная с тех, что мы знаем и советуем лучше всего.</p></div></header>
-<div class="age-grid" style="margin-top:28px">{tiles}</div></div><div class="page-end"></div>'''
+<div class="intro"><p>Выберите возраст ребенка — покажем книги, которые ему подойдут, начиная с тех, что мы знаем и советуем лучше всего. Внутри каждой группы можно уточнить возраст до года.</p></div></header>
+<div class="age-groups" style="margin-top:28px">{groups}</div></div><div class="page-end"></div>'''
     write('/vozrast/', page('/vozrast/', 'Книги для детей по возрасту — НЭН', 'Что почитать ребенку от 1 года до 14 лет: книги по возрасту с рекомендациями редакции НЭН.',
                             body, schema=[crumbs_ld], active='/vozrast/'))
 
     crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('Темы', None)])
-    t_chips = ''.join(f'<a class="chip" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEMES[t][1])}<span class="count">{themes[t]}</span></a>' for t in sorted(THEME_PAGES, key=lambda t: -themes[t]))
-    g_chips = ''.join(f'<a class="chip" href="{url("/zhanr/" + GENRES[g][0] + "/")}">{e(GENRES[g][1])}<span class="count">{genres[g]}</span></a>' for g in sorted(GENRE_PAGES, key=lambda g: -genres[g]))
+    t_chips = ''.join(f'<a class="topic" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEME_SHORT.get(t, t))}<span class="count">{themes[t]}</span></a>' for t in sorted(THEME_PAGES, key=lambda t: -themes[t]))
+    g_chips = ''.join(f'<a class="topic" href="{url("/zhanr/" + GENRES[g][0] + "/")}">{e(GENRE_SHORT.get(g, g))}<span class="count">{genres[g]}</span></a>' for g in sorted(GENRE_PAGES, key=lambda g: -genres[g]))
     body = f'''{crumbs_html}<div class="wrap"><header class="list-head"><h1 class="h1">Книги по темам и жанрам</h1>
 <div class="intro"><p>Книги о том, что волнует ребенка прямо сейчас: детский сад, страхи, дружба, развод родителей, — и подборки по любимым жанрам.</p></div></header>
-<section class="section"><h2 class="h2" style="margin-bottom:16px">Темы</h2><div class="chips">{t_chips}</div></section>
-<section class="section"><h2 class="h2" style="margin-bottom:16px">Жанры</h2><div class="chips">{g_chips}</div></section>
-<section class="section"><h2 class="h2" style="margin-bottom:16px">Ещё</h2><div class="chips"><a class="chip" href="{url('/pered-snom/')}">{e('Книги перед сном')}<span class="count">{len(bed)}</span></a><a class="chip" href="{url('/avtor/')}">Авторы<span class="count">{len(AUTHOR_PAGES)}</span></a></div></section>
+<section class="section"><h2 class="h2" style="margin-bottom:16px">Темы</h2><div class="topics">{t_chips}</div></section>
+<section class="section"><h2 class="h2" style="margin-bottom:16px">Жанры</h2><div class="topics">{g_chips}</div></section>
+<section class="section"><h2 class="h2" style="margin-bottom:16px">Ещё</h2><div class="topics"><a class="topic" href="{url('/pered-snom/')}">{e('Перед сном')}<span class="count">{len(bed)}</span></a><a class="topic" href="{url('/avtor/')}">Авторы<span class="count">{len(AUTHOR_PAGES)}</span></a></div></section>
 </div><div class="page-end"></div>'''
     write('/tema/', page('/tema/', 'Детские книги по темам и жанрам — НЭН', 'Детские книги по темам — эмоции, страхи, дружба, школа, война, смерть — и по жанрам: сказки, детективы, фэнтези, стихи.',
                          body, schema=[crumbs_ld], active='/tema/'))
@@ -606,7 +681,7 @@ def main():
     # Каталог
     theme_opts = ''.join(f'<option value="{e(t)}">{e(t)}</option>' for t in sorted(t for t in themes if themes[t] >= 8))
     genre_opts = ''.join(f'<option value="{e(g)}">{e(g)}</option>' for g in sorted(g for g in genres if genres[g] >= 3))
-    age_opts = ''.join(f'<option value="{a}">{a} {e(age_word(a))}</option>' for a in range(1, 18))
+    age_opts = ''.join(f'<option value="{band[0]}">{e(band[1])}</option>' for band in AGE_BANDS)
     filters = f'''<form class="filters" id="catalog-filters" action="{url('/katalog/')}" method="get" role="search">
 <div class="row"><label><span class="visually-hidden">Поиск</span><input type="search" name="q" placeholder="{e('Название, автор или тема')}"></label>
 <label><span class="visually-hidden">Возраст</span><select name="age"><option value="">Любой возраст</option>{age_opts}</select></label>
@@ -625,7 +700,7 @@ def main():
     crumbs_html, crumbs_ld = breadcrumbs([('Что почитать с детьми', '/'), ('Подобрать книгу', None)])
     theme_btns = ''.join(f'<button class="chip" type="button" data-theme="{e(t)}" aria-pressed="false">{e(t)}</button>'
                          for t, _ in themes.most_common(18))
-    no_js = ''.join(f'<a class="chip" href="{url(AGE_PAGES[a])}">{e(str(a) + " " + age_word(a))}</a>' for a in range(1, 15))
+    no_js = ''.join(f'<a class="chip" href="{url(band_path(band))}">{e(band[1])}</a>' for band in AGE_BANDS)
     body = f'''{crumbs_html}<div class="wrap"><header class="list-head"><h1 class="h1">Найдем подходящую книгу</h1>
 <div class="intro"><p>Ответьте на три вопроса — мы предложим книги из каталога НЭН и объясним выбор.</p></div></header>
 <form class="quiz" id="quiz" hidden>
@@ -648,8 +723,10 @@ def main():
 
     # Главная
     start = [by_slug[s] for s in json.load(open(os.path.join(ROOT, 'site/content/home.json'), encoding='utf-8'))['start'] if s in by_slug]
-    tiles = ''.join(f'<a class="age-tile" href="{url(AGE_PAGES[a])}"><b>{a}</b><span>{e(age_word(a) + " · " + books_word(age_counts[a]))}</span></a>' for a in range(1, 15))
-    top_themes = ''.join(f'<a class="chip" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEMES[t][1])}</a>' for t in
+    tiles = ''.join(f'<a class="age-tile" href="{url(band_path(band))}"><b>{e(band[5])} <small>{e(band[6])}</small></b><span>{e(books_word(band_counts[band[0]]))}</span></a>' for band in AGE_BANDS)
+    hero_img = next((f for f in ('hero.webp', 'hero.png', 'hero.jpg') if os.path.exists(os.path.join(ROOT, 'site/assets', f))), None)
+    hero_art = f'<div class="hero-art"><img src="{url("/assets/" + hero_img)}" alt="" width="560" height="420"></div>' if hero_img else ''
+    top_themes = ''.join(f'<a class="topic" href="{url("/tema/" + THEMES[t][0] + "/")}">{e(THEME_SHORT.get(t, t))}</a>' for t in
                          ['эмоции', 'страх', 'детский сад', 'школа', 'дружба', 'братья и сёстры', 'смерть', 'война', 'первая любовь', 'буллинг', 'космос', 'динозавры'] if t in THEME_PAGES)
     col_cards = ''.join(
         f'<article class="text-card"><span class="num">{e(col["ageLabel"])}</span><h3><a href="{url("/podborki/" + col["slug"] + "/")}">{e(col["title"])}</a></h3><p>{e(col["description"])}</p></article>'
@@ -657,14 +734,14 @@ def main():
     written = sum(1 for b in books if b.get('card'))
     home = landings.get('/', {})
     body = f'''<div class="wrap">
-<section class="hero"><span class="eyebrow">{e("Книги НЭН · " + books_word(len(books)))}</span>
+<section class="hero{' hero-with-art' if hero_art else ''}"><div class="hero-copy"><span class="eyebrow">{e("Книги НЭН · " + books_word(len(books)))}</span>
 <h1 class="h1">{e(home.get('h1', 'Что почитать с детьми'))}</h1>
 <p class="lead">{e(home.get('lead', 'Подберем книги по возрасту, интересам и настроению ребенка. Для каждой книги рассказываем, кому она подойдет, что важно знать родителям и о чём поговорить после чтения.'))}</p>
 <div class="btn-row"><a class="btn btn-primary" href="{url('/podbor/')}">Подобрать книгу</a><a class="btn btn-secondary" href="{url('/katalog/')}">Открыть каталог</a></div>
-<div class="hero-stats"><div><b>{len(books)}</b>книг в каталоге</div><div><b>{len(cols)}</b>подборок редакции</div><div><b>1–17</b>лет — для любого возраста</div></div></section>
-<section class="section"><div class="section-head"><h2 class="h2">Книги по возрасту</h2><a href="{url('/vozrast/')}">Все возрасты</a></div><div class="age-grid">{tiles}</div></section>
+<div class="hero-stats"><div><b>{len(books)}</b>книг в каталоге</div><div><b>{len(cols)}</b>подборок редакции</div></div></div>{hero_art}</section>
+<section class="section"><div class="section-head"><h2 class="h2">Книги по возрасту</h2><a href="{url('/vozrast/')}">Уточнить возраст</a></div><div class="age-grid age-bands">{tiles}</div></section>
 <section class="section"><div class="section-head"><h2 class="h2">Подборки НЭН</h2><a href="{url('/podborki/')}">Все подборки</a></div><div class="grid grid-3">{col_cards}</div></section>
-<section class="section"><div class="section-head"><h2 class="h2">О чём бы почитать</h2><a href="{url('/tema/')}">Все темы</a></div><div class="chips">{top_themes}</div></section>
+<section class="section"><div class="section-head"><h2 class="h2">О чём бы почитать</h2><a href="{url('/tema/')}">Все темы</a></div><div class="topics">{top_themes}</div></section>
 <section class="section"><div class="section-head"><h2 class="h2">Книги, с которых можно начать</h2><a href="{url('/katalog/')}">Весь каталог</a></div>{book_grid(start)}</section>
 <section class="section"><div class="panel-deep"><div><h2 class="h2">Не знаете, что выбрать</h2><p class="body" style="margin-top:12px">{e('Три вопроса о ребенке — и мы предложим книги из каталога с объяснением, почему они подойдут.')}</p></div>
 <div><a class="btn btn-primary" href="{url('/podbor/')}">Подобрать книгу</a></div></div></section>
@@ -686,6 +763,7 @@ def main():
     theme_list = sorted(themes)
     genre_list = sorted(genres)
     index = {'themes': [yo(t) for t in theme_list], 'genres': [yo(g) for g in genre_list], 'modes': MODE, 'base': BASE, 'covers': COVERS,
+             'bands': {band[0]: [band[2], band[3]] for band in AGE_BANDS},
              'books': [[b['slug'], yo(b['title']), yo(b['author']), b['ageMin'], b['ageMax'], b.get('readingMode') or '',
                         b.get('cover') or '', 1 if b.get('suitableForBedtime') else 0,
                         [theme_list.index(t) for t in b.get('themes', [])], [genre_list.index(g) for g in b.get('genres', [])],

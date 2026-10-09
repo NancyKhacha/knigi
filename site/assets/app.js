@@ -52,7 +52,10 @@
     var genre = f.genre ? idx.genres.indexOf(f.genre) : -1;
     var themesAny = (f.themes || []).map(function (t) { return idx.themes.indexOf(t); }).filter(function (i) { return i >= 0; });
     return idx.books.filter(function (b) {
-      if (f.age && !(b[3] <= f.age && f.age <= b[4])) return false;
+      if (f.band && idx.bands[f.band]) {
+        var r = idx.bands[f.band];
+        if (b[3] > r[1] || b[4] < r[0]) return false;
+      } else if (f.age && !(b[3] <= f.age && f.age <= b[4])) return false;
       if (f.mode && b[5] !== f.mode && b[5] !== 'both') return false;
       if (f.bed && !b[7]) return false;
       if (theme >= 0 && b[8].indexOf(theme) < 0) return false;
@@ -73,20 +76,21 @@
     if (!form || !box) return;
     var serverList = Array.prototype.slice.call(document.querySelectorAll('.list-head ~ .results-meta, .list-head ~ .grid, .list-head ~ .pager'));
     var shown = 48;
-    var state = { q: '', age: 0, theme: '', genre: '', mode: '', bed: false };
+    var state = { q: '', band: '', age: 0, theme: '', genre: '', mode: '', bed: false };
     var params = new URLSearchParams(location.search);
     state.q = params.get('q') || '';
-    state.age = parseInt(params.get('age'), 10) || 0;
+    state.band = params.get('age') || '';
+    if (/^\d+$/.test(state.band)) { state.age = parseInt(state.band, 10); state.band = ''; }
     state.theme = params.get('theme') || '';
     state.genre = params.get('genre') || '';
     state.mode = params.get('mode') || '';
     state.bed = params.get('bed') === '1';
     form.q.value = state.q;
-    form.age.value = state.age || '';
+    form.age.value = state.band || '';
     form.theme.value = state.theme;
     form.genre.value = state.genre;
 
-    function active() { return state.q || state.age || state.theme || state.genre || state.mode || state.bed; }
+    function active() { return state.q || state.band || state.age || state.theme || state.genre || state.mode || state.bed; }
 
     function syncChips() {
       form.querySelectorAll('[data-mode]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-mode') === state.mode)); });
@@ -97,7 +101,7 @@
       syncChips();
       var p = new URLSearchParams();
       if (state.q) p.set('q', state.q);
-      if (state.age) p.set('age', state.age);
+      if (state.band) p.set('age', state.band); else if (state.age) p.set('age', state.age);
       if (state.theme) p.set('theme', state.theme);
       if (state.genre) p.set('genre', state.genre);
       if (state.mode) p.set('mode', state.mode);
@@ -127,7 +131,7 @@
     form.addEventListener('input', function (ev) {
       var t = ev.target;
       if (t.name === 'q') state.q = t.value;
-      if (t.name === 'age') state.age = parseInt(t.value, 10) || 0;
+      if (t.name === 'age') { state.band = t.value; state.age = 0; }
       if (t.name === 'theme') state.theme = t.value;
       if (t.name === 'genre') state.genre = t.value;
       shown = 48;
