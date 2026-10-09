@@ -10,7 +10,7 @@ JavaScript только улучшает работу (фильтры катал
 Данные: site/data/books.json (каталог, см. prepare_data.py), cards/pilot.json и
 cards/batches/*.json (тексты карточек), site/content/*.json (подборки, вступления).
 """
-import collections, datetime, glob, hashlib, html, json, os, re, shutil, sys
+import collections, csv, datetime, glob, hashlib, html, json, os, re, shutil, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PREVIEW = os.environ.get('NEN_PREVIEW', '1') != '0'
@@ -119,7 +119,7 @@ AGE_BANDS = [
     ('2-3-goda', '2–3 года', 2, 3, 'Книги для детей 2–3 лет', '2–3', 'года'),
     ('3-6-let', '3–6 лет', 3, 6, 'Книги для детей 3–6 лет', '3–6', 'лет'),
     ('7-10-let', '7–10 лет', 7, 10, 'Книги для детей 7–10 лет', '7–10', 'лет'),
-    ('podrostki', 'Подростки', 11, 17, 'Книги для подростков', '11+', 'лет'),
+    ('podrostki', 'Подростки', 11, 20, 'Книги для подростков', '11+', 'лет'),   # подростки в НЭН — до 20 лет
 ]
 
 
@@ -133,7 +133,7 @@ def band_path(band):
     return f'/vozrast/{band[0]}/'
 
 
-NOT_PEOPLE = re.compile(r'народн|сказк|коллектив|авторы|драматурги|^редакц', re.I)
+NOT_PEOPLE = re.compile(r'народн|сказк|коллектив|авторы|драматурги|^редакц|^сборник', re.I)
 TRANSLIT = dict(zip('абвгдеёжзийклмнопрстуфхцчшщъыьэюя',
                     ['a', 'b', 'v', 'g', 'd', 'e', 'e', 'zh', 'z', 'i', 'y', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't',
                      'u', 'f', 'h', 'ts', 'ch', 'sh', 'shch', '', 'y', '', 'e', 'yu', 'ya']))
@@ -256,8 +256,25 @@ def clean_title(t):
     return out if len(out) >= 3 else t
 
 
+def removed_slugs():
+    """Книги, которые редакция убрала из каталога (fixes/removed.csv)."""
+    path = os.path.join(ROOT, 'fixes/removed.csv')
+    if not os.path.exists(path):
+        return set()
+    return {row['slug'] for row in csv.DictReader(open(path, encoding='utf-8-sig'))}
+
+
 def load():
-    books = json.load(open(os.path.join(ROOT, 'site/data/books.json'), encoding='utf-8'))
+    removed = removed_slugs()
+    books = [b for b in json.load(open(os.path.join(ROOT, 'site/data/books.json'), encoding='utf-8')) if b['slug'] not in removed]
+    authors_fix = {}
+    path = os.path.join(ROOT, 'fixes/author-fixes.json')
+    if os.path.exists(path):
+        authors_fix = {k: v for k, v in json.load(open(path, encoding='utf-8')).items() if v.get('confidence') == 'high'}
+    nen_ann = {}
+    path = os.path.join(ROOT, 'site/content/annotations-nen.json')
+    if os.path.exists(path):
+        nen_ann = json.load(open(path, encoding='utf-8'))
     cards = {}
     for f in [os.path.join(ROOT, 'cards/pilot.json')] + sorted(glob.glob(os.path.join(ROOT, 'cards/batches/*.json'))):
         for c in json.load(open(f, encoding='utf-8')):
@@ -274,7 +291,7 @@ def load():
             m = re.match(r'\s*(\d+)\s*[–-]\s*(\d+)', sug) or re.match(r'\s*(\d+)\s*\+', sug)
             if m:
                 lo = int(m.group(1))
-                hi = int(m.group(2)) if m.lastindex == 2 else max(lo, 17)
+                hi = int(m.group(2)) if m.lastindex == 2 else max(lo, 20)
                 b['ageCatalog'] = b['ageLabel']
                 b['ageMin'], b['ageMax'] = lo, hi
                 if m.lastindex == 1:
@@ -284,6 +301,15 @@ def load():
         if clean_title(b['title']) != b['title']:
             b['catalogTitle'], b['title'] = b['title'], clean_title(b['title'])
         b['snippet'] = first_sentences(c['about']) if c else short(b.get('shortDescription', ''), 160)
+        fix = authors_fix.get(b['slug'])
+        if fix:
+            b['author'] = fix['author']
+            for k in ('illustrator', 'translator', 'reteller', 'compiler'):
+                if fix.get(k) and not b.get(k):
+                    b[k] = fix[k]
+        if b['slug'] in nen_ann:
+            b['annotation'], b['annotationSource'], b['annotationByNen'] = nen_ann[b['slug']]['annotation'], 'Текст редакции НЭН', True
+        b['adult'] = b['ageMin'] >= 18          # 18+: подростковая вилка НЭН (до 20 лет), но свой блок «перед чтением»
         b['rank'] = (0 if c and c.get('source', '').startswith('knowledge') else 1 if c else 2)
         b['url'] = url(f'/kniga/{b["slug"]}/')
         b['authors'] = [a.strip() for a in re.split(r'\s*;\s*', b['author']) if a.strip()]
@@ -547,8 +573,9 @@ def render_book(b, in_collections):
         facts.append(('Объем', vol))
     if b.get('publisher'):
         facts.append(('Издательство', b['publisher'] + (f', {b["publicationYear"]}' if b.get('publicationYear') else '')))
-    if b.get('translator'):
-        facts.append(('Перевод', b['translator']))
+    for key, label in (('reteller', 'Пересказ'), ('compiler', 'Составитель'), ('illustrator', 'Художник'), ('translator', 'Перевод')):
+        if b.get(key):
+            facts.append((label, b[key]))
     if b.get('editionNote'):
         facts.append(('Издание', b['editionNote']))
     if b.get('seriesName') and not re.search(r'вне серий|^книжки-картинки', b['seriesName'], re.I):
@@ -563,7 +590,7 @@ def render_book(b, in_collections):
     if c:
         blocks.append(f'<section class="block"><h2 class="h3">О чём книга</h2><div class="prose"><p>{e(c["about"])}</p></div></section>')
         blocks.append(f'<section class="block"><h2 class="h3">Почему советуем</h2><div class="prose"><p>{e(c["whyRecommended"])}</p></div></section>')
-        blocks.append(f'<section class="plate plate-care"><h2 class="h3">Что важно знать родителям</h2><p class="body">{e(c["parentsNote"])}</p></section>')
+        blocks.append(f'<section class="plate plate-care"><h2 class="h3">{"Что важно знать перед чтением" if b["adult"] else "Что важно знать родителям"}</h2><p class="body">{e(c["parentsNote"])}</p></section>')
         qs = ''.join(f'<li>{e(q)}</li>' for q in c['discussionQuestions'])
         blocks.append(f'<section class="plate plate-community"><h2 class="h3">О чём поговорить после чтения</h2><ol class="questions">{qs}</ol></section>')
     else:
@@ -574,7 +601,7 @@ def render_book(b, in_collections):
     if b.get('annotation'):
         paras = ''.join(f'<p>{e(p)}</p>' for p in re.split(r'\n+', b['annotation']) if p.strip())
         source = f'<p class="meta">Источник: {e(b["annotationSource"])}</p>' if b.get('annotationSource') else ''
-        blocks.append(f'<details class="annotation"><summary>Аннотация издательства</summary><div class="prose">{paras}</div>{source}</details>')
+        blocks.append(f'<details class="annotation"><summary>{"Аннотация" if b.get("annotationByNen") else "Аннотация издательства"}</summary><div class="prose">{paras}</div>{source}</details>')
 
     links = []
     for t in b.get('themes', []):
@@ -627,7 +654,7 @@ def render_book(b, in_collections):
     desc = c.get('seoDescription') or short(f'Для детей {b["ageMin"]}–{b["ageMax"]} лет. {b.get("shortDescription", "")}', 160)
     book_ld = {'@type': 'Book', '@id': ORIGIN + b['url'] + '#book', 'url': ORIGIN + b['url'], 'name': b['title'],
                'author': [{'@type': 'Person' if not NOT_PEOPLE.search(a) else 'Organization', 'name': a} for a in b['authors']],
-               'inLanguage': 'ru', 'typicalAgeRange': f'{b["ageMin"]}-{b["ageMax"]}',
+               'inLanguage': 'ru', 'typicalAgeRange': '18-' if b['adult'] else f'{b["ageMin"]}-{b["ageMax"]}',
                'description': c.get('about') or b.get('shortDescription', '')}
     for k, v in (('alternateName', b.get('originalTitle')), ('isbn', b.get('isbn13')), ('numberOfPages', b.get('pages')),
                  ('genre', ', '.join(b.get('genres', [])) or None), ('translator', {'@type': 'Person', 'name': b['translator']} if b.get('translator') else None),
@@ -744,7 +771,9 @@ def main():
         render_list(path, [('Что почитать с детьми', '/'), ('По возрасту', '/vozrast/'), (land.get('h1') or h1, None)], land.get('h1') or h1,
                     land.get('title') or f'{h1}: что почитать — рекомендации НЭН',
                     land.get('description') or short(f'{h1}: {books_word(len(sel))} с рекомендациями редакции НЭН — о чём книга, почему советуем и о чём поговорить после чтения.', 160),
-                    intro(land, f'Книги, которые подходят детям {label if slug != "podrostki" else "11–17 лет"}. Первыми идут те, что мы знаем и советуем лучше всего.'),
+                    intro(land, f'Книги, которые подходят детям {label}. Первыми идут те, что мы знаем и советуем лучше всего.' if slug != 'podrostki' else
+                          'Книги для подростков от 11 до 20 лет — так подростковый возраст определяют в НЭН. Книги для самых старших отмечены пометкой 18+. '
+                          'Первыми идут те, что мы знаем и советуем лучше всего.'),
                     sel, faq=land.get('faq'), active='/vozrast/', related=related)
 
     age_counts = {}
@@ -795,15 +824,16 @@ def main():
         title = next(t for t in (f'{a} — книги для детей: что почитать и с какого возраста | НЭН',
                                  f'{a}: книги для детей и с какого возраста | НЭН', f'{a}: книги для детей | НЭН') if len(t) <= 70 or t.endswith('детей | НЭН'))
         lo, hi = min(b['ageMin'] for b in sel), max(b['ageMax'] for b in sel)
+        ages = f'Они подойдут читателям {lo}–{hi} {age_word(hi)}' if hi > 17 else f'Они подойдут детям {lo}–{hi} {age_word(hi)}'
         names = [f'«{b["title"]}»' for b in sel[:4]]
         listing = (', '.join(names[:-1]) + ' и ' + names[-1]) if len(names) > 1 else names[0]
         top = [THEME_SHORT.get(t, t).lower() for t, _ in collections.Counter(t for b in sel for t in b.get('themes', [])).most_common(3)]
-        fallback = [f'{a}: {books_word(len(sel))} в каталоге НЭН — {listing}{" и другие" if len(sel) > 4 else ""}. '
-                    f'Они подойдут детям {lo}–{hi} {age_word(hi)}' + (f', а главные темы — {", ".join(top)}.' if top else '.'),
+        fallback = [f'{a}: {books_word(len(sel))} в каталоге НЭН — {listing}{" и другие" if len(sel) > 4 else ""}. ' +
+                    ages + (f', а главные темы — {", ".join(top)}.' if top else '.'),
                     'Книги отсортированы по возрасту — от младших читателей к старшим. В карточке каждой мы рассказываем, о чём книга, '
                     'почему мы ее советуем, что важно знать родителям и о чём поговорить с ребенком после чтения.']
         render_list(path, [('Что почитать с детьми', '/'), ('Авторы', '/avtor/'), (a, None)], f'{a}: книги для детей', title,
-                    short(f'{a}: {books_word(len(sel))} в каталоге НЭН для детей {lo}–{hi} {age_word(hi)} — о чём каждая книга, с какого возраста читать и почему мы ее советуем.', 160),
+                    short(f'{a}: {books_word(len(sel))} в каталоге НЭН для {"читателей" if hi > 17 else "детей"} {lo}–{hi} {age_word(hi)} — о чём каждая книга, с какого возраста читать и почему мы ее советуем.', 160),
                     intro(landings.get(path), fallback), sel, active=None)
 
     # Подборки
@@ -885,7 +915,7 @@ def main():
     land = landings.get('/katalog/', {})
     render_list('/katalog/', [('Что почитать с детьми', '/'), ('Каталог', None)], land.get('h1') or 'Каталог детских книг',
                 land.get('title') or 'Каталог детских книг с рекомендациями — НЭН',
-                land.get('description') or f'{books_word(len(books)).capitalize()} для детей от 1 года до 17 лет с рекомендациями редакции НЭН: поиск по возрасту, теме, жанру и формату чтения.',
+                land.get('description') or f'{books_word(len(books)).capitalize()} для детей и подростков от 1 года до 20 лет с рекомендациями редакции НЭН: поиск по возрасту, теме, жанру и формату чтения.',
                 intro(landings.get('/katalog/'), 'Ищите по названию, автору или теме. Фильтры применяются сразу и сохраняются в ссылке — ее можно отправить.'),
                 ordered, extra_top=filters + '<div id="catalog-results" hidden></div>', active='/katalog/')
 

@@ -205,6 +205,10 @@ def fix_why(text):
 
 def main(src, outdir):
     books = json.load(open(src, encoding='utf-8'))
+    removed_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'fixes/removed.csv')
+    if os.path.exists(removed_path):          # убраны из каталога по решению редакции
+        removed = {r['slug'] for r in csv.DictReader(open(removed_path, encoding='utf-8-sig'))}
+        books = [b for b in books if b['slug'] not in removed]
     os.makedirs(outdir, exist_ok=True)
     given = learn_given_names(b['author'] for b in books)
 

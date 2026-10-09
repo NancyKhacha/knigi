@@ -6,7 +6,7 @@
 Берет исправленный каталог и добавляет из полных карточек то, чего нет в индексе:
 аннотацию издательства с источником, переводчика, год, ISBN, чувствительные темы.
 """
-import json, os, sys
+import csv, json, os, sys
 
 INDEX_FIELDS = ['slug', 'title', 'author', 'ageMin', 'ageMax', 'ageLabel', 'readingMode', 'genres', 'themes', 'moods',
                 'suitableForBedtime', 'lengthCategory', 'pages', 'publisher', 'isbn13', 'seriesName', 'seriesNumber',
@@ -17,7 +17,11 @@ DETAIL_FIELDS = ['translator', 'publicationYear', 'sensitiveTopics']
 def main(index_path, books_dir, out='site/data/books.json'):
     books = []
     missing = 0
+    removed_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'fixes/removed.csv')
+    removed = {r['slug'] for r in csv.DictReader(open(removed_path, encoding='utf-8-sig'))} if os.path.exists(removed_path) else set()
     for b in json.load(open(index_path, encoding='utf-8')):
+        if b['slug'] in removed:          # убраны из каталога по решению редакции
+            continue
         row = {k: b[k] for k in INDEX_FIELDS if b.get(k) not in (None, [], '')}
         row['cover'] = (b.get('cover') or {}).get('cachedPath')
         path = os.path.join(books_dir, b['slug'] + '.json')

@@ -168,7 +168,7 @@
     form.addEventListener('click', function (ev) {
       var t = ev.target.closest('button');
       if (!t) return;
-      if (t.hasAttribute('data-age')) age = Math.max(1, Math.min(17, age + (+t.getAttribute('data-age'))));
+      if (t.hasAttribute('data-age')) age = Math.max(1, Math.min(20, age + (+t.getAttribute('data-age'))));
       if (t.hasAttribute('data-next')) step = Math.min(3, step + 1);
       if (t.hasAttribute('data-prev')) step = Math.max(1, step - 1);
       if (t.hasAttribute('data-theme')) {
