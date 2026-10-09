@@ -177,10 +177,13 @@ def load():
             m = re.match(r'\s*(\d+)\s*[–-]\s*(\d+)', sug) or re.match(r'\s*(\d+)\s*\+', sug)
             if m:
                 lo = int(m.group(1))
-                hi = int(m.group(2)) if m.lastindex == 2 else 17
+                hi = int(m.group(2)) if m.lastindex == 2 else max(lo, 17)
                 b['ageCatalog'] = b['ageLabel']
                 b['ageMin'], b['ageMax'] = lo, hi
-                b['ageLabel'] = f'{lo}–{hi} {age_word(hi)}' if lo != hi else f'{hi} {age_word(hi)}'
+                if m.lastindex == 1:
+                    b['ageLabel'] = f'{lo}+'
+                else:
+                    b['ageLabel'] = f'{lo}–{hi} {age_word(hi)}' if lo != hi else f'{hi} {age_word(hi)}'
         b['snippet'] = first_sentences(c['about']) if c else short(b.get('shortDescription', ''), 160)
         b['rank'] = (0 if c and c.get('source', '').startswith('knowledge') else 1 if c else 2)
         b['url'] = url(f'/kniga/{b["slug"]}/')
